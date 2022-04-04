@@ -7,6 +7,9 @@ const theme = extendTheme({
     heading: 'IBM Plex Sans',
     body: 'IBM Plex Sans',
   },
+  colors: {
+
+  }
 })
 
 function MyApp({ Component, pageProps }) {
