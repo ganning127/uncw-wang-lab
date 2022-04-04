@@ -50,6 +50,8 @@ export const NavBar = ({ active }) => {
                                     color={active === item.title.toLowerCase() ? 'white' : 'gray.400'}
                                     fontSize='xl'
                                     fontWeight={active === item.title.toLowerCase() ? 700 : 300}
+                                    _hover={{ color: 'white' }}
+                                    transition='all .2s'
                                 >
                                     {item.title}
                                 </Link>
