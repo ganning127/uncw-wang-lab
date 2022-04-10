@@ -65,7 +65,8 @@ export default function Funding() {
                                 alt="logo"
                                 objectFit="contain"
                                 target="_blank"
-
+                                mx="auto"
+                                maxH='200px'
                             />
                         </Link>
                     ))}
