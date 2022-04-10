@@ -9,6 +9,7 @@ import { MedSep } from '../components/Separators/MedSep'
 import { XSSep } from '../components/Separators/XSSep'
 import { ProjectCard } from '../components/Cards/ProjectCard'
 import { Container } from '@chakra-ui/react'
+import { Footer } from '../components/Footer'
 export default function Home() {
   return (
     <>
@@ -49,7 +50,8 @@ export default function Home() {
 
 
       </Container>
-
+      <SmSep />
+      <Footer />
     </>
   )
 }
