@@ -9,10 +9,11 @@ export const Footer = () => {
                     <Img src='/logo_sq.png' alt='The Wang Lab' maxH='300px' />
                 </Box>
                 <Box mx='auto' textAlign='center' fontWeight={700} fontSize='xl'>
-                    <Text>1234 College Road, Wilmington, NC, 28555</Text>
-                    <Text mt={4}>Office: 777-777-7777</Text>
-                    <Text>Fax: 888-888-8888</Text>
-                    <Text>Email: example@example.com</Text>
+                    <Text>Veteran Hall 3045, 1040 Walton Drive, Wilmington, NC 28403</Text>
+                    <Text mt={4}>Email: wangyy@uncw.edu</Text>
+                    <Text>Phone: (910) 962-7721</Text>
+                    <Text>Fax: (910) 962-3013</Text>
+
 
                     <HStack mt={4} fontSize='4xl' justifyContent='center' color='gray.400'>
                         <Link href='https://www.instagram.com/thewanglab/' _hover={{ color: 'gray.700' }} isExternal>
