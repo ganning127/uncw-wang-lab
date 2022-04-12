@@ -28,21 +28,21 @@ export default function Publications() {
                         names="Wang D, Wang D, Wang, D"
                         title="Long Title Example for Research Paper Under the Wang Laboratory"
                         resources="Untitled Resource 15-2. 2022"
-                        publink="www.wikipedia.com"
+                        publink="uncw.edu"
                         images="/johndoe.png"
                     />
                     <PubsCard
                         names="Wang D, Wang D, Wang, D"
                         title="Long Title Example for Research Paper Under the Wang Laboratory"
                         resources="Untitled Resource 15-2. 2022"
-                        publink="www.wikipedia.com"
+                        publink="uncw.edu"
                         images="/johndoe.png"
                     />
                     <PubsCard
                         names="Wang D, Wang D, Wang, D"
                         title="Long Title Example for Research Paper Under the Wang Laboratory"
                         resources="Untitled Resource 15-2. 2022"
-                        publink="www.wikipedia.com"
+                        publink="uncw.edu"
                         images="/johndoe.png"
                     />
                 </SimpleGrid>

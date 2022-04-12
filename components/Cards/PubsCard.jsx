@@ -12,7 +12,9 @@ export const PubsCard = ({ names, title, resources, publink, images }) => {
             </HStack>
 
             <HStack>
-                <Text textAlign='left' fontWeight="normal" color='gray.800'>Button</Text>
+                <Link href={publink} _hover={{ color: 'blue.400'}} isExternal>
+                    <Icon src={'/PubMedButton1.png'} />
+                </Link>
                 <Text textAlign='center' fontWeight="bold" color='gray.800' fontSize="lg">Team Authors: </Text>
                 <Img src={images} height='50px' width='50px' />
             </HStack>
