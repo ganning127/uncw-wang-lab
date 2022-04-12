@@ -1,4 +1,5 @@
 import { Text, HStack, VStack, Img, Link } from "@chakra-ui/react"
+import "/PubMedButton1.png";
 
 export const PubsCard = ({ names, title, resources, publink, images }) => {
     return (
