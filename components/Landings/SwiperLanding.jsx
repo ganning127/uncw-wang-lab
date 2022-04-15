@@ -10,12 +10,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import { Box, Text, Heading, Img, Button, SimpleGrid } from "@chakra-ui/react";
-import { React, useRef } from "react";
+import { Box, Text, Heading, Img, Center, SimpleGrid } from "@chakra-ui/react";
 export const SwiperLanding = ({}) => {
-  const prevRef = useRef(null);
-  const nextRef = useRef(null);
-
   return (
     <>
       <Swiper
@@ -30,16 +26,13 @@ export const SwiperLanding = ({}) => {
         scrollbar={{ draggable: true }}
       >
         <SwiperSlide>
-          <Box
+          <Center
             bgImage="linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/landing1.png') "
             bgRepeat="no-repeat"
             bgPos="center"
             bgSize="cover"
             h="600px"
             w="100vw"
-            d="flex"
-            justifyContent="center"
-            alignItems="center"
           >
             <SimpleGrid columns={{ base: 1, md: 2 }} alignItems="center">
               <Img src="/wang_long_logo.png" maxH="90%" mx="auto" />
@@ -52,20 +45,17 @@ export const SwiperLanding = ({}) => {
                 </Text>
               </Box>
             </SimpleGrid>
-          </Box>
+          </Center>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Box
+          <Center
             bgImage="linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/landing2.jpeg') "
             bgRepeat="no-repeat"
             bgPos="center"
             bgSize="cover"
-            h="60vh"
+            h="600px"
             w="100vw"
-            d="flex"
-            justifyContent="center"
-            alignItems="center"
           >
             <SimpleGrid columns={{ base: 1, md: 2 }} alignItems="center">
               <Img src="/wang_long_logo.png" maxH="90%" mx="auto" />
@@ -78,7 +68,7 @@ export const SwiperLanding = ({}) => {
                 </Text>
               </Box>
             </SimpleGrid>
-          </Box>
+          </Center>
         </SwiperSlide>
       </Swiper>
     </>
