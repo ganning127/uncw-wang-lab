@@ -10,7 +10,7 @@ import { XSSep } from "../components/Separators/XSSep";
 import { ProjectCard } from "../components/Cards/ProjectCard";
 import { Container, Button, Box } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
-
+// TODO: fix infinite white space on the right side of the page
 export default function Home() {
   return (
     <>
