@@ -1,14 +1,16 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { SimpleGrid, Container } from "@chakra-ui/react";
+import { SimpleGrid, Container, Box } from "@chakra-ui/react";
 import { HeadingWithDesc } from "../components/Headings/HeadingWithDesc";
 import { TeamCard } from "../components/Cards/TeamCard";
 import { SmSep } from "../components/Separators/SmSep";
 import { Banner } from "../components/Headings/Banner";
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
+import TeamData from "../data/team.json";
 export default function Team() {
+  const keys = Object.keys(TeamData);
   return (
     <>
       <Head>
@@ -23,105 +25,34 @@ export default function Team() {
       <Banner>Our Team</Banner>
 
       <Container maxW="container.xl" p={15}>
-        <HeadingWithDesc>Principal Investigator</HeadingWithDesc>
-        <TeamCard
-          name="David Wang"
-          title="Principal Investigator"
-          email="john@doe.com"
-          resume="TODO"
-          about="Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders."
-          image="/johndoe.png"
-        />
+        {keys.map((key, index) => {
+          let minCols = TeamData[key].length == 1 ? 1 : 2;
 
-        <SmSep />
+          let maxCols = TeamData[key].length == 1 ? 1 : 3;
 
-        <HeadingWithDesc>Graduate Researchers</HeadingWithDesc>
-        <SimpleGrid columns={{ base: 2, md: 2, md: 3 }} spacing={5}>
-          <TeamCard
-            name="David Wang"
-            title="Principal Investigator"
-            email="john@doe.com"
-            resume="TODO"
-            about="Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders."
-            image="/johndoe.png"
-          />
-          <TeamCard
-            name="David Wang"
-            title="Principal Investigator"
-            email="john@doe.com"
-            resume="TODO"
-            about="Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders."
-            image="/johndoe.png"
-          />
-          <TeamCard
-            name="David Wang"
-            title="Principal Investigator"
-            email="john@doe.com"
-            resume="TODO"
-            about="Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders."
-            image="/johndoe.png"
-          />
-        </SimpleGrid>
-
-        <SmSep />
-
-        <HeadingWithDesc>Undergraduate Researchers</HeadingWithDesc>
-        <SimpleGrid columns={{ base: 2, md: 2, md: 3 }} spacing={5}>
-          <TeamCard
-            name="David Wang"
-            title="Principal Investigator"
-            email="john@doe.com"
-            resume="TODO"
-            about="Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders."
-            image="/johndoe.png"
-          />
-          <TeamCard
-            name="David Wang"
-            title="Principal Investigator"
-            email="john@doe.com"
-            resume="TODO"
-            about="Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders."
-            image="/johndoe.png"
-          />
-          <TeamCard
-            name="David Wang"
-            title="Principal Investigator"
-            email="john@doe.com"
-            resume="TODO"
-            about="Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders."
-            image="/johndoe.png"
-          />
-        </SimpleGrid>
-
-        <SmSep />
-
-        <HeadingWithDesc>High School Researchers</HeadingWithDesc>
-        <SimpleGrid columns={{ base: 2, md: 2, md: 3 }} spacing={5}>
-          <TeamCard
-            name="David Wang"
-            title="Principal Investigator"
-            email="john@doe.com"
-            resume="TODO"
-            about="Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders."
-            image="/johndoe.png"
-          />
-          <TeamCard
-            name="David Wang"
-            title="Principal Investigator"
-            email="john@doe.com"
-            resume="TODO"
-            about="Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders."
-            image="/johndoe.png"
-          />
-          <TeamCard
-            name="David Wang"
-            title="Principal Investigator"
-            email="john@doe.com"
-            resume="TODO"
-            about="Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders."
-            image="/johndoe.png"
-          />
-        </SimpleGrid>
+          return (
+            <Box key={index}>
+              <HeadingWithDesc>{key}</HeadingWithDesc>
+              <SimpleGrid columns={{ base: minCols, md: maxCols }} spacing={10}>
+                {TeamData[key].map((person, index) => {
+                  return (
+                    <TeamCard
+                      key={index}
+                      name={person.name}
+                      title={person.title}
+                      image={person.image}
+                      about={person.about}
+                      email={person.email}
+                      phone={person.phone}
+                      resume={person.resume}
+                    />
+                  );
+                })}
+              </SimpleGrid>
+              <SmSep />
+            </Box>
+          );
+        })}
       </Container>
 
       <SmSep />

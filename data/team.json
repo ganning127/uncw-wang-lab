@@ -1,0 +1,74 @@
+{
+  "Principal Investigators": [
+    {
+      "name": "David Wang",
+      "tite": "Principal Investigator",
+      "email": "john@doe.com",
+      "resume": "/TODO",
+      "about": "Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders.",
+      "image": "https://i.imgur.com/ynw93mQ.png"
+    }
+  ],
+  "Graduate Researchers": [
+    {
+      "name": "David Wang",
+      "tite": "Graduate Researchers",
+      "email": "john@doe.com",
+      "resume": "/TODO",
+      "about": "Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders.",
+      "image": "https://i.imgur.com/ynw93mQ.png"
+    },
+    {
+      "name": "David Wang",
+      "tite": "Graduate Researchers",
+      "email": "john@doe.com",
+      "resume": "/TODO",
+      "about": "Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders.",
+      "image": "https://i.imgur.com/ynw93mQ.png"
+    },
+    {
+      "name": "David Wang",
+      "tite": "Graduate Researchers",
+      "email": "john@doe.com",
+      "resume": "/TODO",
+      "about": "Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders.",
+      "image": "https://i.imgur.com/ynw93mQ.png"
+    }
+  ],
+  "Undergraduate Researchers": [
+    {
+      "name": "David Wang",
+      "tite": "Undergraduate Researchers",
+      "email": "john@doe.com",
+      "resume": "/TODO",
+      "about": "Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders.",
+      "image": "https://i.imgur.com/ynw93mQ.png"
+    },
+    {
+      "name": "David Wang",
+      "tite": "Undergraduate Researchers",
+      "email": "john@doe.com",
+      "resume": "/TODO",
+      "about": "Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders.",
+      "image": "https://i.imgur.com/ynw93mQ.png"
+    },
+    {
+      "name": "David Wang",
+      "tite": "Undergraduate Researchers",
+      "email": "john@doe.com",
+      "resume": "/TODO",
+      "about": "Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders.",
+      "image": "https://i.imgur.com/ynw93mQ.png"
+    }
+  ],
+  "High School Researchers": [
+    {
+      "name": "David Wang",
+      "tite": "High School Researchers",
+      "email": "john@doe.com",
+      "resume": "/TODO",
+      "about": "Neurotechnology studies in humans to advance diagnostics and therapeutics for mental health disorders.",
+      "image": "https://i.imgur.com/ynw93mQ.png"
+    }
+  ]
+}
