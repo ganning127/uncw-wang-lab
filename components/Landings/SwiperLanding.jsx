@@ -1,24 +1,33 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, EffectFade, Autoplay } from "swiper";
+import {
+  Navigation,
+  Pagination,
+  EffectFade,
+  Autoplay,
+  Scrollbar,
+} from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import { Box, Text, Heading, Img, Button, SimpleGrid } from "@chakra-ui/react";
-
+import { React, useRef } from "react";
 export const SwiperLanding = ({}) => {
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+
   return (
     <>
       <Swiper
         spaceBetween={0}
         slidesPerView={1}
-        modules={[Navigation, Pagination, Autoplay, EffectFade]}
-        pagination={{ clickable: true }}
-        navigation
+        modules={[Navigation, Autoplay, Scrollbar, EffectFade]}
         effect="fade"
         autoplay={{
           delay: 3000,
         }}
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
       >
         <SwiperSlide>
           <Box
@@ -26,7 +35,7 @@ export const SwiperLanding = ({}) => {
             bgRepeat="no-repeat"
             bgPos="center"
             bgSize="cover"
-            h="60vh"
+            h="600px"
             w="100vw"
             d="flex"
             justifyContent="center"

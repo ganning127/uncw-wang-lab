@@ -14,7 +14,16 @@ import { Footer } from "../components/Footer";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Wang Lab</title>
+        <meta
+          name="description"
+          content="Meet our PI, graduate researchers, undergraduate researchers, and high school researchers"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <NavBar active="the wang lab" />
+
       <SwiperLanding />
 
       <Container maxW="container.xl" p={15}>
