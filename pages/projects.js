@@ -8,52 +8,35 @@ import { SmSep } from "../components/Separators/SmSep";
 import { MedSep } from "../components/Separators/MedSep";
 import { XSSep } from "../components/Separators/XSSep";
 import { ProjectCard } from "../components/Cards/ProjectCard";
-import { Container, Button, Box } from "@chakra-ui/react";
+import { Container, Button, Box, SimpleGrid } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
-// TODO: fix infinite white space on the right side of the page
-export default function Home() {
+import ProjectData from "../data/projects.json";
+import { Banner } from "../components/Headings/Banner";
+import { SqProjectCard } from "../components/Cards/SqProjectCard";
+export default function Projects() {
   return (
     <>
-      <NavBar active="the wang lab" />
-      <SwiperLanding />
+      <NavBar active="" />
+      <Banner>Projects</Banner>
 
       <Container maxW="container.xl" p={15}>
-        <SmSep line={false} />
-        <HeadingWithDesc>Current Projects</HeadingWithDesc>
-        <ProjectCard
-          title="Predicting mRNA levels with drosophila melanogaster"
-          desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it"
-          img="/temp_proj1.png"
-          link="Read more"
-          href="/LOL"
-          avatars={["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"]}
-          names={["John Doe", "Jane Doe", "John Doe"]}
-        />
-        <XSSep line={false} />
-        <ProjectCard
-          title="Predicting mRNA levels with drosophila melanogaster"
-          desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it"
-          img="/temp_proj1.png"
-          link="Read more"
-          href="/LOL"
-          avatars={["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"]}
-          names={["John Doe", "Jane Doe", "John Doe"]}
-        />{" "}
-        <XSSep line={false} />
-        <ProjectCard
-          title="Predicting mRNA levels with drosophila melanogaster"
-          desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it"
-          img="/temp_proj1.png"
-          link="Read more"
-          href="/LOL"
-          avatars={["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"]}
-          names={["John Doe", "Jane Doe", "John Doe"]}
-        />
-        <Box textAlign="center">
-          <Button colorScheme="blue" mt={4}>
-            See all projects
-          </Button>
-        </Box>
+        <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
+          {ProjectData.map((project, index) => {
+            return (
+              <>
+                <SqProjectCard
+                  key={index}
+                  title={project.title}
+                  desc={project.desc}
+                  href={project.href}
+                  img={project.img}
+                  avatars={project.avatars}
+                  names={project.names}
+                />
+              </>
+            );
+          })}
+        </SimpleGrid>
       </Container>
       <SmSep />
       <Footer />
