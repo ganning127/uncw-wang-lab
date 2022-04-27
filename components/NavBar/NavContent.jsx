@@ -42,13 +42,36 @@ const links = [
   },
 ];
 
+const mobileLinks = [
+  {
+    title: "Home",
+    href: "/",
+  },
+  {
+    title: "Team",
+    href: "/team",
+  },
+  {
+    title: "News",
+    href: "/news",
+  },
+  {
+    title: "Publications",
+    href: "/publications",
+  },
+  {
+    title: "Awards",
+    href: "/awards",
+  },
+];
+
 const MobileNavContent = (props) => {
   const { isOpen, onToggle } = useDisclosure();
   return (
     <Box {...props}>
       <Flex>
         <Box p="2" d="flex" alignItems="center" as="a" href="/">
-          <Img src="/logo_sq.png" h="16" display="inline" mr="3" />
+          <Img src="/temp_logo.png" h="16" display="inline" mr="3" />
           <Text
             as="h1"
             fontSize="2xl"
@@ -57,7 +80,7 @@ const MobileNavContent = (props) => {
             color="white"
             display="inline"
           >
-            Wang Lab
+            The Wang Lab
           </Text>
         </Box>
 
@@ -82,7 +105,7 @@ const MobileNavContent = (props) => {
         animate={isOpen ? "enter" : "exit"}
       >
         <Stack spacing="0">
-          {links.map((link, index) => (
+          {mobileLinks.map((link, index) => (
             <NavListItem key={index}>
               <NavLink.Mobile href={link.href} color="white">
                 {link.title}

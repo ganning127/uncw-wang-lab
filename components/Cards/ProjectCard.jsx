@@ -60,7 +60,7 @@ export const ProjectCard = ({
           isExternal={true}
           _hover={{ color: "blue.500" }}
         >
-          Read More
+          {link}
         </Link>
       </Flex>
     </Box>

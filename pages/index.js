@@ -40,6 +40,7 @@ export default function Home() {
                 desc={project.desc}
                 href={project.href}
                 img={project.img}
+                link={project.link}
                 avatars={project.avatars}
                 names={project.names}
               />
@@ -49,7 +50,7 @@ export default function Home() {
         })}
 
         <Box textAlign="center">
-          <Button colorScheme="blue" mt={4} as="a" href="/projects">
+          <Button colorScheme="blue" mt={4} as="a" href="/projects" shadow="md">
             See all projects
           </Button>
         </Box>

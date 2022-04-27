@@ -12,7 +12,7 @@ import {
 import {
   AiOutlineInstagram,
   AiOutlineYoutube,
-  AiOutlineTwitter,
+  AiOutlineLinkedin,
 } from "react-icons/ai";
 
 export const Footer = () => {
@@ -59,7 +59,7 @@ export const Footer = () => {
               _hover={{ color: "gray.700" }}
               isExternal
             >
-              <Icon as={AiOutlineTwitter} />
+              <Icon as={AiOutlineLinkedin} />
             </Link>
           </HStack>
         </Box>

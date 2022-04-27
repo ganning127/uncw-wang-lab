@@ -30,6 +30,7 @@ export default function Projects() {
                   desc={project.desc}
                   href={project.href}
                   img={project.img}
+                  link={project.link}
                   avatars={project.avatars}
                   names={project.names}
                 />

@@ -58,7 +58,10 @@ export const SwiperLanding = ({}) => {
             w="100vw"
           >
             <SimpleGrid columns={{ base: 1, md: 2 }} alignItems="center">
-              <Img src="/wang_long_logo.png" maxH="500px" mx="auto" />
+              <Box>
+                <Img src="/wang_long_logo.png" maxH="500px" mx="auto" />
+              </Box>
+
               <Box textAlign="center" d={{ base: "none", md: "block" }}>
                 <Heading as="h1" size="4xl" color="#5BBEE5" fontWeight={700}>
                   The Wang Lab
