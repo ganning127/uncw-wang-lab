@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { SimpleGrid, Container } from "@chakra-ui/react";
+import { SimpleGrid, Container, Text } from "@chakra-ui/react";
 import { PubsCard } from "../components/Cards/PubsCard";
 
 import { SmSep } from "../components/Separators/SmSep";
