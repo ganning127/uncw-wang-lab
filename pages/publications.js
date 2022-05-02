@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { SimpleGrid, Container, Heading } from "@chakra-ui/react";
+import { SimpleGrid, Container, Heading, Text } from "@chakra-ui/react";
 import { PubsCard } from "../components/Cards/PubsCard";
 
 
@@ -54,7 +54,7 @@ export default function Publications() {
           />
         </SimpleGrid>
 
-          <Heading as="h1" size="2xl" color='#263864' mb="4" fontWeight={700} alignItems = "center" spacing ={14}>Pre - The Wang Lab</Heading>
+          <Heading as="h1" size="2xl" color='#263864' mb="4" fontWeight={700} alignItems = "center" textAlign = "center" spacing ={14}>Pre - The Wang Lab</Heading>
 
         <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={5}>
           <PubsCard
