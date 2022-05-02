@@ -54,12 +54,10 @@ export default function Publications() {
           />
         </SimpleGrid>
 
-          
-        <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={14}>
-          <Heading as="h1" size="2xl" color='#263864' mb="4" fontWeight={700} alignItems = "center" textAlign = "center" spacing = {14}>Pre - The Wang Lab</Heading>
-        </SimpleGrid>
-
         <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={5}>
+
+          <Heading as="h1" size="2xl" color='#263864' mb="4" fontWeight={700} alignItems = "center" textAlign = "center" spacing = {14}>Pre - The Wang Lab</Heading>
+
           <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
