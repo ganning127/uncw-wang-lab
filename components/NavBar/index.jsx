@@ -4,7 +4,7 @@ import { NavContent } from "./NavContent";
 export const NavBar = ({ active }) => {
   return (
     <Box
-      h="80px"
+      // h="80px"
       backgroundImage="url('/banner_1.png')"
       backgroundPosition="-953% 60%"
       backgroundRepeat="repeat"

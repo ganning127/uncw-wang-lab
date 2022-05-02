@@ -17,10 +17,12 @@ export const TeamCard = ({ name, title, email, resume, about, image }) => {
         <Text fontWeight="normal" color="gray.400" fontSize="lg">
           {title}
         </Text>
-        <Text fontWeight="normal" color="gray.400" fontSize="lg">
-          <chakra.span fontWeight={700}>FOCUS: </chakra.span>
-          {about}
-        </Text>
+        {about && (
+          <Text fontWeight="normal" color="gray.400" fontSize="lg">
+            <chakra.span fontWeight={700}>FOCUS: </chakra.span>
+            {about}
+          </Text>
+        )}
 
         <Text>
           <Link href={`mailto:${email}`} _hover={{}}>
@@ -35,21 +37,25 @@ export const TeamCard = ({ name, title, email, resume, about, image }) => {
             </Text>
           </Link>
 
-          <Text as="span" mx="2" color="gray.400" fontSize="2xl">
-            |
-          </Text>
+          {resume && (
+            <>
+              <Text as="span" mx="2" color="gray.400" fontSize="2xl">
+                |
+              </Text>
 
-          <Link href={resume} _hover={{}}>
-            <Text
-              fontWeight="normal"
-              color="blue.300"
-              _hover={{ color: "blue.400" }}
-              fontSize="lg"
-              as="span"
-            >
-              Resume
-            </Text>
-          </Link>
+              <Link href={resume} _hover={{}}>
+                <Text
+                  fontWeight="normal"
+                  color="blue.300"
+                  _hover={{ color: "blue.400" }}
+                  fontSize="lg"
+                  as="span"
+                >
+                  Resume
+                </Text>
+              </Link>
+            </>
+          )}
         </Text>
       </VStack>
     </Box>

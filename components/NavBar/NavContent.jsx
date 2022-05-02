@@ -24,17 +24,17 @@ const links = [
     href: "/team",
   },
   {
-    title: "Publications",
-    href: "/publications",
+    title: "News",
+    href: "/news",
   },
+
   {
     title: "The Wang Lab",
     href: "/",
   },
-
   {
-    title: "News",
-    href: "/news",
+    title: "Publications",
+    href: "/publications",
   },
   {
     title: "Awards",
@@ -48,20 +48,20 @@ const mobileLinks = [
     href: "/",
   },
   {
-    title: "Team",
-    href: "/team",
-  },
-  {
     title: "News",
     href: "/news",
+  },
+  {
+    title: "Team",
+    href: "/team",
   },
   {
     title: "Publications",
     href: "/publications",
   },
   {
-    title: "Awards",
-    href: "/awards",
+    title: "Funding",
+    href: "/funding",
   },
 ];
 
@@ -69,9 +69,13 @@ const MobileNavContent = (props) => {
   const { isOpen, onToggle } = useDisclosure();
   return (
     <Box {...props}>
-      <Flex>
-        <Box p="2" d="flex" alignItems="center" as="a" href="/">
-          <Img src="/temp_logo.png" h="16" display="inline" mr="3" />
+      <Flex alignItems="center" justifyContent="space-between">
+        <Box as="a" href="/">
+          <Img src="/temp_logo.png" h="16" />
+        </Box>
+
+        {/* <Spacer /> */}
+        <Box>
           <Text
             as="h1"
             fontSize="2xl"
@@ -83,16 +87,7 @@ const MobileNavContent = (props) => {
             The Wang Lab
           </Text>
         </Box>
-
-        <Spacer />
-        <Box
-          as="button"
-          py="2"
-          pr={4}
-          fontSize="2xl"
-          onClick={onToggle}
-          color="white"
-        >
+        <Box as="button" pr={4} fontSize="2xl" onClick={onToggle} color="white">
           {isOpen ? <HiX /> : <HiOutlineMenu />}
         </Box>
       </Flex>

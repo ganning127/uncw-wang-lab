@@ -31,11 +31,31 @@ export const SwiperLanding = ({}) => {
             bgRepeat="no-repeat"
             bgPos="center"
             bgSize="cover"
-            h="600px"
+            h="700px"
             w="100vw"
           >
             <SimpleGrid columns={{ base: 1, md: 2 }} alignItems="center">
+              <Box d={{ base: "block", md: "none" }}>
+                <Text
+                  fontSize="6xl"
+                  fontWeight="bold"
+                  color="#5BBEE5"
+                  textAlign="center"
+                >
+                  Research
+                </Text>
+              </Box>
               <Img src="/wang_long_logo.png" maxH="500px" mx="auto" />
+              <Box d={{ base: "block", md: "none" }}>
+                <Text
+                  fontSize="6xl"
+                  fontWeight="bold"
+                  color="#5BBEE5"
+                  textAlign="center"
+                >
+                  Revivified
+                </Text>
+              </Box>
               <Box textAlign="center" d={{ base: "none", md: "block" }}>
                 <Heading as="h1" size="4xl" color="#5BBEE5" fontWeight={700}>
                   The Wang Lab
@@ -48,7 +68,7 @@ export const SwiperLanding = ({}) => {
           </Center>
         </SwiperSlide>
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <Center
             bgImage="linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/landing2.jpeg') "
             bgRepeat="no-repeat"
@@ -72,7 +92,7 @@ export const SwiperLanding = ({}) => {
               </Box>
             </SimpleGrid>
           </Center>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </>
   );
