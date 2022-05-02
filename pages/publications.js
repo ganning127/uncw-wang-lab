@@ -24,7 +24,7 @@ export default function Publications() {
       <Banner>Publications</Banner>
 
       <Container maxW="container.xl" p={15}>
-        <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={7}>
+        <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={5}>
           <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
@@ -56,11 +56,11 @@ export default function Publications() {
         </SimpleGrid>
 
         <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={14}>
-          <HeadingWithDesc>Pre - The Wang Lab</HeadingWithDesc>
+          <Heading as="h1" size="2xl" color='#263864' mb="4" fontWeight={700}>Pre - The Wang Lab</Heading>
         </SimpleGrid>
         
 
-        <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={7}>
+        <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={5}>
           <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
