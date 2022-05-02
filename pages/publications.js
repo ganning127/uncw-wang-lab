@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { SimpleGrid, Container, Text } from "@chakra-ui/react";
+import { SimpleGrid, Container, Heading } from "@chakra-ui/react";
 import { PubsCard } from "../components/Cards/PubsCard";
 
 
@@ -9,7 +9,6 @@ import { SmSep } from "../components/Separators/SmSep";
 import { Banner } from "../components/Headings/Banner";
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
-import { HeadingWithDesc } from "../components/Headings/HeadingWithDesc";
 
 export default function Publications() {
   return (
