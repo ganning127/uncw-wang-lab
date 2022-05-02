@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-import { Text, HStack, VStack, Img, Link } from "@chakra-ui/react"
-import "/PubMedButton1.png"; {/*delete?*/}
-=======
 import {
   Text,
   HStack,
@@ -15,7 +11,6 @@ import {
   Box,
   Spacer,
 } from "@chakra-ui/react";
->>>>>>> 3828f4a5e4862dcde40564aa14bfd6241b8fa3c9
 
 export const PubsCard = ({ names, title, resources, publink, images }) => {
   return (
@@ -74,18 +69,3 @@ export const PubsCard = ({ names, title, resources, publink, images }) => {
     </Box>
   );
 };
-
-<<<<<<< HEAD
-            <HStack>
-                <Link href={publink} _hover={{ color: 'blue.400'}} isExternal>
-                    <Icon src={'/PubMedButton1.png'} /> {/*this and the import is still broken*/}
-                </Link>
-                <Text textAlign='center' fontWeight="bold" color='gray.800' fontSize="lg">Team Authors: </Text>
-                <Img src={images} height='50px' width='50px' />
-            </HStack>
-
-        </VStack>
-    )
-}
-=======
->>>>>>> 3828f4a5e4862dcde40564aa14bfd6241b8fa3c9
