@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Wang Lab</title>
+        <title>The Wang Lab</title>
         <meta
           name="description"
           content="Meet our PI, graduate researchers, undergraduate researchers, and high school researchers"

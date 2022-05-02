@@ -50,7 +50,7 @@ export default function Funding() {
   return (
     <>
       <Head>
-        <title>Funding - Wang Lab</title>
+        <title>Funding - The Wang Lab</title>
         <meta
           name="description"
           content="We're so grateful for our sponsors who make our work possible!"
