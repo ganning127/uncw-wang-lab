@@ -54,7 +54,7 @@ export default function Publications() {
           />
         </SimpleGrid>
 
-        <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={14}>
+        <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={14} alignItems="center" justifyContent="center">
           <Heading as="h1" size="2xl" color='#263864' mb="4" fontWeight={700}>Pre - The Wang Lab</Heading>
         </SimpleGrid>
         
