@@ -14,7 +14,8 @@ import {
 
 export const PubsCard = ({ names, title, resources, publink, images }) => {
   return (
-    <Box maxW="700px" mx="auto">
+
+    <Box maxW="700px" mx="auto" rounded="lg" bg="white" shadow="md" p={15}>
       <Text>
         <Text as="span" fontWeight="normal" color="gray.800" fontSize="lg">
           {names + ". "}
