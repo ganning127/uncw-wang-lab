@@ -27,28 +27,32 @@ export default function Publications() {
           <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-           <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-           <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-           <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
@@ -62,70 +66,80 @@ export default function Publications() {
           <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-                    <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-           <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-           <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-           <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-                    <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-                    <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-           <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-           <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
-           <PubsCard
+          <PubsCard
             names="Wang D, Wang D, Wang, D"
             title="Long Title Example for Research Paper Under the Wang Laboratory"
-            resources="Untitled Resource 15-2. 2022"
+            publication= "Untitled Resource"
+            resources="15-2. 2022"
             publink="uncw.edu"
             images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
           />
