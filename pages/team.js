@@ -14,7 +14,7 @@ export default function Team() {
   return (
     <>
       <Head>
-        <title>Team - Wang Lab</title>
+        <title>Team - The Wang Lab</title>
         <meta
           name="description"
           content="Meet our PI, graduate researchers, undergraduate researchers, and high school researchers"

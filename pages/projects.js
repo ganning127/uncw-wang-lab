@@ -16,6 +16,13 @@ import { SqProjectCard } from "../components/Cards/SqProjectCard";
 export default function Projects() {
   return (
     <>
+
+      <Head>
+        <title>Projects - The Wang Lab</title>
+        <meta name="description" content="Here are our projects!" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <NavBar active="" />
       <Banner>Projects</Banner>
 

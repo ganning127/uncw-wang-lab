@@ -13,7 +13,7 @@ export default function News() {
     <>
       <Head>
         News
-        <title>Funding - Wang Lab</title>
+        <title>News - The Wang Lab</title>
         <meta
           name="description"
           content="We're so grateful for our sponsors who make our work possible!"

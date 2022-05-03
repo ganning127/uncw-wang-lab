@@ -37,8 +37,8 @@ const links = [
     href: "/publications",
   },
   {
-    title: "Awards",
-    href: "/awards",
+    title: "Funding",
+    href: "/funding",
   },
 ];
 

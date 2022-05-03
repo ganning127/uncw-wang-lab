@@ -28,7 +28,7 @@ export const Footer = () => {
         </Box>
         <Box mx="auto" textAlign="center" fontWeight={700} fontSize="xl">
           <Text>
-            Veteran Hall 3045, 1040 Walton Drive, Wilmington, NC 28403
+            Veterans Hall 3045, 1040 Walton Drive, Wilmington, NC 28403
           </Text>
           <Text mt={4}>Email: wangyy@uncw.edu</Text>
           <Text>Phone: (910) 962-7721</Text>
