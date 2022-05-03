@@ -59,12 +59,6 @@
       "tite": "Undergraduate Researchers",
       "email": "npm8179@uncw.edu",
       "image": "https://i.imgur.com/OXnkIvZ.png"
-    },
-    {
-      "name": "Nathan S. Strasser",
-      "tite": "Undergraduate Researchers",
-      "email": "nss9885@uncw.edu",
-      "image": "https://i.imgur.com/2GaJvjY.png"
     }
   ],
   "External Researchers": [
@@ -83,7 +77,7 @@
       "image": ""
     },
     {
-      "name": "Tara Penman (E)",
+      "name": "Tara Penman",
       "tite": "External Researchers",
       "email": "tarajeanjean@aol.com",
       "about": "",
@@ -97,7 +91,7 @@
       "image": ""
     },
     {
-      "name": "Tori Smallwood (E)",
+      "name": "Tori Smallwood",
       "tite": "External Researchers",
       "email": "torismallwood08@att.net",
       "about": "",
