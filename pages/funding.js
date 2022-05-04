@@ -7,45 +7,8 @@ import { SmSep } from "../components/Separators/SmSep";
 import { Banner } from "../components/Headings/Banner";
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
+import Logos from "../data/funding.json";
 
-const logos = [
-  {
-    pic: "/uncw_logo.png",
-    link: "https://www.uncw.edu/",
-  },
-  {
-    pic: "/logo_sq.png",
-    link: "https://www.uncw.edu/",
-  },
-  {
-    pic: "/logo_sq.png",
-    link: "https://www.uncw.edu/",
-  },
-  {
-    pic: "/logo_sq.png",
-    link: "https://www.uncw.edu/",
-  },
-  {
-    pic: "/logo_sq.png",
-    link: "https://www.uncw.edu/",
-  },
-  {
-    pic: "/logo_sq.png",
-    link: "https://www.uncw.edu/",
-  },
-  {
-    pic: "/logo_sq.png",
-    link: "https://www.uncw.edu/",
-  },
-  {
-    pic: "/logo_sq.png",
-    link: "https://www.uncw.edu/",
-  },
-  {
-    pic: "/logo_sq.png",
-    link: "https://www.uncw.edu/",
-  },
-];
 export default function Funding() {
   return (
     <>
@@ -57,12 +20,12 @@ export default function Funding() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar active="" />
+      <NavBar active="funding" />
       <Banner>Funding</Banner>
 
       <Container maxW="container.xl" p={15}>
         <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={20}>
-          {logos.map((logo, index) => (
+          {Logos.map((logo, index) => (
             <Link href={logo.link} target="_blank" key={index} _focus={{}}>
               <Img
                 src={logo.pic}

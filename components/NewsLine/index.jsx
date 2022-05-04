@@ -7,19 +7,6 @@ import {
   Description,
 } from "vertical-timeline-component-react";
 
-import {
-  Box,
-  Heading,
-  Text,
-  Avatar,
-  Link,
-  Flex,
-  Spacer,
-  HStack,
-  SimpleGrid,
-  Tooltip,
-} from "@chakra-ui/react";
-
 import { TimelineCard } from "../Cards/TimelineCard";
 
 import News from "../../data/news.json";
@@ -35,7 +22,6 @@ export const NewsLine = () => {
 
   return (
     <>
-      {/* <Box justifyContent="center"> */}
       <Timeline theme={customTheme} dateFormat="short" lang="en">
         {News.map((item, index) => {
           return (
@@ -56,7 +42,6 @@ export const NewsLine = () => {
           );
         })}
       </Timeline>
-      {/* </Box> */}
     </>
 
     // <Container>

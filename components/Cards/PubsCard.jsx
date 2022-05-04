@@ -12,18 +12,24 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 
-export const PubsCard = ({ names, title, publication, resources, publink, images }) => {
+export const PubsCard = ({
+  names,
+  title,
+  publication,
+  resources,
+  publink,
+  images,
+}) => {
   return (
-
     <Box mx="auto" rounded="lg" bg="white" shadow="md" p={15}>
       <Text>
-        <Text as="span" fontWeight="normal" color="gray.800" fontSize="lg">
+        <Text as="i" fontWeight="normal" color="gray.800" fontSize="lg">
           {names + ". "}
         </Text>
         <Text as="span" fontWeight="bold" color="gray.800" fontSize="lg">
           {title + ". "}
         </Text>
-        <Text as="span" fontWeight="normal" color="gray.800" fontSize="lg" >
+        <Text as="span" fontWeight="normal" color="gray.800" fontSize="lg">
           {publication + ". "}
         </Text>
         <Text as="span" fontWeight="normal" color="gray.800" fontSize="lg">

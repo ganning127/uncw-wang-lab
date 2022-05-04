@@ -1,0 +1,26 @@
+[
+  {
+    "pic": "/csurf.png",
+    "link": "https://uncw.edu/csurf/about.html"
+  },
+  {
+    "pic": "/oic.png",
+    "link": "https://uncw.edu/oic/"
+  },
+  {
+    "pic": "/ncbio.png",
+    "link": "https://www.ncbiotech.org/"
+  },
+  {
+    "pic": "/corps.png",
+    "link": "https://www.nsf.gov/news/special_reports/i-corps/"
+  },
+  {
+    "pic": "/merk.png",
+    "link": "https://www.merck.com/"
+  },
+  {
+    "pic": "/unimed.png",
+    "link": "https://www.universitymedical.com/"
+  }
+]
