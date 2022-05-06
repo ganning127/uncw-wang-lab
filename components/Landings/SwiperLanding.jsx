@@ -10,7 +10,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import { Box, Text, Heading, Img, Center, SimpleGrid } from "@chakra-ui/react";
+import {
+  Box,
+  Text,
+  Heading,
+  Img,
+  Center,
+  SimpleGrid,
+  Button,
+} from "@chakra-ui/react";
 export const SwiperLanding = ({}) => {
   return (
     <>
@@ -53,7 +61,7 @@ export const SwiperLanding = ({}) => {
                   color="#5BBEE5"
                   textAlign="center"
                 >
-                  Revivified
+                  Revivified.
                 </Text>
               </Box>
               <Box textAlign="center" d={{ base: "none", md: "block" }}>
@@ -61,38 +69,47 @@ export const SwiperLanding = ({}) => {
                   The Wang Lab
                 </Heading>
                 <Text fontSize="6xl" color="white">
-                  Research Revivified
+                  Research Revivified.
                 </Text>
               </Box>
             </SimpleGrid>
           </Center>
         </SwiperSlide>
 
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <Center
             bgImage="linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/landing2.jpeg') "
             bgRepeat="no-repeat"
             bgPos="center"
             bgSize="cover"
-            h="600px"
+            h="700px"
             w="100vw"
           >
-            <SimpleGrid columns={{ base: 1, md: 2 }} alignItems="center">
-              <Box>
-                <Img src="/wang_long_logo.png" maxH="500px" mx="auto" />
-              </Box>
+            <Box textAlign="center">
+              <Heading as="h1" size="4xl" color="#5BBEE5" fontWeight={700}>
+                Funding Sources
+              </Heading>
+              <Text color="white" my="4">
+                With partners from various institutions, across North Carolina,
+                The Wang Lab is growing faster than ever.
+              </Text>
 
-              <Box textAlign="center" d={{ base: "none", md: "block" }}>
-                <Heading as="h1" size="4xl" color="#5BBEE5" fontWeight={700}>
-                  The Wang Lab
-                </Heading>
-                <Text fontSize="6xl" color="white">
-                  Research Revivified
-                </Text>
-              </Box>
-            </SimpleGrid>
+              <Button
+                as="a"
+                href="/funding"
+                bg="#5BBEE5"
+                color="white"
+                _hover={{
+                  bg: "#40b7e6",
+                }}
+              >
+                Learn More
+              </Button>
+            </Box>
+
+            <Box textAlign="center" d={{ base: "none", md: "block" }}></Box>
           </Center>
-        </SwiperSlide> */}
+        </SwiperSlide>
       </Swiper>
     </>
   );

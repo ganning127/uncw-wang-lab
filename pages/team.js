@@ -22,7 +22,7 @@ export default function Team() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar active="team" />
-      <Banner>Our Team</Banner>
+      <Banner>Team</Banner>
 
       <Container maxW="container.xl" p={15}>
         {keys.map((key, index) => {

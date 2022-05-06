@@ -24,21 +24,20 @@ const links = [
     href: "/team",
   },
   {
-    title: "News",
-    href: "/news",
+    title: "Projects",
+    href: "/projects",
   },
-
   {
     title: "The Wang Lab",
     href: "/",
   },
   {
-    title: "Publications",
-    href: "/publications",
+    title: "News",
+    href: "/news",
   },
   {
-    title: "Funding",
-    href: "/funding",
+    title: "Publications",
+    href: "/publications",
   },
 ];
 

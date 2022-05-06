@@ -29,8 +29,7 @@ export default function Home() {
       <SwiperLanding />
 
       <Container maxW="container.xl" p={15}>
-        <SmSep line={false} />
-        <HeadingWithDesc>Current Projects</HeadingWithDesc>
+        <HeadingWithDesc my={8}>Current Projects</HeadingWithDesc>
         {displayedProjects.map((project, index) => {
           return (
             <>
