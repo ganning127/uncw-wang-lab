@@ -23,13 +23,13 @@ export const PubsCard = ({
   return (
     <Box mx="auto" rounded="lg" bg="white" shadow="md" p={15}>
       <Text>
-        <Text as="i" fontWeight="normal" color="gray.800" fontSize="lg">
+        <Text as="span" fontWeight="normal" color="gray.800" fontSize="lg">
           {names + ". "}
         </Text>
         <Text as="span" fontWeight="bold" color="gray.800" fontSize="lg">
           {title + ". "}
         </Text>
-        <Text as="span" fontWeight="normal" color="gray.800" fontSize="lg">
+        <Text as="i" fontWeight="normal" color="gray.800" fontSize="lg">
           {publication + ". "}
         </Text>
         <Text as="span" fontWeight="normal" color="gray.800" fontSize="lg">
