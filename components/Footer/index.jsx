@@ -69,7 +69,7 @@ export const Footer = () => {
       </SimpleGrid>
       <Divider my={4} borderColor="gray.400" />
       <Text textAlign="center" pb={4}>
-        Copyright &copy; {new Date().getFullYear()} • The Wang Lab.
+        Copyright &copy; {new Date().getFullYear()} • The Wang Lab
       </Text>
     </Box>
   );
