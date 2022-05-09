@@ -40,7 +40,6 @@ export const SqProjectCard = ({
     >
       <VStack spacing={4}>
         <Heading fontSize="xl">{title}</Heading>
-        <HStack spacing={4}>
           {avatars &&
             avatars.map((avatar, i) => {
               return (
@@ -49,7 +48,7 @@ export const SqProjectCard = ({
                 </Tooltip>
               );
             })}
-        </HStack>
+
         <Img src={img} maxH="250px" mx="auto" rounded="md" />
 
         <Text noOfLines={5}>{desc}</Text>
