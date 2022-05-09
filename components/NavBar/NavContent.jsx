@@ -47,20 +47,20 @@ const mobileLinks = [
     href: "/",
   },
   {
-    title: "News",
-    href: "/news",
-  },
-  {
     title: "Team",
     href: "/team",
   },
   {
-    title: "Publications",
-    href: "/publications",
+    title: "Projects",
+    href: "/projects",
   },
   {
-    title: "Funding",
-    href: "/funding",
+    title: "News",
+    href: "/news",
+  },
+  {
+    title: "Publications",
+    href: "/publications",
   },
 ];
 

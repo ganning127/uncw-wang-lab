@@ -23,7 +23,7 @@ export default function Projects() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <NavBar active="" />
+      <NavBar active="projects" />
       <Banner>Projects</Banner>
 
       <Container maxW="container.xl" p={15}>

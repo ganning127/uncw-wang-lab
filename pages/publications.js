@@ -19,7 +19,7 @@ export default function Publications() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <NavBar active="" />
+      <NavBar active="publications" />
       <Banner>Publications</Banner>
 
       <Container maxW="container.xl" p={15}>
