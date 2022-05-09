@@ -78,8 +78,8 @@
     "img": "temp_proj1.png",
     "link": "Read More",
     "href": "/pdf.pdf",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
+    "avatars": ["https://i.imgur.com/jGYu2HB.png", "https://i.imgur.com/8VnnNv3.png", "https://i.imgur.com/nXnuCev.png"],
+    "names": ["Berk Yalcinkaya", "Jaime Cardenas", "Ying Wang, Ph.D."]
   },
   {
     "title": "Dissolvable RNA-encapsulated Microneedle Patches",
@@ -87,8 +87,8 @@
     "img": "temp_proj1.png",
     "link": "Read More",
     "href": "/pdf.pdf",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
+    "avatars": ["https://i.imgur.com/nXnuCev.png"],
+    "names": ["Ying Wang, Ph.D."]
   },
   {
     "title": "Decoupling Colloidal & Chemical Stability of mRNA-LNPs",
@@ -96,7 +96,7 @@
     "img": "temp_proj1.png",
     "link": "Read More",
     "href": "/pdf.pdf",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
+    "avatars": ["https://i.imgur.com/UvttxfX.png", "https://i.imgur.com/OXnkIvZ.png", "https://i.imgur.com/b0MUIHe.png", "https://i.imgur.com/nXnuCev.png"],
+    "names": ["Carson B. Jackson", "Noemi P. Meza", "Kayla Butterworth", "Ying Wang, Ph.D."]
   }
 ]
