@@ -1,16 +1,23 @@
 [
   {
-    "title": "Carson defended his master thesis",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+    "title": "Kylie Morin is admitted to Colorado State University's Ph.D.in Chemistry program!",
+    "avatars": ["https://i.imgur.com/QF712E4.png"],
     "names": ["p1", "p2", "p3"],
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it ",
     "date": "Jul 01, 2022"
   },
   {
-    "title": "Carson defended his master thesis",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+    "title": "Jade Fluharty is admitted as a Scholar to North Carolina State University's Ph.D. in Chemistry program!",
+    "avatars": ["https://i.imgur.com/coYmqmy.png"],
     "names": ["p1", "p2", "p3"],
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it ",
-    "date": "Jun 01, 2022"
+    "date": "Jul 01, 2021"
+  },
+  {
+    "title": "Berk Yalcinkaya is admitted to Stanford University's Class of 2026!",
+    "avatars": ["https://i.imgur.com/jGYu2HB.png"],
+    "names": ["p1", "p2", "p3"],
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it ",
+    "date": "Jun 01, 2020"
   }
 ]
