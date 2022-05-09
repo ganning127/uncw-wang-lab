@@ -23,7 +23,7 @@ export const ProjectCard = ({
 }) => {
   console.log(href);
   return (
-    <Box rounded="lg" bg="white" shadow="md" p={15}>
+    <Box rounded="lg" bg="white" shadow="md" p={15} textAlign="center">
       <Heading fontSize="2xl" textAlign="center">
         {title}
       </Heading>
