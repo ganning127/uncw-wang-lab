@@ -46,7 +46,7 @@ export const PubsCard = ({
           }}
           as="a"
           href={publink}
-          isExternal
+          target="_blank"
         >
           PubMed
         </Button>

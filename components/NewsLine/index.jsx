@@ -10,7 +10,7 @@ import {
 import { TimelineCard } from "../Cards/TimelineCard";
 
 import News from "../../data/news.json";
-
+import { SmSep } from "../Separators/SmSep";
 export const NewsLine = () => {
   const customTheme = {
     yearColor: "#263864",
@@ -36,6 +36,7 @@ export const NewsLine = () => {
                     avatars={item.avatars}
                     names={item.names}
                   />
+                  <SmSep />
                 </Section>
               </BodyContent>
             </Container>
