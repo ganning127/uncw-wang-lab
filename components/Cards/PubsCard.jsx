@@ -58,10 +58,11 @@ export const PubsCard = ({
             fontWeight="bold"
             color="gray.800"
             fontSize="lg"
+            display={{ base: "none", md: "block" }}
           >
             Team Authors:
           </Text>
-          <HStack spacing={2} ml={4}>
+          <HStack spacing={2} ml={4} wrap="wrap" justifyContent={"center"}>
             {images.map((image, i) => {
               return (
                 <Avatar
