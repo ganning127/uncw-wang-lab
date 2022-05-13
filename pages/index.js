@@ -11,7 +11,7 @@ import { ProjectCard } from "../components/Cards/ProjectCard";
 import { Container, Button, Box } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
 import ProjectData from "../data/projects.json";
-import News from "../data/projects.json";
+import News from "../data/news.json";
 import { TimelineCard } from "../components/Cards/TimelineCard";
 
 export default function Home() {
