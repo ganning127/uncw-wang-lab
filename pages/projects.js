@@ -14,9 +14,6 @@ import ProjectData from "../data/projects.json";
 import { Banner } from "../components/Headings/Banner";
 import { SqProjectCard } from "../components/Cards/SqProjectCard";
 export default function Projects() {
-  // const ProjectData = ProjectData.reverse();
-  console.log(ProjectData);
-
   const reversed = [...ProjectData].reverse();
   return (
     <>

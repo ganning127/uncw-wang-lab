@@ -78,7 +78,11 @@
     "img": "Protein_Bundle.png",
     "link": "Read More",
     "href": "/pdf.pdf",
-    "avatars": ["https://i.imgur.com/jGYu2HB.png", "https://i.imgur.com/8VnnNv3.png", "https://i.imgur.com/nXnuCev.png"],
+    "avatars": [
+      "https://i.imgur.com/jGYu2HB.png",
+      "https://i.imgur.com/8VnnNv3.png",
+      "https://i.imgur.com/nXnuCev.png"
+    ],
     "names": ["Berk Yalcinkaya", "Jaime Cardenas", "Ying Wang, Ph.D."]
   },
   {
@@ -96,7 +100,17 @@
     "img": "LNP.jpeg",
     "link": "Read More",
     "href": "/pdf.pdf",
-    "avatars": ["https://i.imgur.com/UvttxfX.png", "https://i.imgur.com/OXnkIvZ.png", "https://i.imgur.com/b0MUIHe.png", "https://i.imgur.com/nXnuCev.png"],
-    "names": ["Carson B. Jackson", "Noemi P. Meza", "Kayla Butterworth", "Ying Wang, Ph.D."]
+    "avatars": [
+      "https://i.imgur.com/UvttxfX.png",
+      "https://i.imgur.com/OXnkIvZ.png",
+      "https://i.imgur.com/b0MUIHe.png",
+      "https://i.imgur.com/nXnuCev.png"
+    ],
+    "names": [
+      "Carson B. Jackson",
+      "Noemi P. Meza",
+      "Kayla Butterworth",
+      "Ying Wang, Ph.D."
+    ]
   }
 ]

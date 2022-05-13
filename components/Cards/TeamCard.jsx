@@ -19,7 +19,7 @@ export const TeamCard = ({ name, title, email, resume, about, image }) => {
         </Text>
         {about && (
           <Text fontWeight="normal" color="gray.400" fontSize="lg">
-            <chakra.span fontWeight={700}>FOCUS: </chakra.span>
+            {/* <chakra.span fontWeight={700}>FOCUS: </chakra.span> */}
             {about}
           </Text>
         )}

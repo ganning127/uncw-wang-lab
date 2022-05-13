@@ -71,7 +71,7 @@ export default function Home() {
           </Box>
         </Box>
 
-        <MedSep line={true} />
+        <SmSep line={true} />
         <Box>
           <HeadingWithDesc my={8}>Featured News</HeadingWithDesc>
           {displayedNews.map((item, index) => {
