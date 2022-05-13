@@ -10,6 +10,7 @@ import {
   Heading,
   Box,
   Spacer,
+  SimpleGrid
 } from "@chakra-ui/react";
 
 const DesktopPubsCard = ({names, title, publication, resources, publink, images}) => {
@@ -116,7 +117,7 @@ const MobilePubsCard = ({names, title, publication, resources, publink, images})
           >
             Team Authors:
           </Text>
-          <HStack spacing={2} ml={4}>
+          <SimpleGrid spacing={2} ml={4} columns = {{base: 2, md:5, lg: 10}}>
             {images.map((image, i) => {
               return (
                 <Avatar
@@ -128,7 +129,7 @@ const MobilePubsCard = ({names, title, publication, resources, publink, images})
                 />
               );
             })}
-          </HStack>
+          </SimpleGrid>
         </Box>
       </Flex>
     </Box>
