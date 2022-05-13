@@ -20,8 +20,7 @@ export default function Home() {
   let displayedProjects = [...ProjectData].reverse();
   displayedProjects = displayedProjects.slice(0, numToDisplay);
 
-  let displayedNews = [...News].reverse();
-  displayedNews = displayedNews.slice(0, numToDisplay);
+  let displayedNews = News.slice(0, numToDisplay);
 
   return (
     <>
@@ -84,6 +83,7 @@ export default function Home() {
                   desc={item.desc}
                   avatars={item.avatars}
                   names={item.names}
+                  href={item.href}
                 />
                 <XSSep line={false} />
               </>

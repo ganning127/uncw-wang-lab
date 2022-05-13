@@ -55,6 +55,7 @@ export const SqProjectCard = ({
         <Img src={img} maxH="250px" mx="auto" rounded="md" />
 
         <Text noOfLines={5}>{desc}</Text>
+        {/* remove the text on mobile, make sure that line still truncates */}
       </VStack>
     </Box>
   );

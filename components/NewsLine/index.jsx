@@ -35,6 +35,7 @@ export const NewsLine = () => {
                     desc={item.desc}
                     avatars={item.avatars}
                     names={item.names}
+                    href={item.href}
                   />
                   <SmSep />
                 </Section>
