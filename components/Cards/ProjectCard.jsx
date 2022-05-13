@@ -21,7 +21,6 @@ export const ProjectCard = ({
   avatars,
   names,
 }) => {
-  console.log(href);
   return (
     <Box
       rounded="lg"
@@ -59,7 +58,7 @@ export const ProjectCard = ({
           spacing={10}
           mt={5}
           alignItems="center"
-          justifyContent="center"
+          justifyContent="end"
         >
           <Box textAlign="center">
             <Img src={img} maxH="250px" mx="auto" />
