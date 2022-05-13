@@ -25,17 +25,19 @@ export const TeamCard = ({ name, title, email, resume, about, image }) => {
         )}
 
         <Text>
-          <Link href={`mailto:${email}`} _hover={{}}>
-            <Text
-              fontWeight="normal"
-              color="blue.300"
-              _hover={{ color: "blue.400" }}
-              fontSize="lg"
-              as="span"
-            >
-              Email
-            </Text>
-          </Link>
+          {email && (
+            <Link href={`mailto:${email}`} _hover={{}}>
+              <Text
+                fontWeight="normal"
+                color="blue.300"
+                _hover={{ color: "blue.400" }}
+                fontSize="lg"
+                as="span"
+              >
+                Email
+              </Text>
+            </Link>
+          )}
 
           {resume && (
             <>

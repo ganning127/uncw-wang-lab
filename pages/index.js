@@ -15,7 +15,7 @@ export default function Home() {
   const numToDisplay = 3;
 
   let displayedProjects = [...ProjectData].reverse();
-  // displayedProjects = ProjectData.slice(0, numToDisplay);
+  displayedProjects = displayedProjects.slice(0, numToDisplay);
 
   return (
     <>
@@ -32,7 +32,7 @@ export default function Home() {
       <SwiperLanding />
 
       <Container maxW="container.xl" p={15}>
-        <HeadingWithDesc my={8}>Current Projects</HeadingWithDesc>
+        <HeadingWithDesc my={8}>Featured Projects</HeadingWithDesc>
         {displayedProjects.map((project, index) => {
           return (
             <>
