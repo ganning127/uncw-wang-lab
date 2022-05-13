@@ -28,14 +28,14 @@ export const ProjectCard = ({
         {title}
       </Heading>
       <HStack justifyContent="center" mt={3} spacing={6}>
-            {avatars &&
-              avatars.map((avatar, i) => {
-                return (
-                  <Tooltip label={names[i]} key={i} placement="auto-end">
-                    <Avatar name={names[i]} src={avatar} size="md" />
-                  </Tooltip>
-                );
-              })}
+        {avatars &&
+          avatars.map((avatar, i) => {
+            return (
+              <Tooltip label={names[i]} key={i} placement="auto-end">
+                <Avatar name={names[i]} src={avatar} size="md" />
+              </Tooltip>
+            );
+          })}
       </HStack>
       <SimpleGrid
         columns={{ base: 1, md: 2 }}

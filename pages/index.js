@@ -13,7 +13,10 @@ import { Footer } from "../components/Footer";
 import ProjectData from "../data/projects.json";
 export default function Home() {
   const numToDisplay = 3;
-  const displayedProjects = ProjectData.slice(-numToDisplay);
+
+  let displayedProjects = [...ProjectData].reverse();
+  // displayedProjects = ProjectData.slice(0, numToDisplay);
+
   return (
     <>
       <Head>

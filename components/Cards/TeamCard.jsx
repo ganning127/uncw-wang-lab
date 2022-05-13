@@ -51,7 +51,7 @@ export const TeamCard = ({ name, title, email, resume, about, image }) => {
                   fontSize="lg"
                   as="span"
                 >
-                  Resume
+                  Resume/CV
                 </Text>
               </Link>
             </>

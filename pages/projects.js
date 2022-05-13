@@ -14,9 +14,12 @@ import ProjectData from "../data/projects.json";
 import { Banner } from "../components/Headings/Banner";
 import { SqProjectCard } from "../components/Cards/SqProjectCard";
 export default function Projects() {
+  // const ProjectData = ProjectData.reverse();
+  console.log(ProjectData);
+
+  const reversed = [...ProjectData].reverse();
   return (
     <>
-
       <Head>
         <title>Projects - The Wang Lab</title>
         <meta name="description" content="Here are our projects!" />
@@ -28,7 +31,7 @@ export default function Projects() {
 
       <Container maxW="container.xl" p={15}>
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-          {ProjectData.map((project, index) => {
+          {reversed.map((project, index) => {
             return (
               <>
                 <SqProjectCard
