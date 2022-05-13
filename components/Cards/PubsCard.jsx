@@ -39,7 +39,7 @@ const DesktopPubsCard = ({names, title, publication, resources, publink, images}
           }}
           as="a"
           href={publink}
-          isExternal
+          target="_blank"
         >
           PubMed
         </Button>
@@ -51,10 +51,11 @@ const DesktopPubsCard = ({names, title, publication, resources, publink, images}
             fontWeight="bold"
             color="gray.800"
             fontSize="lg"
+            display={{ base: "none", md: "block" }}
           >
             Team Authors:
           </Text>
-          <HStack spacing={2} ml={4}>
+          <HStack spacing={2} ml={4} wrap="wrap" justifyContent={"center"}>
             {images.map((image, i) => {
               return (
                 <Avatar

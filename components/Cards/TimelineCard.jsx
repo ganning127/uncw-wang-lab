@@ -17,7 +17,6 @@ export const TimelineCard = ({ title, date, desc, avatars, names }) => {
       shadow="md"
       textAlign="center"
       //   maxW="750px"
-      mb={24}
     >
       <Heading fontSize="2xl" fontWeight="bold">
         {title}
@@ -36,7 +35,7 @@ export const TimelineCard = ({ title, date, desc, avatars, names }) => {
         </HStack>
       </Box>
 
-      <Text fontSize="md" mt={3}>
+      <Text fontSize="md" mt={3} display={{ base: "none", md: "block" }}>
         {desc}
       </Text>
     </Box>
