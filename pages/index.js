@@ -13,6 +13,7 @@ import { Footer } from "../components/Footer";
 import ProjectData from "../data/projects.json";
 import News from "../data/news.json";
 import { TimelineCard } from "../components/Cards/TimelineCard";
+import { InstaPosts } from "../components/InstaPosts";
 
 export default function Home() {
   const numToDisplay = 3;
@@ -96,6 +97,10 @@ export default function Home() {
             </Button>
           </Box>
         </Box>
+
+        <MedSep line={true} />
+        <HeadingWithDesc my={8}>Instagram</HeadingWithDesc>
+        <InstaPosts />
       </Container>
       <SmSep />
       <Footer />

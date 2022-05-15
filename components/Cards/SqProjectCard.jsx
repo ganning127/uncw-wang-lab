@@ -54,9 +54,13 @@ export const SqProjectCard = ({
         </HStack>
         <Img src={img} maxH="250px" mx="auto" rounded="md" />
 
-        <Text noOfLines={5}>{desc}</Text>
+        <Text noOfLines={5} display={{ base: "none", md: "-webkit-box" }}>
+          {desc}
+        </Text>
         {/* remove the text on mobile, make sure that line still truncates */}
       </VStack>
     </Box>
   );
 };
+
+// 316194567364715|6098f37e084ccb9d4b4fb0f61d51a509

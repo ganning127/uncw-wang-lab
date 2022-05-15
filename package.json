@@ -18,6 +18,8 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
+    "react-instagram-embed": "^3.0.0",
+    "react-social-media-embed": "^2.0.12",
     "swiper": "^8.1.0",
     "vertical-timeline-component-react": "^3.0.3"
   },
