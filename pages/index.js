@@ -98,8 +98,8 @@ export default function Home() {
           </Box>
         </Box>
 
-        <MedSep line={true} />
-        <HeadingWithDesc my={8}>Instagram</HeadingWithDesc>
+        <SmSep line={true} />
+        <HeadingWithDesc mb={8}>Media</HeadingWithDesc>
         <InstaPosts />
       </Container>
       <SmSep />
