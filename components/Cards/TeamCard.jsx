@@ -1,15 +1,16 @@
-import { Box, Text, Link, Avatar, VStack, chakra } from "@chakra-ui/react";
+import { Box, Text, Link, Avatar, VStack, Img } from "@chakra-ui/react";
 
 export const TeamCard = ({ name, title, email, resume, about, image }) => {
   return (
     <Box mx="auto" textAlign="center" maxW="350px">
       <VStack spacing={0.3}>
         <Avatar
-          name={name}
+          name={image ? name : ""}
           src={image}
           height={{ base: "100px", md: "200px" }}
           width={{ base: "100px", md: "200px" }}
           mb="3"
+          icon={<Img src="/temp_team_avatar.png" rounded="full" />}
         />
         <Text fontWeight={700} color="gray.800" fontSize="xl">
           {name}
