@@ -5,43 +5,43 @@
       "tite": "Principal Investigator",
       "email": "wangyy@uncw.edu",
       "resume": "/TODO",
-      "image": "https://i.imgur.com/nXnuCev.png"
+      "image": "/ying_wang.png"
     }
   ],
   "Graduate Researchers": [
     {
-      "name": "Harrison Wooten",
+      "name": "Harrison R. Wooten",
       "tite": "Graduate Researchers",
       "email": "hrw9355@uncw.edu",
       "resume": "/TODO",
       "about": "In-vitro study of Ribonucleoprotein (RNP) granule formation and functions",
-      "image": "https://i.imgur.com/uMr20ta.png"
+      "image": "/harrison_wooten.png"
     },
     {
-      "name": "Kylie Morin",
+      "name": "Kylie H. Morin",
       "tite": "Graduate Researchers",
       "email": "hrw9355@uncw.edu",
       "resume": "/TODO",
       "about": "In-vitro study of Ribonucleoprotein (RNP) granule formation and functions",
-      "image": "https://i.imgur.com/QF712E4.png"
+      "image": "/kylie_morin.png"
     }
   ],
   "Undergraduate Researchers": [
     {
-      "name": "Carson Jackson",
+      "name": "Carson B. Jackson",
       "tite": "Undergraduate Researchers",
       "email": "cj8679@uncw.edu",
       "resume": "/TODO",
       "about": "Synthesis and stability study of mRNA-Lipid Nanoparticles (LNPs); Micro-needle patch mRNA-Lipid Nanoparticle (LNP) delivery",
-      "image": "https://i.imgur.com/UvttxfX.png"
+      "image": "/carson_jackson.png"
     },
     {
-      "name": "Jade Fluharty",
+      "name": "Jade M. Fluharty",
       "tite": "Undergraduate Researchers",
       "email": "jmf9093@uncw.edu",
       "resume": "/TODO",
       "about": "High-throughput in-vitro screening for pathogenic mutations of human eye-lens proteins",
-      "image": "https://i.imgur.com/coYmqmy.png"
+      "image": "/jade_fluharty.png"
     },
     {
       "name": "Jaime Cardenas",
@@ -49,7 +49,7 @@
       "email": "hjc2538@uncw.edu",
       "resume": "/TODO",
       "about": "Structure-based design of universal influenza vaccines; Micro-needle patch vaccine delivery",
-      "image": "https://i.imgur.com/8VnnNv3.png"
+      "image": "/jamie_cardenas.png"
     },
     {
       "name": "Kayla Butterworth",
@@ -57,23 +57,23 @@
       "email": "klb2099@uncw.edu",
       "resume": "/TODO",
       "about": "Synthesis and stability study of mRNA-Lipid Nanoparticles (LNPs)",
-      "image": "https://i.imgur.com/b0MUIHe.png"
+      "image": "/kayla_butterworth.png"
     },
     {
-      "name": "Nathan Strasser",
+      "name": "Nathan S. Strasser",
       "tite": "Undergraduate Researchers",
       "email": "nss9885@uncw.edu",
       "resume": "/TODO",
       "about": "Solubility evaluation of monoclonal antibodies; Optimization of T7 RNA polymerase",
-      "image": "https://i.imgur.com/2GaJvjY.png"
+      "image": "/nathan_strasser.png"
     },
     {
-      "name": "Noemi Meza",
+      "name": "Noemi P. Meza",
       "tite": "Undergraduate Researchers",
       "email": "npm8179@uncw.edu",
       "resume": "/TODO",
       "about": "Intra-ocular drug discovery and delivery methods to eye lens",
-      "image": "https://i.imgur.com/OXnkIvZ.png"
+      "image": "/noemi_meza.png"
     }
   ],
   "External Researchers": [
@@ -81,7 +81,7 @@
       "name": "Berk Yalcinkaya",
       "tite": "External Researchers",
       "about": "Structure-based design of universal influenza vaccines; Prediction of pathogenic mutations of human eye lens proteins by machine learning",
-      "image": "https://i.imgur.com/jGYu2HB.png"
+      "image": "/berk_yalcinkaya.png"
     },
     {
       "name": "Jon Futch",
@@ -93,10 +93,10 @@
       "name": "Tara Penman",
       "tite": "External Researchers",
       "about": "Prediction of pathogenic mutations of human eye lens proteins by machine learning",
-      "image": ""
+      "image": "/tara_penman.png"
     },
     {
-      "name": "Noah Nunez",
+      "name": "Noah M. Nunez",
       "tite": "External Researchers",
       "about": "Protective role of human α-crystallines against age-related and hereditary cataracts",
       "image": ""
