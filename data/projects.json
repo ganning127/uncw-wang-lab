@@ -79,9 +79,9 @@
     "link": "Read More",
     "href": "/pdf.pdf",
     "avatars": [
-      "https://i.imgur.com/jGYu2HB.png",
-      "https://i.imgur.com/8VnnNv3.png",
-      "https://i.imgur.com/nXnuCev.png"
+      "/berk_yalcinkaya.png",
+      "/jaime_cardenas.png",
+      "/ying_wang.png"
     ],
     "names": ["Berk Yalcinkaya", "Jaime Cardenas", "Ying Wang, Ph.D."]
   },
@@ -91,7 +91,7 @@
     "img": "Microneedle Patch.jpeg",
     "link": "Read More",
     "href": "/pdf.pdf",
-    "avatars": ["https://i.imgur.com/nXnuCev.png"],
+    "avatars": ["/ying_wang.png"],
     "names": ["Ying Wang, Ph.D."]
   },
   {
@@ -101,10 +101,10 @@
     "link": "Read More",
     "href": "/pdf.pdf",
     "avatars": [
-      "https://i.imgur.com/UvttxfX.png",
-      "https://i.imgur.com/OXnkIvZ.png",
-      "https://i.imgur.com/b0MUIHe.png",
-      "https://i.imgur.com/nXnuCev.png"
+      "/carson_jackson.png",
+      "/noemi_meza.png",
+      "/kayla_butterworth.png",
+      "/ying_wang.png"
     ],
     "names": [
       "Carson B. Jackson",
