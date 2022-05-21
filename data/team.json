@@ -84,10 +84,10 @@
       "image": "/berk_yalcinkaya.png"
     },
     {
-      "name": "Jon Futch",
+      "name": "Noah M. Nunez",
       "tite": "External Researchers",
-      "about": "Prediction of pathogenic mutations of human eye lens proteins by machine learning",
-      "image": "/logo_sq.png"
+      "about": "Protective role of human α-crystallines against age-related and hereditary cataracts",
+      "image": "/noah_nunez.jpg"
     },
     {
       "name": "Tara Penman",
@@ -96,16 +96,16 @@
       "image": "/tara_penman.png"
     },
     {
-      "name": "Noah M. Nunez",
+      "name": "Jon Futch",
       "tite": "External Researchers",
-      "about": "Protective role of human α-crystallines against age-related and hereditary cataracts",
-      "image": "/noah_nunez.jpg"
+      "about": "Prediction of pathogenic mutations of human eye lens proteins by machine learning",
+      "image": ""
     },
     {
       "name": "Tori Smallwood",
       "tite": "External Researchers",
       "about": "Prediction of pathogenic mutations of human eye lens proteins by machine learning",
-      "image": "/logo_sq.png"
+      "image": ""
     }
   ]
 }
