@@ -13,6 +13,7 @@ import { Footer } from "../components/Footer";
 import ProjectData from "../data/projects.json";
 import News from "../data/news.json";
 import { TimelineCard } from "../components/Cards/TimelineCard";
+import { InstaPosts } from "../components/InstaPosts";
 
 export default function Home() {
   const numToDisplay = 3;
@@ -20,8 +21,7 @@ export default function Home() {
   let displayedProjects = [...ProjectData].reverse();
   displayedProjects = displayedProjects.slice(0, numToDisplay);
 
-  let displayedNews = [...News].reverse();
-  displayedNews = displayedNews.slice(0, numToDisplay);
+  let displayedNews = News.slice(0, numToDisplay);
 
   return (
     <>
@@ -84,6 +84,7 @@ export default function Home() {
                   desc={item.desc}
                   avatars={item.avatars}
                   names={item.names}
+                  href={item.href}
                 />
                 <XSSep line={false} />
               </>
@@ -96,6 +97,10 @@ export default function Home() {
             </Button>
           </Box>
         </Box>
+
+        <MedSep line={true} />
+        <HeadingWithDesc my={8}>Instagram</HeadingWithDesc>
+        <InstaPosts />
       </Container>
       <SmSep />
       <Footer />

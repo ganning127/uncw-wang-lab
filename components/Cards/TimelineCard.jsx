@@ -4,11 +4,14 @@ import {
   Box,
   HStack,
   Avatar,
+  Flex,
+  Spacer,
+  Link,
   Tooltip,
   useDisclosure,
 } from "@chakra-ui/react";
 
-export const TimelineCard = ({ title, date, desc, avatars, names }) => {
+export const TimelineCard = ({ title, date, desc, avatars, names, href }) => {
   return (
     <Box
       bg="white"
@@ -38,6 +41,20 @@ export const TimelineCard = ({ title, date, desc, avatars, names }) => {
       <Text fontSize="md" mt={3} display={{ base: "none", md: "block" }}>
         {desc}
       </Text>
+
+      {href && (
+        <Flex mt={2.5}>
+          <Spacer />
+          <Link
+            color="blue.300"
+            href={href}
+            isExternal={true}
+            _hover={{ color: "blue.500" }}
+          >
+            Read More
+          </Link>
+        </Flex>
+      )}
     </Box>
   );
 };
