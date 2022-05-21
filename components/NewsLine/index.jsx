@@ -20,10 +20,12 @@ export const NewsLine = () => {
     subtitleColor: "#bf9765",
   };
 
+  const NewsLine = [...News].reverse();
+
   return (
     <>
       <Timeline theme={customTheme} dateFormat="short" lang="en">
-        {News.map((item, index) => {
+        {NewsLine.map((item, index) => {
           return (
             <Container key={index}>
               <YearContent startDate={item.date} />
