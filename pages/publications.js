@@ -30,7 +30,7 @@ export default function Publications() {
             publication= "Pharmaceutical Research"
             resources="PMID: 34647231 (2021)"
             publink="https://pubmed.ncbi.nlm.nih.gov/34647231/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="Y. Wang, R. F. Latypov"
@@ -38,7 +38,7 @@ export default function Publications() {
             publication= "Methods in Molecular Biology"
             resources="2039, 39-49 (2019)"
             publink="https://pubmed.ncbi.nlm.nih.gov/31342417/"
-            images={["/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="J.B. Rowe, R.P. Flynn, H.R. Wooten, H.A. Noufer, R.A. Cancel, J. Zhang, J.A. Subramony, S. Pechenov, Y. Wang"
@@ -46,7 +46,7 @@ export default function Publications() {
             publication= "Molecular Pharmaceutics"
             resources="15, 4710-4721 (2018)"
             publink="https://pubmed.ncbi.nlm.nih.gov/30142275/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/harrison_wooten.png", "/ying_wang.png"]}
           />
           <PubsCard
             names="J.B. Rowe, R.A. Cancel, T.D. Evangelous, R.P. Flynn, S. Pechenov, J.A. Subramony, J. Zhang, Y. Wang"
@@ -54,7 +54,7 @@ export default function Publications() {
             publication= "Biophysical Journal"
             resources="113, 1750-1756 (2017)"
             publink="https://pubmed.ncbi.nlm.nih.gov/29045869/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png", "/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
         </SimpleGrid>
 
@@ -69,7 +69,7 @@ export default function Publications() {
             publication= "Langmuir"
             resources="33, 7715-7721 (2017)"
             publink="https://pubmed.ncbi.nlm.nih.gov/28689408/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="G. Sun, Y. Wang, A. Lomakin, G. B. Benedek, H. E. Stanley, L. Xu, S. V. Buldyrev"
@@ -77,7 +77,7 @@ export default function Publications() {
             publication= "The Journal of Chemical Physics"
             resources="145, 194901 (2016)"
             publink="https://pubmed.ncbi.nlm.nih.gov/27875860/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="R.W. Thompson, R.F. Latypov, Y. Wang, A. Lomakin, J.A. Meyer, S. Vunnum, G. B. Benedek"
@@ -85,7 +85,7 @@ export default function Publications() {
             publication= "The Journal of Chemical Physics"
             resources="145, 185101 (2016)"
             publink="https://pubmed.ncbi.nlm.nih.gov/27846698/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="Y. Wang, A. Lomakin, S. Kanai, R. Alex, S. Belli, M. Donzelli, G. B. Benedek"
@@ -93,7 +93,7 @@ export default function Publications() {
             publication= "Journal of Controlled Release"
             resources="241, 25-33 (2016)"
             publink="https://pubmed.ncbi.nlm.nih.gov/27578099/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="M.A. Kreutzberger, E. Tejada, Y. Wang, P.F. Almeida"
@@ -101,7 +101,7 @@ export default function Publications() {
             publication= "Biophysical Journal"
             resources="12(2), 411-419 (2015)"
             publink="https://pubmed.ncbi.nlm.nih.gov/26039163/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="Y. Wang, A. Lomakin, S. Kanai, R. Alex, G.B. Benedek"
@@ -109,7 +109,7 @@ export default function Publications() {
             publication= "Molecular Pharmaceutics"
             resources="12(2), 411-419 (2015)"
             publink="https://pubmed.ncbi.nlm.nih.gov/25569709/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="Y. Wang, R.F. Latypov, A. Lomakin, J.A. Meyer, B.A. Kerwin, S. Vunnum, G.B. Benedek"
@@ -117,7 +117,7 @@ export default function Publications() {
             publication= "Molecular Pharmaceutics"
             resources="11(5), 1391-1402 (2014)"
             publink="https://pubmed.ncbi.nlm.nih.gov/24679215/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="Y. Wang, A. Lomakin, R.F. Latypov, J.P. Laubach, T. Hideshima, P.G. Richardson, N.C. Munshi, K.C. Anderson, G.B. Benedek"
@@ -125,7 +125,7 @@ export default function Publications() {
             publication= "J. Chem. Phys"
             resources="139, 121904(1-9) (2013)"
             publink="https://pubmed.ncbi.nlm.nih.gov/24089716/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="Y. Wang, A. Lomakin, T. Hideshima, J.P. Laubach, O.O. Ogun, P.G. Richardson, N.C. Munshi, K.C. Anderson, G.B. Benedek"
@@ -133,7 +133,7 @@ export default function Publications() {
             publication= "Proc. Natl. Acad.Sci. USA"
             resources="109, 13359-13361(2012)"
             publink="https://pubmed.ncbi.nlm.nih.gov/22847421/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="Y. Wang, A. Lomakin, R.F. Latypov, G.B. Benedek"
@@ -141,7 +141,7 @@ export default function Publications() {
             publication= "Proc. Natl. Acad.Sci. USA"
             resources="108, 16606-16611 (2011)"
             publink="https://pubmed.ncbi.nlm.nih.gov/21921237/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="Y. Wang, A. Lomakin, J.J. McManus, O. Ogun, G.B. Benedek"
@@ -149,7 +149,7 @@ export default function Publications() {
             publication= "Proc. Natl. Acad.Sci. USA"
             resources="107, 13282-13287 (2010)"
             publink="https://pubmed.ncbi.nlm.nih.gov/20616077/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="O. Annunziata, A. Payne and Y. Wang"
@@ -157,7 +157,7 @@ export default function Publications() {
             publication= "J. Am. Chem. Soc"
             resources="130, 13347-13352 (2008)"
             publink="https://pubmed.ncbi.nlm.nih.gov/18788805/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="Y. Wang and O. Annunziata"
@@ -165,7 +165,7 @@ export default function Publications() {
             publication= "Langmuir"
             resources="24, 2799-2807 (2008)"
             publink="https://pubmed.ncbi.nlm.nih.gov/18229962/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
           <PubsCard
             names="Y. Wang and O. Annunziata"
@@ -173,7 +173,7 @@ export default function Publications() {
             publication= "J. Phys. Chem. B"
             resources="111, 1222-1230 (2007)"
             publink="https://pubmed.ncbi.nlm.nih.gov/17266278/"
-            images={["/johndoe.png", "/johndoe.png", "/johndoe.png"]}
+            images={["/ying_wang.png"]}
           />
         </SimpleGrid>
 
