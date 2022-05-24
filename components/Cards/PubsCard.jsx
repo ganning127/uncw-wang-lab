@@ -21,6 +21,7 @@ export const PubsCard = ({
   resources,
   publink,
   avatars,
+  avnames
 }) => {
   return (
     <Box mx="auto" rounded="lg" bg="white" shadow="md" p={15}>
@@ -67,8 +68,8 @@ export const PubsCard = ({
           <HStack spacing={2} ml={4} wrap="wrap" justifyContent={"center"}>
             {avatars && avatars.map((avatar, i) => {
               return (
-                <Tooltip label={names[i]} key={i} placement="auto-end">
-                  <Avatar name={names[i]} src={avatar} height="50px" width="50px" />
+                <Tooltip label={avnames[i]} key={i} placement="auto-end">
+                  <Avatar name={avnames[i]} src={avatar} height="50px" width="50px" />
               </Tooltip>
               );
             })}

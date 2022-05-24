@@ -25,7 +25,8 @@ export default function Publications() {
       <Container maxW="container.xl" p={15}>
         <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={5}>
           <PubsCard
-            names= {["M. J. Scannell", "M. W. Hyatt", "I. L. Budyak", "M. A. Woldeyes", "Y. Wang"]}
+            names= "M. J. Scannell, M. W. Hyatt, I. L. Budyak, M. A. Woldeyes, Y. Wang"
+            avnames = {["Y. Wang"]}
             title="Revisit PEG-Induced Precipitation Assay for Protein Solubility Assessment of Monoclonal Antibody Formulations CHANGE KEY"
             publication= "Pharmaceutical Research"
             resources="PMID: 34647231 (2021)"
