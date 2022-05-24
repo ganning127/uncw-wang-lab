@@ -26,7 +26,7 @@ export default function Publications() {
         <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={5}>
           <PubsCard
             names= {["M. J. Scannell", "M. W. Hyatt", "I. L. Budyak", "M. A. Woldeyes", "Y. Wang"]}
-            title="Revisit PEG-Induced Precipitation Assay for Protein Solubility Assessment of Monoclonal Antibody Formulations"
+            title="Revisit PEG-Induced Precipitation Assay for Protein Solubility Assessment of Monoclonal Antibody Formulations CHANGE KEY"
             publication= "Pharmaceutical Research"
             resources="PMID: 34647231 (2021)"
             publink="https://pubmed.ncbi.nlm.nih.gov/34647231/"
