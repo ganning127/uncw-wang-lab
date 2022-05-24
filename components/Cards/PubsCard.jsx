@@ -67,10 +67,10 @@ export const PubsCard = ({
             {images.map((image, i) => {
               return (
                 <Avatar
-                  src={image}
+                  src={image[i]}
                   height="50px"
                   width="50px"
-                  name={names}
+                  name={names[i]}
                   key={i}
                 />
               );
