@@ -19,7 +19,7 @@ export const PubsCard = ({
   publication,
   resources,
   publink,
-  images,
+  avatars,
 }) => {
   return (
     <Box mx="auto" rounded="lg" bg="white" shadow="md" p={15}>
@@ -64,15 +64,11 @@ export const PubsCard = ({
             Team Authors:
           </Text>
           <HStack spacing={2} ml={4} wrap="wrap" justifyContent={"center"}>
-            {images.map((image, i) => {
+            {avatars && avatars.map((avatar, i) => {
               return (
-                <Avatar
-                  src={image[i]}
-                  height="50px"
-                  width="50px"
-                  name={names[i]}
-                  key={i}
-                />
+                <Tooltip label={names[i]} key={i} placement="auto-end">
+                  <Avatar name={names[i]} src={avatar} height="50px" width="50px" />
+              </Tooltip>
               );
             })}
           </HStack>
