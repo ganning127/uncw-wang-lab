@@ -11,6 +11,7 @@ import {
   Box,
   Spacer,
   SimpleGrid,
+  Tooltip,
 } from "@chakra-ui/react";
 
 export const PubsCard = ({
