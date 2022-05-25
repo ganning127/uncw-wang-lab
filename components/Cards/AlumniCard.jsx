@@ -16,8 +16,7 @@ export const AlumniCard = ({ name, year, about, image }) => {
           {name}
         </Text>
         <Text fontWeight="normal" color="blue.300" fontSize="lg">
-            <chakra.span fontWeight={700}>TLW </chakra.span>
-          {year}
+          {"TLW " + year}
         </Text>
         {about && (
           <Text fontWeight="normal" color="gray.400" fontSize="lg">
