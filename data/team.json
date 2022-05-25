@@ -96,6 +96,12 @@
       "image": "/tara_penman.png"
     },
     {
+      "name": "Neha Joseph",
+      "tite": "External Researchers",
+      "about": "Solubility evaluation of monoclonal antibodies; Optimization of T7 RNA polymerase",
+      "image": "/neha_joseph.png"
+    },
+    {
       "name": "Jon Futch",
       "tite": "External Researchers",
       "about": "Prediction of pathogenic mutations of human eye lens proteins by machine learning",

@@ -26,7 +26,7 @@ export default function Publications() {
         <SimpleGrid columns={{ base: 1, md: 1, md: 1 }} spacing={5}>
           <PubsCard
             names= "M. J. Scannell, M. W. Hyatt, I. L. Budyak, M. A. Woldeyes, Y. Wang"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Revisit PEG-Induced Precipitation Assay for Protein Solubility Assessment of Monoclonal Antibody Formulations CHANGE KEY"
             publication= "Pharmaceutical Research"
             resources="PMID: 34647231 (2021)"
@@ -35,7 +35,7 @@ export default function Publications() {
           />
           <PubsCard
             names="Y. Wang, R. F. Latypov"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Quantitative Evaluation of Protein Solubility in Aqueous Solutions by PEG-Induced Liquid-Liquid Phase Separation"
             publication= "Methods in Molecular Biology"
             resources="2039, 39-49 (2019)"
@@ -44,7 +44,7 @@ export default function Publications() {
           />
           <PubsCard
             names="J.B. Rowe, R.P. Flynn, H.R. Wooten, H.A. Noufer, R.A. Cancel, J. Zhang, J.A. Subramony, S. Pechenov, Y. Wang"
-            avnames = {["Harrison Wooten", "Y. Wang"]}
+            avnames = {["Harrison Wooten", "Ying Wang, Ph.D."]}
             title="Submicron Aggregation of Chemically Denatured Monoclonal Antibody"
             publication= "Molecular Pharmaceutics"
             resources="15, 4710-4721 (2018)"
@@ -53,7 +53,7 @@ export default function Publications() {
           />
           <PubsCard
             names="J.B. Rowe, R.A. Cancel, T.D. Evangelous, R.P. Flynn, S. Pechenov, J.A. Subramony, J. Zhang, Y. Wang"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Meta-stability Gap in the Phase Diagram of Monoclonal IgG Antibody"
             publication= "Biophysical Journal"
             resources="113, 1750-1756 (2017)"
@@ -69,7 +69,7 @@ export default function Publications() {
 
           <PubsCard
             names="Y. Wang, A. Lomakin, S. Kanai, R. Alex, G. B. Benedek"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Liquid-Liquid Phase Separation in Oligomeric Peptide Solutions"
             publication= "Langmuir"
             resources="33, 7715-7721 (2017)"
@@ -78,7 +78,7 @@ export default function Publications() {
           />
           <PubsCard
             names="G. Sun, Y. Wang, A. Lomakin, G. B. Benedek, H. E. Stanley, L. Xu, S. V. Buldyrev"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="The Phase Behavior Study of Human Antibody Solution Using Multi-scale Modeling"
             publication= "The Journal of Chemical Physics"
             resources="145, 194901 (2016)"
@@ -88,7 +88,7 @@ export default function Publications() {
           <PubsCard
             names="R.W. Thompson, R.F. Latypov, Y. Wang, A. Lomakin, J.A. Meyer, S. Vunnum, G. B. Benedek"
             title="Evaluation of effects of pH and ionic strength on colloidal stability of IgG solutions by PEG-induced liquid-liquid phase separation="
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             publication= "The Journal of Chemical Physics"
             resources="145, 185101 (2016)"
             publink="https://pubmed.ncbi.nlm.nih.gov/27846698/"
@@ -97,7 +97,7 @@ export default function Publications() {
           <PubsCard
             names="Y. Wang, A. Lomakin, S. Kanai, R. Alex, S. Belli, M. Donzelli, G. B. Benedek"
             title="The molecular basis for the prolonged blood circulation of lipidated incretin peptides: peptide oligomerization or binding to serum albumin"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             publication= "Journal of Controlled Release"
             resources="241, 25-33 (2016)"
             publink="https://pubmed.ncbi.nlm.nih.gov/27578099/"
@@ -106,7 +106,7 @@ export default function Publications() {
           <PubsCard
             names="M.A. Kreutzberger, E. Tejada, Y. Wang, P.F. Almeida"
             title="GUVs melt like LUVs: the large heat capacity of MLVs is not due to large size or small curvature"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             publication= "Biophysical Journal"
             resources="12(2), 411-419 (2015)"
             publink="https://pubmed.ncbi.nlm.nih.gov/26039163/"
@@ -115,7 +115,7 @@ export default function Publications() {
           <PubsCard
             names="Y. Wang, A. Lomakin, S. Kanai, R. Alex, G.B. Benedek"
             title="Transformation of oligomers of lipidated peptide Induced by Change in pH"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             publication= "Molecular Pharmaceutics"
             resources="12(2), 411-419 (2015)"
             publink="https://pubmed.ncbi.nlm.nih.gov/25569709/"
@@ -123,7 +123,7 @@ export default function Publications() {
           />
           <PubsCard
             names="Y. Wang, R.F. Latypov, A. Lomakin, J.A. Meyer, B.A. Kerwin, S. Vunnum, G.B. Benedek"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Quantitative evaluation of colloidal stability of antibody solutions using PEG-induced liquid-liquid phase separation."
             publication= "Molecular Pharmaceutics"
             resources="11(5), 1391-1402 (2014)"
@@ -132,7 +132,7 @@ export default function Publications() {
           />
           <PubsCard
             names="Y. Wang, A. Lomakin, R.F. Latypov, J.P. Laubach, T. Hideshima, P.G. Richardson, N.C. Munshi, K.C. Anderson, G.B. Benedek"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Phase transitions in human IgG solutions"
             publication= "J. Chem. Phys"
             resources="139, 121904(1-9) (2013)"
@@ -141,7 +141,7 @@ export default function Publications() {
           />
           <PubsCard
             names="Y. Wang, A. Lomakin, T. Hideshima, J.P. Laubach, O.O. Ogun, P.G. Richardson, N.C. Munshi, K.C. Anderson, G.B. Benedek"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Pathological crystallization of human immunoglobulins"
             publication= "Proc. Natl. Acad.Sci. USA"
             resources="109, 13359-13361(2012)"
@@ -150,7 +150,7 @@ export default function Publications() {
           />
           <PubsCard
             names="Y. Wang, A. Lomakin, R.F. Latypov, G.B. Benedek"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Phase separation in solutions of monoclonal antibodies and the effect of human serum albumin"
             publication= "Proc. Natl. Acad.Sci. USA"
             resources="108, 16606-16611 (2011)"
@@ -159,7 +159,7 @@ export default function Publications() {
           />
           <PubsCard
             names="Y. Wang, A. Lomakin, J.J. McManus, O. Ogun, G.B. Benedek"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Phase behavior of mixtures of human lens proteins Gamma D and Beta B1"
             publication= "Proc. Natl. Acad.Sci. USA"
             resources="107, 13282-13287 (2010)"
@@ -168,7 +168,7 @@ export default function Publications() {
           />
           <PubsCard
             names="O. Annunziata, A. Payne and Y. Wang"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Solubility of lysozyme in the presence of aqueous chloride salts: common-ion effect and its role on solubility and crystal thermodynamics"
             publication= "J. Am. Chem. Soc"
             resources="130, 13347-13352 (2008)"
@@ -177,7 +177,7 @@ export default function Publications() {
           />
           <PubsCard
             names="Y. Wang and O. Annunziata"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Liquid-liquid phase transition of protein aqueous solutions isothermally induced by protein crosslinking"
             publication= "Langmuir"
             resources="24, 2799-2807 (2008)"
@@ -186,7 +186,7 @@ export default function Publications() {
           />
           <PubsCard
             names="Y. Wang and O. Annunziata"
-            avnames = {["Y. Wang"]}
+            avnames = {["Ying Wang, Ph.D."]}
             title="Comparison between protein-PEG interactions and the effect of PEG on protein-protein interactions using the liquid-liquid phase transition"
             publication= "J. Phys. Chem. B"
             resources="111, 1222-1230 (2007)"
