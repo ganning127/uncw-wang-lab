@@ -23,7 +23,7 @@ export default function Alumni() {
 
       <Container maxW="container.xl" p={15}>
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-          {AlumniData[key].map((alumni, index) => {
+          {keys.map((alumni, index) => {
             return (
               <>
                 <AlumniCard
