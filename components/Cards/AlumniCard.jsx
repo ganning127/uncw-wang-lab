@@ -15,7 +15,7 @@ export const AlumniCard = ({ name, year, about, image }) => {
         <Text fontWeight={700} color="gray.800" fontSize="xl">
           {name}
         </Text>
-        <Text fontWeight="normal" color="blue.300" fontSize="lg">
+        <Text fontWeight="normal" color="blue.400" fontSize="lg">
           {"TLW " + year}
         </Text>
         {about && (
