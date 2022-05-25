@@ -9,7 +9,7 @@ import { Footer } from "../components/Footer";
 import { NavBar } from "../components/NavBar";
 import AlumniData from "../data/alumni.json";
 export default function Alumni() {
-  const keys = Object.keys(AlumniData);
+  const keys = [...AlumniData];
   return (
     <>
       <Head>
