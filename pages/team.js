@@ -58,7 +58,7 @@ export default function Team() {
       <Box textAlign="center">
             <Button
               colorScheme="blue"
-              mt={4}
+              mt={8}
               as="a"
               href="/alumni"
               shadow="md"
