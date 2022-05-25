@@ -55,6 +55,18 @@ export default function Team() {
         })}
       </Container>
 
+      <Box textAlign="center">
+            <Button
+              colorScheme="blue"
+              mt={4}
+              as="a"
+              href="/alumni"
+              shadow="md"
+            >
+              Alumni
+            </Button>
+          </Box>
+
       <SmSep />
       <Footer />
     </>

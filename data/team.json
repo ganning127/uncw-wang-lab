@@ -16,14 +16,6 @@
       "resume": "/TODO",
       "about": "In-vitro study of Ribonucleoprotein (RNP) granule formation and functions",
       "image": "/harrison_wooten.png"
-    },
-    {
-      "name": "Kylie H. Morin",
-      "tite": "Graduate Researchers",
-      "email": "hrw9355@uncw.edu",
-      "resume": "/TODO",
-      "about": "In-vitro study of Ribonucleoprotein (RNP) granule formation and functions",
-      "image": "/kylie_morin.png"
     }
   ],
   "Undergraduate Researchers": [
@@ -60,14 +52,6 @@
       "image": "/kayla_butterworth.png"
     },
     {
-      "name": "Nathan S. Strasser",
-      "tite": "Undergraduate Researchers",
-      "email": "nss9885@uncw.edu",
-      "resume": "/TODO",
-      "about": "Solubility evaluation of monoclonal antibodies; Optimization of T7 RNA polymerase",
-      "image": "/nathan_strasser.png"
-    },
-    {
       "name": "Noemi P. Meza",
       "tite": "Undergraduate Researchers",
       "email": "npm8179@uncw.edu",
@@ -77,12 +61,6 @@
     }
   ],
   "External Researchers": [
-    {
-      "name": "Berk Yalcinkaya",
-      "tite": "External Researchers",
-      "about": "Structure-based design of universal influenza vaccines; Prediction of pathogenic mutations of human eye lens proteins by machine learning",
-      "image": "/berk_yalcinkaya.png"
-    },
     {
       "name": "Noah M. Nunez",
       "tite": "External Researchers",

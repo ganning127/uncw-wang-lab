@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Kylie H. Morin",
+      "year": "2022",
+      "about": "PREVIOUS about was: In-vitro study of Ribonucleoprotein (RNP) granule formation and functions",
+      "image": "/kylie_morin.png"
+    },
+    {
+        "name": "Berk Yalcinkaya",
+        "year": "2022",
+        "about": "PREVIOUS about was: Structure-based design of universal influenza vaccines; Prediction of pathogenic mutations of human eye lens proteins by machine learning",
+        "image": "/berk_yalcinkaya.png"
+    },
+    {
+        "name": "Nathan S. Strasser",
+        "year": "2022",
+        "about": "PREVIOUS about was: Solubility evaluation of monoclonal antibodies; Optimization of T7 RNA polymerase",
+        "image": "/nathan_strasser.png"
+    },
+    {
+        "name": "Jade M. Fluharty",
+        "year": "2022",
+        "about": "PREVIOUS about was: High-throughput in-vitro screening for pathogenic mutations of human eye-lens proteins",
+        "image": "/jade_fluharty.png"
+    }
+  ]
