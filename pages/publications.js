@@ -27,9 +27,9 @@ export default function Publications() {
 
       <Container maxW="container.xl" p={15}>
         {keys.map((key, index) => {
-          let minCols = TeamData[key].length == 1 ? 1 : 2;
+          let minCols = PubsData[key].length == 1 ? 1 : 2;
 
-          let maxCols = TeamData[key].length == 1 ? 1 : 3;
+          let maxCols = PubsData[key].length == 1 ? 1 : 3;
 
           return (
             <Box key={index}>
