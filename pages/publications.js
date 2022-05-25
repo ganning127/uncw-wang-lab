@@ -27,14 +27,10 @@ export default function Publications() {
 
       <Container maxW="container.xl" p={15}>
         {keys.map((key, index) => {
-          let minCols = PubsData[key].length == 1 ? 1 : 2;
-
-          let maxCols = PubsData[key].length == 1 ? 1 : 3;
-
           return (
             <Box key={index}>
               <HeadingWithDesc>{key}</HeadingWithDesc>
-              <SimpleGrid columns={{ base: minCols, md: maxCols }} spacing={10}>
+              <SimpleGrid columns={{ base: 1, md: 1 }} spacing={10}>
                 {PubsData[key].map((pub, index) => {
                   return (
                     <PubsCard
