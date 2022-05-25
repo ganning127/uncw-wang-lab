@@ -1,6 +1,6 @@
 import { Box, Text, Avatar, VStack, Img } from "@chakra-ui/react";
 
-export const TeamCard = ({ name, year, about, image }) => {
+export const AlumniCard = ({ name, year, about, image }) => {
   return (
     <Box mx="auto" textAlign="center" maxW="350px">
       <VStack spacing={0.3}>
