@@ -6,6 +6,7 @@ import { AlumniCard } from "../components/Cards/AlumniCard";
 import { SmSep } from "../components/Separators/SmSep";
 import { Banner } from "../components/Headings/Banner";
 import { Footer } from "../components/Footer";
+import { NavBar } from "../components/NavBar";
 import AlumniData from "../data/alumni.json";
 export default function Alumni() {
   const keys = Object.keys(AlumniData);
@@ -19,6 +20,7 @@ export default function Alumni() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <NavBar/>
       <Banner>Alumni</Banner>
 
       <Container maxW="container.xl" p={15}>
