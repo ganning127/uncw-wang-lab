@@ -28,7 +28,7 @@ export const SwiperLanding = ({}) => {
         modules={[Navigation, Autoplay, Scrollbar, EffectFade]}
         effect="fade"
         autoplay={{
-          delay: 3000,
+          delay: 5000,
         }}
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
