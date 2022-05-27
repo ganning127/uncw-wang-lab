@@ -20,7 +20,10 @@ export const NewsLine = () => {
     subtitleColor: "#bf9765",
   };
 
-  const NewsLine = [...News].reverse();
+  let NewsLine = News.sort(
+    (a, b) => Date.parse(new Date(a.date)) - Date.parse(new Date(b.date))
+  );
+  NewsLine = [...NewsLine].reverse();
 
   return (
     <>
