@@ -25,7 +25,7 @@ export default function Projects() {
       </Head>
 
       <NavBar active="projects" />
-      <Banner>Projects Categories</Banner>
+      <Banner>Projects</Banner>
 
       <Container maxW="container.xl" p={15}>
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>

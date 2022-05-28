@@ -17,14 +17,14 @@ import { SqProjectCard } from "../../components/Cards/SqProjectCard";
 import { useEffect, useState } from "react";
 export default function CategoryId() {
   const router = useRouter();
-  const [categoryUse, setCategoryUse] = useState("");
+  //   const [categoryUse, setCategoryUse] = useState("");
 
-  useEffect(() => {
-    if (router.isReady) {
-      // Code using query
-      setCategoryUse(router.query);
-    }
-  }, [router.isReady]);
+  //   useEffect(() => {
+  //     if (router.isReady) {
+  //       // Code using query
+  //       setCategoryUse(router.query);
+  //     }
+  //   }, [router.isReady]);
 
   let { category } = router.query;
 
@@ -58,9 +58,18 @@ export default function CategoryId() {
       <Banner>{category}</Banner>
 
       <Container maxW="container.xl" p={15}>
-        <Text fontSize="md" mt="4" maxW="900px">
-          {item.desc}
-        </Text>
+        <Box bg="white" px={4} py={8} rounded="md" mb={4} shadow="md">
+          <Text fontSize="md" textAlign="center">
+            Computer Science is the study of computers and computational
+            systems. Unlike electrical and computer engineers, computer
+            scientists deal mostly with software and software systems; this
+            includes their theory, design, development, and application.
+            Principal areas of study within Computer Science include artificial
+            intelligence, computer systems and networks, security, database
+            systems, human computer interaction, vision and graphics, numerical
+            analysis, programming languages, software.
+          </Text>
+        </Box>
 
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
           {filtered.map((project, index) => {

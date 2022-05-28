@@ -22,7 +22,6 @@ export const CategoryCard = ({ title, desc, href, names, avatars }) => {
       p={8}
       as="a"
       href={href}
-      isExternal={true}
       maxW="400px"
       _hover={{
         bg: "gray.100",
@@ -31,7 +30,7 @@ export const CategoryCard = ({ title, desc, href, names, avatars }) => {
       mx="auto"
     >
       <VStack spacing={2}>
-        <Heading fontSize="xl" textAlign="center" fontSize="2xl">
+        <Heading textAlign="center" fontSize="2xl">
           {title}
         </Heading>
         <HStack spacing={4}>
@@ -46,7 +45,7 @@ export const CategoryCard = ({ title, desc, href, names, avatars }) => {
         </HStack>
         {/* <Img src={img} maxH="250px" mx="auto" rounded="md" /> */}
 
-        <Text noOfLines={2} display={{ base: "none", md: "-webkit-box" }}>
+        <Text noOfLines={4} display={{ base: "none", md: "-webkit-box" }}>
           {desc}
         </Text>
         {/* remove the text on mobile, make sure that line still truncates */}
