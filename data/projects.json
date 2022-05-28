@@ -4,6 +4,7 @@
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
     "img": "temp_proj1.png",
     "link": "Read More",
+    "category": "biology",
     "href": "/pdf.pdf",
     "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
     "names": ["p1", "p2", "p3"]
@@ -13,6 +14,7 @@
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
     "img": "temp_proj1.png",
     "link": "Read More",
+    "category": "biology",
     "href": "/pdf.pdf",
     "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
     "names": ["p1", "p2", "p3"]
@@ -23,6 +25,7 @@
     "img": "temp_proj1.png",
     "link": "Read More",
     "href": "/pdf.pdf",
+    "category": "biology",
     "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
     "names": ["p1", "p2", "p3"]
   },
@@ -31,6 +34,7 @@
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
     "img": "temp_proj1.png",
     "link": "Read More",
+    "category": "computer science",
     "href": "/pdf.pdf",
     "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
     "names": ["p1", "p2", "p3"]
@@ -41,6 +45,7 @@
     "img": "temp_proj1.png",
     "link": "Read More",
     "href": "/pdf.pdf",
+    "category": "computer science",
     "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
     "names": ["p1", "p2", "p3"]
   },
@@ -49,6 +54,7 @@
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
     "img": "temp_proj1.png",
     "link": "Read More",
+    "category": "computer science",
     "href": "/pdf.pdf",
     "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
     "names": ["p1", "p2", "p3"]
@@ -58,6 +64,7 @@
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
     "img": "temp_proj1.png",
     "link": "Read More",
+    "category": "computer science",
     "href": "/pdf.pdf",
     "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
     "names": ["p1", "p2", "p3"]
@@ -67,6 +74,7 @@
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indust text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
     "img": "temp_proj1.png",
     "link": "Read More",
+    "category": "computer science",
     "href": "/pdf.pdf",
     "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
     "names": ["p1", "p2", "p3"]
@@ -76,6 +84,7 @@
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
     "img": "Protein_Bundle.png",
     "link": "Read More",
+    "category": "history",
     "href": "/pdf.pdf",
     "avatars": [
       "/berk_yalcinkaya.png",
@@ -89,6 +98,8 @@
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
     "img": "Microneedle Patch.jpeg",
     "link": "Read More",
+    "category": "history",
+
     "href": "/pdf.pdf",
     "avatars": ["/ying_wang.png"],
     "names": ["Ying Wang, Ph.D."]
@@ -98,6 +109,8 @@
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
     "img": "LNP.jpeg",
     "link": "Read More",
+    "category": "history",
+
     "href": "/pdf.pdf",
     "avatars": [
       "/carson_jackson.png",

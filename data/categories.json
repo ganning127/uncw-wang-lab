@@ -1,0 +1,20 @@
+[
+  {
+    "name": "biology",
+    "desc": "The study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behavior, origin, and distribution.",
+    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+    "names": ["p1", "p2", "p3"]
+  },
+  {
+    "name": "computer science",
+    "desc": "Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with utational systems. Unlike electrical and computer engineers, computer sc utational systems. Unlike electrical and computer engineers, computer sc",
+    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+    "names": ["p1", "p2", "p3"]
+  },
+  {
+    "name": "history",
+    "desc": "The branch of knowledge dealing with past events. · a continuous, systematic narrative of past events as relating to a particular people, country.",
+    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+    "names": ["p1", "p2", "p3"]
+  }
+]

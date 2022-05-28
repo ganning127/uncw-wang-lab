@@ -4,7 +4,6 @@ import {
   YearContent,
   BodyContent,
   Section,
-  Description,
 } from "vertical-timeline-component-react";
 
 import { TimelineCard } from "../Cards/TimelineCard";

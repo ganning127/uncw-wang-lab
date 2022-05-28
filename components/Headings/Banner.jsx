@@ -1,6 +1,6 @@
-import { Box, Center, Heading } from "@chakra-ui/react";
+import { Box, Text, Center, Heading } from "@chakra-ui/react";
 
-export const Banner = ({ children }) => {
+export const Banner = ({ textDesc, children }) => {
   return (
     <Center
       bg="#263864"
@@ -9,9 +9,11 @@ export const Banner = ({ children }) => {
       backgroundPosition="0% 115%"
       backgroundRepeat="repeat"
     >
-      <Heading color="white" fontWeight={700} size="3xl">
-        {children}
-      </Heading>
+      <Box textAlign="center">
+        <Heading color="white" fontWeight={700} size="3xl">
+          {children}
+        </Heading>
+      </Box>
     </Center>
   );
 };

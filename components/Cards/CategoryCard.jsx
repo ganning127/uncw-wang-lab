@@ -13,15 +13,7 @@ import {
   Tooltip,
 } from "@chakra-ui/react";
 
-export const SqProjectCard = ({
-  title,
-  img,
-  desc,
-  link,
-  href,
-  avatars,
-  names,
-}) => {
+export const CategoryCard = ({ title, desc, href, names, avatars }) => {
   return (
     <Box
       rounded="lg"
@@ -30,16 +22,16 @@ export const SqProjectCard = ({
       p={8}
       as="a"
       href={href}
+      isExternal={true}
       maxW="400px"
       _hover={{
         bg: "gray.100",
       }}
       transition="all 0.2s"
       mx="auto"
-      target="_blank"
     >
-      <VStack spacing={4}>
-        <Heading fontSize="xl" textAlign="center">
+      <VStack spacing={2}>
+        <Heading fontSize="xl" textAlign="center" fontSize="2xl">
           {title}
         </Heading>
         <HStack spacing={4}>
@@ -52,9 +44,9 @@ export const SqProjectCard = ({
               );
             })}
         </HStack>
-        <Img src={img} maxH="250px" mx="auto" rounded="md" />
+        {/* <Img src={img} maxH="250px" mx="auto" rounded="md" /> */}
 
-        <Text noOfLines={5} display={{ base: "none", md: "-webkit-box" }}>
+        <Text noOfLines={2} display={{ base: "none", md: "-webkit-box" }}>
           {desc}
         </Text>
         {/* remove the text on mobile, make sure that line still truncates */}
@@ -62,5 +54,3 @@ export const SqProjectCard = ({
     </Box>
   );
 };
-
-// 316194567364715|6098f37e084ccb9d4b4fb0f61d51a509
