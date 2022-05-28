@@ -8,12 +8,14 @@ import { SmSep } from "../components/Separators/SmSep";
 import { MedSep } from "../components/Separators/MedSep";
 import { XSSep } from "../components/Separators/XSSep";
 import { ProjectCard } from "../components/Cards/ProjectCard";
-import { Container, Button, Box } from "@chakra-ui/react";
+import { Container, Button, Box, SimpleGrid } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
 import ProjectData from "../data/projects.json";
 import News from "../data/news.json";
 import { TimelineCard } from "../components/Cards/TimelineCard";
 import { InstaPosts } from "../components/InstaPosts";
+import { CategoryCard } from "../components/Cards/CategoryCard";
+import Categories from "../data/categories.json";
 
 export default function Home() {
   const numToDisplay = 3;
@@ -40,7 +42,7 @@ export default function Home() {
       <Container maxW="container.xl" p={15}>
         <Box>
           <HeadingWithDesc my={8}>Featured Projects</HeadingWithDesc>
-          {displayedProjects.map((project, index) => {
+          {/* {displayedProjects.map((project, index) => {
             return (
               <>
                 <ProjectCard
@@ -56,7 +58,25 @@ export default function Home() {
                 <XSSep line={false} />
               </>
             );
-          })}
+          })} */}
+          <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
+            {Categories.map((category, index) => {
+              return (
+                <>
+                  <CategoryCard
+                    key={index}
+                    title={category.name}
+                    desc={category.desc}
+                    href={"/projects/" + category.name}
+                    img={category.img}
+                    link={category.link}
+                    avatars={category.avatars}
+                    names={category.names}
+                  />
+                </>
+              );
+            })}
+          </SimpleGrid>
 
           <Box textAlign="center">
             <Button
