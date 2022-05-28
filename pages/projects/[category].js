@@ -59,15 +59,9 @@ export default function CategoryId() {
 
       <Container maxW="container.xl" p={15}>
         <Box bg="white" px={4} py={8} rounded="md" mb={4} shadow="md">
+          {" "}
           <Text fontSize="md" textAlign="center">
-            Computer Science is the study of computers and computational
-            systems. Unlike electrical and computer engineers, computer
-            scientists deal mostly with software and software systems; this
-            includes their theory, design, development, and application.
-            Principal areas of study within Computer Science include artificial
-            intelligence, computer systems and networks, security, database
-            systems, human computer interaction, vision and graphics, numerical
-            analysis, programming languages, software.
+            {item.desc}
           </Text>
         </Box>
 
