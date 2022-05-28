@@ -1,14 +1,41 @@
 {
   "Title Holder 1": [
     {
-        "names": "Placeholder",
-        "avnames": ["Ying Wang, Ph.D."],
-        "title": "Placeholder",
-        "publication": "Placeholder",
-        "resources":"33, 7715-7721 (2017)",
-        "publink": "https://pubmed.ncbi.nlm.nih.gov/28689408/",
-        "avatars": ["/ying_wang.png"]
-    }
+      "names": "M. J. Scannell, M. W. Hyatt, I. L. Budyak, M. A. Woldeyes, Y. Wang",
+      "avnames": ["Ying Wang, Ph.D."],
+      "title":"Revisit PEG-Induced Precipitation Assay for Protein Solubility Assessment of Monoclonal Antibody Formulations CHANGE KEY",
+      "publication": "Pharmaceutical Research",
+      "resources":"PMID: 34647231 (2021)",
+      "publink":"https://pubmed.ncbi.nlm.nih.gov/34647231/",
+      "avatars":["/ying_wang.png"]
+      },
+      {
+      "names":"Y. Wang, R. F. Latypov",
+      "avnames": ["Ying Wang, Ph.D."],
+      "title":"Quantitative Evaluation of Protein Solubility in Aqueous Solutions by PEG-Induced Liquid-Liquid Phase Separation",
+      "publication": "Methods in Molecular Biology",
+      "resources":"2039, 39-49 (2019)",
+      "publink":"https://pubmed.ncbi.nlm.nih.gov/31342417/",
+      "avatars":["/ying_wang.png"]
+      },
+      {
+      "names":"J.B. Rowe, R.P. Flynn, H.R. Wooten, H.A. Noufer, R.A. Cancel, J. Zhang, J.A. Subramony, S. Pechenov, Y. Wang",
+      "avnames": ["Harrison Wooten", "Ying Wang, Ph.D."],
+      "title":"Submicron Aggregation of Chemically Denatured Monoclonal Antibody",
+      "publication": "Molecular Pharmaceutics",
+      "resources":"15, 4710-4721 (2018)",
+      "publink":"https://pubmed.ncbi.nlm.nih.gov/30142275/",
+      "avatars":["/harrison_wooten.png", "/ying_wang.png"]
+      },
+      {
+      "names":"J.B. Rowe, R.A. Cancel, T.D. Evangelous, R.P. Flynn, S. Pechenov, J.A. Subramony, J. Zhang, Y. Wang",
+      "avnames": ["Ying Wang, Ph.D."],
+      "title":"Meta-stability Gap in the Phase Diagram of Monoclonal IgG Antibody",
+      "publication": "Biophysical Journal",
+      "resources":"113, 1750-1756 (2017)",
+      "publink":"https://pubmed.ncbi.nlm.nih.gov/29045869/",
+      "avatars":["/ying_wang.png"]
+      }
   ],
   "Pre Wang Lab Publications": [
     {
