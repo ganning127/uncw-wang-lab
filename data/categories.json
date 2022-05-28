@@ -1,20 +1,32 @@
 [
   {
+    "name": "Thermostable RNA Liquid Formulation",
+    "desc": "The branch of knowledge dealing with past events. · a continuous, systematic narrative of past events as relating to a particular people, country.",
+    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+    "names": ["p1", "p2", "p3"]
+  },
+  {
     "name": "mRNA-Lipid Nanoparticles (mRNA-LNPs): Colloidal & Chemical Stability",
     "desc": "The study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behavior, origin, and distribution.",
     "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg", "/p2.jpeg", "/p3.jpeg"],
+    "names": ["p1", "p2", "p3"]
+  },
+  {
+    "name": "Prediction of Pathogenic Mutations: Human α-Crystallins",
+    "desc": "The branch of knowledge dealing with past events. · a continuous, systematic narrative of past events as relating to a particular people, country.",
+    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+    "names": ["p1", "p2", "p3"]
+  },
+  {
+    "name": "Cataract Drug and Penetrability Discovery",
+    "desc": "The branch of knowledge dealing with past events. · a continuous, systematic narrative of past events as relating to a particular people, country.",
+    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
     "names": ["p1", "p2", "p3"]
   },
 
   {
     "name": "Merck-Sponsored Research: Monoclonal Antibodies (mAB)",
     "desc": "Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application. Principal areas of study within Computer Science include artificial intelligence, computer systems and networks, security, database systems, human computer interaction, vision and graphics, numerical analysis, programming languages, software.",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "name": "UMP-Sponsored Research: Dissolvable RNA-Microneedle Patches",
-    "desc": "The branch of knowledge dealing with past events. · a continuous, systematic narrative of past events as relating to a particular people, country.",
     "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
     "names": ["p1", "p2", "p3"]
   },

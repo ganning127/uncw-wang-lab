@@ -41,11 +41,6 @@ export default function CategoryId() {
 
   let item = categoryObj[0];
 
-  const titleCase = (str) => {
-    return str.charAt(0).toUpperCase() + str.slice(1, str.length);
-  };
-  //   let titleCased = titleCase(category);
-
   return (
     <>
       <Head>
@@ -58,12 +53,12 @@ export default function CategoryId() {
       <Banner>{category}</Banner>
 
       <Container maxW="container.xl" p={15}>
-        <Box bg="white" px={4} py={8} rounded="md" mb={4} shadow="md">
+        {/* <Box bg="white" px={4} py={8} rounded="md" mb={4} shadow="md">
           {" "}
           <Text fontSize="md" textAlign="center">
             {item.desc}
           </Text>
-        </Box>
+        </Box> */}
 
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
           {filtered.map((project, index) => {
