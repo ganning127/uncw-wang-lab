@@ -65,10 +65,10 @@ export default function Home() {
                 <>
                   <CategoryCard
                     key={index}
-                    title={category.name}
-                    href={"/projects/" + category.name}
-                    avatars={category.avatars}
-                    names={category.names}
+                    title={category.title}
+                    href={"/projects/" + category.title}
+                    avatars={category.avimages}
+                    names={category.avnames}
                   />
                 </>
               );

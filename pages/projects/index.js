@@ -58,7 +58,6 @@ export default function Projects() {
                 <CategoryCard
                   key={index}
                   title={category.title}
-                  desc={category.about}
                   href={"/projects/" + category.title}
                   avatars={category.avimages}
                   names={category.avnames}
