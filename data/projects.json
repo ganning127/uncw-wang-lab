@@ -1,128 +1,50 @@
 [
-  {
-    "title": "Thermostable RNA Liquid Formulation",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
-    "img": "temp_proj1.png",
-    "link": "Read More",
-    "category": "biology",
-    "href": "/pdf.pdf",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "title": "Buffer Effects on Chemical Stability of mRNA-LNPs",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
-    "img": "temp_proj1.png",
-    "link": "Read More",
-    "category": "biology",
-    "href": "/pdf.pdf",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "title": "Rapid Method To Evaluate Colloidal Stability of RNA-LNPs By Ultrafiltration",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
-    "img": "temp_proj1.png",
-    "link": "Read More",
-    "href": "/pdf.pdf",
-    "category": "biology",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "title": "Polyethylene Glycol Increasing Colloidal Stability of RNA-LNPs",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
-    "img": "temp_proj1.png",
-    "link": "Read More",
-    "category": "computer science",
-    "href": "/pdf.pdf",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "title": "Evaluation & Setup of Continuous Quenching Module Using Hydrostatic Pump",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
-    "img": "temp_proj1.png",
-    "link": "Read More",
-    "href": "/pdf.pdf",
-    "category": "computer science",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "title": "Cataract Drug and Penetrability Discovery",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
-    "img": "temp_proj1.png",
-    "link": "Read More",
-    "category": "computer science",
-    "href": "/pdf.pdf",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "title": "Long-term Stability of Concentrated mAb Solutions",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
-    "img": "temp_proj1.png",
-    "link": "Read More",
-    "category": "computer science",
-    "href": "/pdf.pdf",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "title": "Viscosity of concentrated mAb solutions in 24 common buffers",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indust text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
-    "img": "temp_proj1.png",
-    "link": "Read More",
-    "category": "computer science",
-    "href": "/pdf.pdf",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "title": "Prediction of Pathogenic Mutations of Human Alpha Crystallins",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
-    "img": "Protein_Bundle.png",
-    "link": "Read More",
-    "category": "history",
-    "href": "/pdf.pdf",
-    "avatars": [
-      "/berk_yalcinkaya.png",
-      "/jaime_cardenas.png",
-      "/ying_wang.png"
-    ],
-    "names": ["Berk Yalcinkaya", "Jaime Cardenas", "Ying Wang, Ph.D."]
-  },
-  {
-    "title": "Dissolvable RNA-encapsulated Microneedle Patches",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
-    "img": "Microneedle Patch.jpeg",
-    "link": "Read More",
-    "category": "history",
-
-    "href": "/pdf.pdf",
-    "avatars": ["/ying_wang.png"],
-    "names": ["Ying Wang, Ph.D."]
-  },
-  {
-    "title": "Decoupling Colloidal & Chemical Stability of mRNA-LNPs",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it rambled it",
-    "img": "LNP.jpeg",
-    "link": "Read More",
-    "category": "history",
-
-    "href": "/pdf.pdf",
-    "avatars": [
-      "/carson_jackson.png",
-      "/noemi_meza.png",
-      "/kayla_butterworth.png",
-      "/ying_wang.png"
-    ],
-    "names": [
-      "Carson B. Jackson",
-      "Noemi P. Meza",
-      "Kayla Butterworth",
-      "Ying Wang, Ph.D."
-    ]
-  }
-]
+    {
+      "title": "Thermostable RNA Liquid Formulation",
+      "category": "PlaceHolder 1",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"], 
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "title": "mRNA-Lipid Nanoparticles (mRNA-LNPs): Colloidal & Chemical Stability",
+      "category": "PlaceHolder 1",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"],
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "title": "Prediction of Pathogenic Mutations: Human α-Crystallins",
+      "category": "PlaceHolder 1",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"],
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "title": "Cataract Drug and Penetrability Discovery",
+      "category": "PlaceHolder 2",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"],
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "title": "Merck-Sponsored Research: Monoclonal Antibodies (mAB)",
+      "category": "PlaceHolder 2",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"],
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "title": "UMP-Sponsored Research: Dissolvable RNA-Microneedle Patches",
+      "category": "PlaceHolder 2",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"],
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  ]

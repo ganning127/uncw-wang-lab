@@ -9,13 +9,12 @@ import { XSSep } from "../../components/Separators/XSSep";
 import { ProjectCard } from "../../components/Cards/ProjectCard";
 import { Container, Button, Box, SimpleGrid } from "@chakra-ui/react";
 import { Footer } from "../../components/Footer";
-import ProjectData from "../../data/projects.json";
 import Categories from "../../data/categories.json";
 import { CategoryCard } from "../../components/Cards/CategoryCard";
 import { Banner } from "../../components/Headings/Banner";
 import { SqProjectCard } from "../../components/Cards/SqProjectCard";
 export default function Projects() {
-  const reversed = [...ProjectData].reverse();
+  const HomeKeys = Object.keys(Categories);
   return (
     <>
       <Head>
@@ -27,7 +26,32 @@ export default function Projects() {
       <NavBar active="projects" />
       <Banner>Projects</Banner>
 
+      {/*      <Container maxW="container.xl" p={15}>
+        {HomeKeys.map((key, index) => {
+          return (
+            <Box key={index}>
+                <HeadingWithDesc>{key}</HeadingWithDesc>
+                <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
+                {Categories[key].map((category, index) => {
+                  return (
+                    <CategoryCard
+                    key={index}
+                    title={category.name}
+                    href={"/projects/" + category.name}
+                    avatars={category.avatars}
+                    names={category.names}
+                  />
+                  );
+                })}
+                </SimpleGrid>
+                <SmSep />
+            </Box>
+          );
+          })}
+      </Container> */}
+
       <Container maxW="container.xl" p={15}>
+
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
           {Categories.map((category, index) => {
             return (
@@ -37,8 +61,6 @@ export default function Projects() {
                   title={category.name}
                   desc={category.desc}
                   href={"/projects/" + category.name}
-                  img={category.img}
-                  link={category.link}
                   avatars={category.avatars}
                   names={category.names}
                 />
@@ -46,7 +68,14 @@ export default function Projects() {
             );
           })}
         </SimpleGrid>
+
+
+
+
+
+
       </Container>
+      
       <SmSep />
       <Footer />
     </>

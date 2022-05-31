@@ -15,7 +15,7 @@ import News from "../data/news.json";
 import { TimelineCard } from "../components/Cards/TimelineCard";
 import { InstaPosts } from "../components/InstaPosts";
 import { CategoryCard } from "../components/Cards/CategoryCard";
-import HomeCategories from "../data/homeprojects.json";
+import HomeCategories from "../data/projects.json";
 
 export default function Home() {
   const numToDisplay = 3;
@@ -66,10 +66,7 @@ export default function Home() {
                   <CategoryCard
                     key={index}
                     title={category.name}
-                    desc={category.desc}
                     href={"/projects/" + category.name}
-                    img={category.img}
-                    link={category.link}
                     avatars={category.avatars}
                     names={category.names}
                   />
