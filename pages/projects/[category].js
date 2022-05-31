@@ -60,9 +60,9 @@ export default function CategoryId() {
             {item.desc}
           </Text>
         </Box> */}
-      {key.map((key, outerindex) => {
+      {key.map((key, index) => {
         return (
-          <Box key={outerindex}>
+          <Box key={index}>
             <HeadingWithDesc>{key}</HeadingWithDesc>
             <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
             {filtered.map((project, index) => {
