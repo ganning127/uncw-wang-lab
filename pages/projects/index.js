@@ -9,12 +9,11 @@ import { XSSep } from "../../components/Separators/XSSep";
 import { ProjectCard } from "../../components/Cards/ProjectCard";
 import { Container, Button, Box, SimpleGrid } from "@chakra-ui/react";
 import { Footer } from "../../components/Footer";
-import Categories from "../../data/categories.json";
+import Categories from "../../data/projects.json";
 import { CategoryCard } from "../../components/Cards/CategoryCard";
 import { Banner } from "../../components/Headings/Banner";
 import { SqProjectCard } from "../../components/Cards/SqProjectCard";
 export default function Projects() {
-  const HomeKeys = Object.keys(Categories);
   return (
     <>
       <Head>
@@ -58,11 +57,11 @@ export default function Projects() {
               <>
                 <CategoryCard
                   key={index}
-                  title={category.name}
-                  desc={category.desc}
-                  href={"/projects/" + category.name}
-                  avatars={category.avatars}
-                  names={category.names}
+                  title={category.title}
+                  desc={category.about}
+                  href={"/projects/" + category.title}
+                  avatars={category.avimages}
+                  names={category.avnames}
                 />
               </>
             );
