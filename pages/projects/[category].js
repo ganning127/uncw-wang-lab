@@ -70,8 +70,9 @@ export default function CategoryId() {
                   href={project.href}
                   img={"/" + project.img}
                   link={project.link}
-                  avatars={project.avatars}
-                  names={project.names}
+                  avatars={project.avimages}
+                  names={project.avnames}
+                  desc={project.about}
                 />
               );
             })}
