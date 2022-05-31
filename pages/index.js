@@ -15,7 +15,7 @@ import News from "../data/news.json";
 import { TimelineCard } from "../components/Cards/TimelineCard";
 import { InstaPosts } from "../components/InstaPosts";
 import { CategoryCard } from "../components/Cards/CategoryCard";
-import Categories from "../data/categories.json";
+import HomeCategories from "../data/homeprojects.json";
 
 export default function Home() {
   const numToDisplay = 3;
@@ -60,7 +60,7 @@ export default function Home() {
             );
           })} */}
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-            {Categories.map((category, index) => {
+            {HomeCategories.map((category, index) => {
               return (
                 <>
                   <CategoryCard
