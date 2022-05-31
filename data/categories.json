@@ -1,33 +1,37 @@
-[
-  {
-    "name": "Thermostable RNA Liquid Formulation",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "name": "mRNA-Lipid Nanoparticles (mRNA-LNPs): Colloidal & Chemical Stability",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "name": "Prediction of Pathogenic Mutations: Human α-Crystallins",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "name": "Cataract Drug and Penetrability Discovery",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
+{
+  "Title Holder 1": [
+    {
+      "name": "Thermostable RNA Liquid Formulation",
+      "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "names": ["p1", "p2", "p3"]
+    },
+    {
+      "name": "mRNA-Lipid Nanoparticles (mRNA-LNPs): Colloidal & Chemical Stability",
+      "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "names": ["p1", "p2", "p3"]
+    },
+    {
+      "name": "Prediction of Pathogenic Mutations: Human α-Crystallins",
+      "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "names": ["p1", "p2", "p3"]
+    }
+  ],
+  "Title holder 2": [
+    {
+      "name": "Cataract Drug and Penetrability Discovery",
+      "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "names": ["p1", "p2", "p3"]
+    },
 
-  {
-    "name": "Merck-Sponsored Research: Monoclonal Antibodies (mAB)",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  },
-  {
-    "name": "UMP-Sponsored Research: Dissolvable RNA-Microneedle Patches",
-    "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-    "names": ["p1", "p2", "p3"]
-  }
-]
+    {
+      "name": "Merck-Sponsored Research: Monoclonal Antibodies (mAB)",
+      "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "names": ["p1", "p2", "p3"]
+    },
+    {
+      "name": "UMP-Sponsored Research: Dissolvable RNA-Microneedle Patches",
+      "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "names": ["p1", "p2", "p3"]
+    }
+  ]
+}

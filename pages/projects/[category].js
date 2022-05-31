@@ -17,6 +17,7 @@ import { SqProjectCard } from "../../components/Cards/SqProjectCard";
 import { useEffect, useState } from "react";
 export default function CategoryId() {
   const router = useRouter();
+  const key = Object.keys(ProjectData);
   //   const [categoryUse, setCategoryUse] = useState("");
 
   //   useEffect(() => {
@@ -59,23 +60,34 @@ export default function CategoryId() {
             {item.desc}
           </Text>
         </Box> */}
+      {key.map((key, outerindex) => {
+        return (
+          <Box key={outerindex}>
+            <HeadingWithDesc>{key}</HeadingWithDesc>
+            <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
+            {filtered.map((project, index) => {
+              return (
+                <SqProjectCard
+                  key={index}
+                  title={project.title}
+                  href={project.href}
+                  img={"/" + project.img}
+                  link={project.link}
+                  avatars={project.avatars}
+                  names={project.names}
+                />
+              );
+            })}
+          </SimpleGrid>
+          <SmSep />
+          </Box>
+        );
+      })}
 
-        <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-          {filtered.map((project, index) => {
-            return (
-              <SqProjectCard
-                key={index}
-                title={project.title}
-                href={project.href}
-                img={"/" + project.img}
-                link={project.link}
-                avatars={project.avatars}
-                names={project.names}
-              />
-            );
-          })}
-        </SimpleGrid>
+
+
       </Container>
+
       <SmSep />
       <Footer />
     </>
