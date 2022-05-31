@@ -1,5 +1,4 @@
-{
-  "Title Holder 1": [
+[
     {
       "name": "Thermostable RNA Liquid Formulation",
       "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
@@ -14,9 +13,7 @@
       "name": "Prediction of Pathogenic Mutations: Human α-Crystallins",
       "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
       "names": ["p1", "p2", "p3"]
-    }
-  ],
-  "Title holder 2": [
+    },
     {
       "name": "Cataract Drug and Penetrability Discovery",
       "avatars": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
@@ -34,4 +31,3 @@
       "names": ["p1", "p2", "p3"]
     }
   ]
-}
