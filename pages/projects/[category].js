@@ -17,7 +17,7 @@ import { SqProjectCard } from "../../components/Cards/SqProjectCard";
 import { useEffect, useState } from "react";
 export default function CategoryId() {
   const router = useRouter();
-  const key = Object.keys(ProjectData);
+  const keys = Object.keys(ProjectData);
   //   const [categoryUse, setCategoryUse] = useState("");
 
   //   useEffect(() => {
@@ -60,12 +60,12 @@ export default function CategoryId() {
             {item.desc}
           </Text>
         </Box> */}
-      {key.map((key, index) => {
+      {keys.map((key, index) => {
         return (
           <Box key={index}>
             <HeadingWithDesc>{key}</HeadingWithDesc>
             <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-            {filtered.map((project, index) => {
+            {filtered[key].map((project, index) => {
               return (
                 <SqProjectCard
                   key={index}
@@ -83,9 +83,6 @@ export default function CategoryId() {
           </Box>
         );
       })}
-
-
-
       </Container>
 
       <SmSep />
