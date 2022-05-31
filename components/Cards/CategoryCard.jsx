@@ -13,7 +13,7 @@ import {
   Tooltip,
 } from "@chakra-ui/react";
 
-export const CategoryCard = ({ title, desc, href, names, avatars }) => {
+export const CategoryCard = ({ title, href, names, avatars }) => {
   return (
     <Box
       rounded="lg"
@@ -45,9 +45,6 @@ export const CategoryCard = ({ title, desc, href, names, avatars }) => {
         </HStack>
         {/* <Img src={img} maxH="250px" mx="auto" rounded="md" /> */}
 
-        <Text noOfLines={4} display={{ base: "none", md: "-webkit-box" }}>
-          {desc}
-        </Text>
         {/* remove the text on mobile, make sure that line still truncates */}
       </VStack>
     </Box>

@@ -66,7 +66,6 @@ export default function CategoryId() {
               <SqProjectCard
                 key={index}
                 title={project.title}
-                desc={project.desc}
                 href={project.href}
                 img={"/" + project.img}
                 link={project.link}
