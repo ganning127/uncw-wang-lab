@@ -1,9 +1,9 @@
 {
-  "Title Holder 1": [
+  "": [
     {
       "names": "M. J. Scannell, M. W. Hyatt, I. L. Budyak, M. A. Woldeyes, Y. Wang",
       "avnames": ["Ying Wang, Ph.D."],
-      "title":"Revisit PEG-Induced Precipitation Assay for Protein Solubility Assessment of Monoclonal Antibody Formulations CHANGE KEY",
+      "title":"Revisit PEG-Induced Precipitation Assay for Protein Solubility Assessment of Monoclonal Antibody Formulations",
       "publication": "Pharmaceutical Research",
       "resources":"PMID: 34647231 (2021)",
       "publink":"https://pubmed.ncbi.nlm.nih.gov/34647231/",
@@ -37,7 +37,7 @@
       "avatars":["/ying_wang.png"]
       }
   ],
-  "Pre Wang Lab Publications": [
+  "": [
     {
         "names": "G. Sun, Y. Wang, A. Lomakin, G. B. Benedek, H. E. Stanley, L. Xu, S. V. Buldyrev",
         "avnames": ["Ying Wang, Ph.D."],
