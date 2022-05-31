@@ -24,7 +24,7 @@ export default function Alumni() {
       <Banner>Alumni</Banner>
 
       <Container maxW="container.xl" p={15}>
-        <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
+        <SimpleGrid columns={{ base: 2, md: 2, lg: 3 }} spacing={10}>
           {keys.map((alumni, index) => {
             return (
               <>
