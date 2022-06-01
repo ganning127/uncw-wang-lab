@@ -10,7 +10,7 @@ import { XSSep } from "../components/Separators/XSSep";
 import { ProjectCard } from "../components/Cards/ProjectCard";
 import { Container, Button, Box, SimpleGrid } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
-import ProjectData from "../data/projects.json";
+import ProjectData from "../data/homeproj.json";
 import News from "../data/news.json";
 import { TimelineCard } from "../components/Cards/TimelineCard";
 import { InstaPosts } from "../components/InstaPosts";

@@ -14,6 +14,7 @@ import { CategoryCard } from "../../components/Cards/CategoryCard";
 import { Banner } from "../../components/Headings/Banner";
 import { SqProjectCard } from "../../components/Cards/SqProjectCard";
 export default function Projects() {
+  const HomeKeys = Object.keys(Categories);
   return (
     <>
       <Head>
@@ -25,7 +26,7 @@ export default function Projects() {
       <NavBar active="projects" />
       <Banner>Projects</Banner>
 
-      {/*      <Container maxW="container.xl" p={15}>
+      <Container maxW="container.xl" p={15}>
         {HomeKeys.map((key, index) => {
           return (
             <Box key={index}>
@@ -43,32 +44,12 @@ export default function Projects() {
                   );
                 })}
                 </SimpleGrid>
-                <SmSep />
+              <SmSep />
             </Box>
           );
           })}
-      </Container> */}
+      </Container> 
 
-      <Container maxW="container.xl" p={15}>
-
-        <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-          {Categories.map((category, index) => {
-            return (
-              <>
-                <CategoryCard
-                  key={index}
-                  title={category.title}
-                  href={"/projects/" + category.title}
-                  avatars={category.avimages}
-                  names={category.avnames}
-                />
-              </>
-            );
-          })}
-        </SimpleGrid>
-
-      </Container>
-      
       <SmSep />
       <Footer />
     </>

@@ -1,0 +1,50 @@
+[
+    {
+      "title": "Thermostable RNA Liquid Formulation",
+      "category": "PlaceHolder 1",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"], 
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "title": "mRNA-Lipid Nanoparticles (mRNA-LNPs): Colloidal & Chemical Stability",
+      "category": "PlaceHolder 1",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"],
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "title": "Prediction of Pathogenic Mutations: Human α-Crystallins",
+      "category": "PlaceHolder 1",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"],
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "title": "Cataract Drug and Penetrability Discovery",
+      "category": "PlaceHolder 2",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"],
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "title": "Merck-Sponsored Research: Monoclonal Antibodies (mAB)",
+      "category": "PlaceHolder 2",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"],
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "title": "UMP-Sponsored Research: Dissolvable RNA-Microneedle Patches",
+      "category": "PlaceHolder 2",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"],
+      "image": "/johndoe.png",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  ]

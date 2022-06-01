@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Thermostable RNA Liquid Formulation",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"]
+    },
+    {
+      "title": "mRNA-Lipid Nanoparticles (mRNA-LNPs): Colloidal & Chemical Stability",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"]
+    },
+    {
+      "title": "Prediction of Pathogenic Mutations: Human α-Crystallins",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"]
+    },
+    {
+      "title": "Cataract Drug and Penetrability Discovery",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"]
+    },
+    {
+      "title": "Merck-Sponsored Research: Monoclonal Antibodies (mAB)",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"]
+    },
+    {
+      "title": "UMP-Sponsored Research: Dissolvable RNA-Microneedle Patches",
+      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
+      "avnames": ["p1", "p2", "p3"]
+    }
+  ]
