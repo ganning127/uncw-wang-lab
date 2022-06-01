@@ -62,7 +62,7 @@ export default function CategoryId() {
         </Box> */}
 
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-            {ProjectData.map((project, index) => {
+            {filtered.map((project, index) => {
               return (
                 <SqProjectCard
                   key={index}
