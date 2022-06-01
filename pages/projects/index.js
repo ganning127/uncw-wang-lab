@@ -67,11 +67,6 @@ export default function Projects() {
           })}
         </SimpleGrid>
 
-
-
-
-
-
       </Container>
       
       <SmSep />
