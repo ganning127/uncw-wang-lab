@@ -15,7 +15,7 @@ import News from "../data/news.json";
 import { TimelineCard } from "../components/Cards/TimelineCard";
 import { InstaPosts } from "../components/InstaPosts";
 import { CategoryCard } from "../components/Cards/CategoryCard";
-import HomeCategories from "../data/projects.json";
+import HomeCategories from "../data/homeproj.json";
 
 export default function Home() {
   const numToDisplay = 3;
