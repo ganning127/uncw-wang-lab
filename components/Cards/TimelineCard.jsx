@@ -16,10 +16,10 @@ export const TimelineCard = ({ title, date, desc, avatars, names, href }) => {
     <Box
       bg="white"
       p={15}
-      rounded="md"
+      rounded="lg"
       shadow="md"
       textAlign="center"
-      max="auto"
+      // maxW="750px"
     >
       <Heading fontSize="2xl" fontWeight="bold">
         {title}
