@@ -61,6 +61,8 @@ export default function CategoryId() {
           </Text>
         </Box> */}
 
+        <Text>test code 1</Text>
+
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
             {filtered.map((project, index) => {
               return (
@@ -78,6 +80,8 @@ export default function CategoryId() {
             })}
           </SimpleGrid>
           <SmSep />
+
+          <Text>test code 2</Text>
 
       </Container>
 
