@@ -10,7 +10,7 @@ import { ProjectCard } from "../../components/Cards/ProjectCard";
 import { Container, Button, Text, Box, SimpleGrid } from "@chakra-ui/react";
 import { Footer } from "../../components/Footer";
 import ProjectData from "../../data/projects.json";
-import Categories from "../../data/categories.json";
+import Categories from "../../data/projects.json";
 import { CategoryCard } from "../../components/Cards/CategoryCard";
 import { Banner } from "../../components/Headings/Banner";
 import { SqProjectCard } from "../../components/Cards/SqProjectCard";
