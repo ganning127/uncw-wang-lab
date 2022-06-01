@@ -5,16 +5,6 @@
     "avnames": ["Jade Fluharty", "Tara Penman", "Berk Yalcinkaya", "Jon Futch", "Ying Wang, Ph.D."]
     },
     {
-    "title": "Chaperone Activities of Eye Lens α-Crystallins",
-    "avimages": ["/jade_fluharty.png", "/noah_nunez.png", "/ying_wang.png"],
-    "avnames": ["Jade Fluharty", "Noah Nunez", "Ying Wang, Ph.D."]
-    },
-    {
-    "title": "Pharmaceutical Intervention of Cataracts",
-    "avimages": ["/noemi_meza.png", "/carson_jackson.png", "/ying_wang.png"],
-    "avnames": ["Noemi Meza", "Carson Jackson", "Ying Wang, Ph.D."]
-    }, 
-    {
     "title": "Formation and Functions of Ribonucleoprotein (RNP) Granules",
     "avimages": ["/harrison_wooten.png", "/ying_wang.png"],
     "avnames": ["Harrison Wooten", "Ying Wang, Ph.D."]
@@ -23,20 +13,5 @@
     "title": "mRNA Lipid Nanoparticle (mRNA-LNP) Formulations",
     "avimages": ["/carson_jackson.png", "/noemi_meza.png", "/kayla_butterworth.png", "/ying_wang.png"],
     "avnames": ["Carson Jackson", "Noemi Meza", "Kayla Butterworth", "Ying Wang, Ph.D."]
-    },
-    {
-    "title": "Concentrated Monoclonal Antibodies (mAbs) Formulations",
-    "avimages": ["/carson_jackson.png", "/jaime_cardenas.png", "/jade_fluharty.png", "/noemi_meza.png", "/ying_wang.png"],
-    "avnames": ["Carson Jackson", "Jaime Cardenas", "Jade Fluharty", "Noemi Meza", "Ying Wang, Ph.D."]
-    },
-    {
-    "title": "Dissolvable Microneedle Array Patches for Intradermal Delivery of Vaccines",
-    "avimages": ["/carson_jackson.png", "/jaime_cardenas.png", "/ying_wang.png"],
-    "avnames": ["Carson Jackson", "Jaime Cardenas", "Ying Wang, Ph.D."]
-    },
-    {
-    "title": "Structure-Based Design of Pan-Influenza Vaccines",
-    "avimages": ["/jaime_cardenas.png", "/berk_yalcinkaya.png", "/ying_wang.png"],
-    "avnames": ["Jaime Cardenas", "Berk Yalcinkaya", "Ying Wang, Ph.D."]
     }
 ]
