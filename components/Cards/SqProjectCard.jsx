@@ -47,7 +47,7 @@ export const SqProjectCard = ({
             avatars.map((avatar, i) => {
               return (
                 <Tooltip label={names[i]} key={i} placement="auto-end">
-                  <Avatar name={names[i]} src={avatar} size="sm" />
+                  <Avatar name={names[i]} src={avatar} size="sm" icon={<Img src="/temp_team_avatar.png" rounded="full" />} />
                 </Tooltip>
               );
             })}
