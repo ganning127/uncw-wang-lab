@@ -10,7 +10,7 @@
   ],
   "Graduate Researchers": [
     {
-      "name": "Harrison R. Wooten",
+      "name": "Harrison Wooten",
       "tite": "Graduate Researchers",
       "email": "hrw9355@uncw.edu",
       "resume": "/TODO",
@@ -20,7 +20,7 @@
   ],
   "Undergraduate Researchers": [
     {
-      "name": "Carson B. Jackson",
+      "name": "Carson Jackson",
       "tite": "Undergraduate Researchers",
       "email": "cj8679@uncw.edu",
       "resume": "/TODO",
@@ -28,7 +28,7 @@
       "image": "/carson_jackson.png"
     },
     {
-      "name": "Jade M. Fluharty",
+      "name": "Jade Fluharty",
       "tite": "Undergraduate Researchers",
       "email": "jmf9093@uncw.edu",
       "resume": "/TODO",
@@ -52,7 +52,7 @@
       "image": "/kayla_butterworth.png"
     },
     {
-      "name": "Noemi P. Meza",
+      "name": "Noemi Meza",
       "tite": "Undergraduate Researchers",
       "email": "npm8179@uncw.edu",
       "resume": "/TODO",
@@ -62,7 +62,7 @@
   ],
   "External Researchers": [
     {
-      "name": "Noah M. Nunez",
+      "name": "Noah Nunez",
       "tite": "External Researchers",
       "about": "Protective role of human α-crystallines against age-related and hereditary cataracts",
       "image": "/noah_nunez.jpg"

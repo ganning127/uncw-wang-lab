@@ -1,32 +1,42 @@
 [
-    {
-      "title": "Thermostable RNA Liquid Formulation",
-      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-      "avnames": ["p1", "p2", "p3"]
+  {
+    "title": "Prediction of Pathogenic Mutations in Eye Lens Proteins",
+    "avimages": ["/jade_fluharty.png", "/tara_penman.png", "/berk_yalcinkaya.png" ,"", "/ying_wang.png"],
+    "avnames": ["Jade Fluharty", "Tara Penman", "Berk Yalcinkaya", "Jon Futch", "Ying Wang, Ph.D."]
     },
     {
-      "title": "mRNA-Lipid Nanoparticles (mRNA-LNPs): Colloidal & Chemical Stability",
-      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg", "/p2.jpeg", "/p3.jpeg"],
-      "avnames": ["p1", "p2", "p3"]
+    "title": "Chaperone Activities of Eye Lens α-Crystallins",
+    "avimages": ["/jade_fluharty.png", "/noah_nunez.png", "/ying_wang.png"],
+    "avnames": ["Jade Fluharty", "Noah Nunez", "Ying Wang, Ph.D."]
     },
     {
-      "title": "Prediction of Pathogenic Mutations: Human α-Crystallins",
-      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-      "avnames": ["p1", "p2", "p3"]
+    "title": "Pharmaceutical Intervention of Cataracts",
+    "avimages": ["/noemi_meza.png", "/carson_jackson.png", "/ying_wang.png"],
+    "avnames": ["Noemi Meza", "Carson Jackson", "Ying Wang, Ph.D."]
+    }, 
+    {
+    "title": "Formation and Functions of Ribonucleoprotein (RNP) Granules",
+    "avimages": ["/harrison_wooten.png", "/ying_wang.png"],
+    "avnames": ["Harrison Wooten", "Ying Wang, Ph.D."]
     },
     {
-      "title": "Cataract Drug and Penetrability Discovery",
-      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-      "avnames": ["p1", "p2", "p3"]
+    "title": "mRNA Lipid Nanoparticle (mRNA-LNP) Formulations",
+    "avimages": ["/carson_jackson.png", "/noemi_meza.png", "/kayla_butterworth.png", "/ying_wang.png"],
+    "avnames": ["Carson Jackson", "Noemi Meza", "Kayla Butterworth", "Ying Wang, Ph.D."]
     },
     {
-      "title": "Merck-Sponsored Research: Monoclonal Antibodies (mAB)",
-      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-      "avnames": ["p1", "p2", "p3"]
+    "title": "Concentrated Monoclonal Antibodies (mAbs) Formulations",
+    "avimages": ["/carson_jackson.png", "/jaime_cardenas.png", "/jade_fluharty.png", "/noemi_meza.png", "/ying_wang.png"],
+    "avnames": ["Carson Jackson", "Jaime Cardenas", "Jade Fluharty", "Noemi Meza", "Ying Wang, Ph.D."]
     },
     {
-      "title": "UMP-Sponsored Research: Dissolvable RNA-Microneedle Patches",
-      "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
-      "avnames": ["p1", "p2", "p3"]
+    "title": "Dissolvable Microneedle Array Patches for Intradermal Delivery of Vaccines",
+    "avimages": ["/carson_jackson.png", "/jaime_cardenas.png", "/ying_wang.png"],
+    "avnames": ["Carson Jackson", "Jaime Cardenas", "Ying Wang, Ph.D."]
+    },
+    {
+    "title": "Structure-Based Design of Pan-Influenza Vaccines",
+    "avimages": ["/jaime_cardenas.png", "/berk_yalcinkaya.png", "/ying_wang.png"],
+    "avnames": ["Jaime Cardenas", "Berk Yalcinkaya", "Ying Wang, Ph.D."]
     }
-  ]
+]
