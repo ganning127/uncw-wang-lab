@@ -9,7 +9,7 @@
     },
     {
       "title": "mRNA-Lipid Nanoparticles (mRNA-LNPs): Colloidal & Chemical Stability",
-      "category": "",
+      "category": "PlaceHolder 1",
       "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg", "/p2.jpeg", "/p3.jpeg"],
       "avnames": ["p1", "p2", "p3"],
       "image": "/johndoe.png",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Prediction of Pathogenic Mutations: Human α-Crystallins",
-      "category": "",
+      "category": "PlaceHolder 1",
       "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
       "avnames": ["p1", "p2", "p3"],
       "image": "/johndoe.png",
@@ -33,7 +33,7 @@
     },
     {
       "title": "Merck-Sponsored Research: Monoclonal Antibodies (mAB)",
-      "category": "",
+      "category": "PlaceHolder 2",
       "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
       "avnames": ["p1", "p2", "p3"],
       "image": "/johndoe.png",
@@ -41,7 +41,7 @@
     },
     {
       "title": "UMP-Sponsored Research: Dissolvable RNA-Microneedle Patches",
-      "category": "",
+      "category": "PlaceHolder 2",
       "avimages": ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
       "avnames": ["p1", "p2", "p3"],
       "image": "/johndoe.png",

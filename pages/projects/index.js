@@ -55,7 +55,6 @@ export default function Projects() {
           {Categories.map((category, index) => {
             return (
               <>
-              <HeadingWithDesc>{category.category}</HeadingWithDesc>
                 <CategoryCard
                   key={index}
                   title={category.title}
