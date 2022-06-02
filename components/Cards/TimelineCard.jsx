@@ -19,7 +19,8 @@ export const TimelineCard = ({ title, date, desc, avatars, names, href }) => {
       rounded="lg"
       shadow="md"
       textAlign="center"
-      // maxW="750px"
+      maxW="750px"
+      mx="auto"
     >
       <Heading fontSize="2xl" fontWeight="bold">
         {title}

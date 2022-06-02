@@ -1,48 +1,98 @@
-{    
-    "Macromolecular Condensation": [
-        {
-        "title": "Prediction of Pathogenic Mutations in Eye Lens Proteins",
-        "avimages": ["/jade_fluharty.png", "/tara_penman.png", "/berk_yalcinkaya.png" ,"", "/ying_wang.png"],
-        "avnames": ["Jade Fluharty", "Tara Penman", "Berk Yalcinkaya", "Jon Futch", "Ying Wang, Ph.D."]
-        },
-        {
-        "title": "Chaperone Activities of Eye Lens α-Crystallins",
-        "avimages": ["/jade_fluharty.png", "/noah_nunez.png", "/ying_wang.png"],
-        "avnames": ["Jade Fluharty", "Noah Nunez", "Ying Wang, Ph.D."]
-        },
-        {
-        "title": "Pharmaceutical Intervention of Cataracts",
-        "avimages": ["/noemi_meza.png", "/carson_jackson.png", "/ying_wang.png"],
-        "avnames": ["Noemi Meza", "Carson Jackson", "Ying Wang, Ph.D."]
-        }, 
-        {
-        "title": "Formation and Functions of Ribonucleoprotein (RNP) Granules",
-        "avimages": ["/harrison_wooten.png", "/ying_wang.png"],
-        "avnames": ["Harrison Wooten", "Ying Wang, Ph.D."]
-        }
-    ],
-    "Biopharmaceutical Formulation": [
-        {
-        "title": "mRNA Lipid Nanoparticle (mRNA-LNP) Formulations",
-        "avimages": ["/carson_jackson.png", "/noemi_meza.png", "/kayla_butterworth.png", "/ying_wang.png"],
-        "avnames": ["Carson Jackson", "Noemi Meza", "Kayla Butterworth", "Ying Wang, Ph.D."]
-        },
-        {
-        "title": "Concentrated Monoclonal Antibodies (mAbs) Formulations",
-        "avimages": ["/carson_jackson.png", "/jaime_cardenas.png", "/jade_fluharty.png", "/noemi_meza.png", "/ying_wang.png"],
-        "avnames": ["Carson Jackson", "Jaime Cardenas", "Jade Fluharty", "Noemi Meza", "Ying Wang, Ph.D."]
-        },
-        {
-        "title": "Dissolvable Microneedle Array Patches for Intradermal Delivery of Vaccines",
-        "avimages": ["/carson_jackson.png", "/jaime_cardenas.png", "/ying_wang.png"],
-        "avnames": ["Carson Jackson", "Jaime Cardenas", "Ying Wang, Ph.D."]
-        }
-    ], 
-    "Protein Engineering": [
-        {
-        "title": "Structure-Based Design of Pan-Influenza Vaccines",
-        "avimages": ["/jaime_cardenas.png", "/berk_yalcinkaya.png", "/ying_wang.png"],
-        "avnames": ["Jaime Cardenas", "Berk Yalcinkaya", "Ying Wang, Ph.D."]
-        }
-    ]
+{
+  "Macromolecular Condensation": [
+    {
+      "title": "Prediction of Pathogenic Mutations in Eye Lens Proteins",
+      "avimages": [
+        "/jade_fluharty.png",
+        "/tara_penman.png",
+        "/berk_yalcinkaya.png",
+        "",
+        "/ying_wang.png"
+      ],
+      "avnames": [
+        "Jade Fluharty",
+        "Tara Penman",
+        "Berk Yalcinkaya",
+        "Jon Futch",
+        "Ying Wang, Ph.D."
+      ],
+      "about": "Genetic mutations of human eye lens crystallin proteins are associated with inherited diseases such as hereditary cataracts, myofibrillar myopathy, and cardiomyopathy. While mutations of these proteins can be readily detected by DNA sequencing for individual patient, it is often unknown whether a specific mutation will cause disease. The ability to predict pathogenicity of crystallin mutations will facilitate early diagnosis of these diseases and inform timely medical treatment. The goal of this project is to develop machine learning models for assessing the risk factors of alpha crystallin mutations based on the proteins’ biophysical properties."
+    },
+    {
+      "title": "Chaperone Activities of Eye Lens α-Crystallins",
+      "avimages": ["/jade_fluharty.png", "/noah_nunez.png", "/ying_wang.png"],
+      "avnames": ["Jade Fluharty", "Noah Nunez", "Ying Wang, Ph.D."],
+      "about": "Eye lens α-Crystallins play important roles in maintaining the transparency of eye lenses. During aging, eye lens proteins accumulate physical and chemical damages which eventually lead to formation of protein aggregates known as cataract. As a natural protective mechanism, α-Crystallins capture and solubilize the damaged proteins and thereby slow down cataract formation. On the other hand, much less is known about the effects of α-Crystallins on pediatric cataracts caused by hereditary mutations of eye lens proteins. We are conducting in vitro study on the role of α-Crystallins in regulating protein aggregation associated with the hereditary cataracts."
+    },
+    {
+      "title": "Pharmaceutical Intervention of Cataracts",
+      "avimages": ["/noemi_meza.png", "/carson_jackson.png", "/ying_wang.png"],
+      "avnames": ["Noemi Meza", "Carson Jackson", "Ying Wang, Ph.D."],
+      "about": "Cataracts are a leading cause of blindness in the U.S. and globally. This disease is caused by condensation of the eye lens proteins with age-related degradations or genetic mutations. Despite extensive research over four decades, there is still no effective drugs for cataract treatment. Two major obstacles for cataract drug development. First, intra-ocular drug delivery into eye lens is usually inefficient due to the multiple physical barriers in the anterior chamber of eyes.  Second, there lacks an animal model suitable for high-throughput screening of cataract drugs. To facilitate drug discovery for cataract, we are conducting research to (1) improve intra-ocular drug delivery efficiency and (2) create zebrafish mutants using the CRISPR-technique as animal model for various types of cataracts."
+    },
+    {
+      "title": "Formation and Functions of Ribonucleoprotein (RNP) Granules",
+      "avimages": ["/harrison_wooten.png", "/ying_wang.png"],
+      "avnames": ["Harrison Wooten", "Ying Wang, Ph.D."],
+      "about": "The cellular space is a crowdy and busy place packed with biological macromolecules such nucleic acids and proteins. In many gene regulation pathways, proteins bind to DNAs or RNAs to form complexes called ribonucleoprotein (RNPs). To meet the dynamic needs of gene expression in the complicated cellular environments, the spatiotemporal distribution and compositions of RNPs can be regulated in cellular compartments bound by lipid membranes. Intriguingly, RNP distribution in the cells are also controlled by formation and dissipation of various RNP-rich cell organelles without membranes. These membrane-less cell organelles known as RNP granules were found in both nucleoli and cytoplasms. It is widely believed that RNP granules are formed through a physical phenomenon called liquid-liquid phase separation (LLPS). However, the inter-molecular interactions underlying LLPS of RNPs and the functions of the RNP granules are still under debate. Study of RNP granules in cells is complicated by their complex and dynamic composition as well as the technical difficulty to extract the granules. In our study, we take a bottom-up approach to study the formation and functions of RNP granules by reconstituting the condensates with additive compositions of RNAs and proteins in the test tubes."
+    }
+  ],
+  "Biopharmaceutical Formulation": [
+    {
+      "title": "mRNA Lipid Nanoparticle (mRNA-LNP) Formulations",
+      "avimages": [
+        "/carson_jackson.png",
+        "/noemi_meza.png",
+        "/kayla_butterworth.png",
+        "/ying_wang.png"
+      ],
+      "avnames": [
+        "Carson Jackson",
+        "Noemi Meza",
+        "Kayla Butterworth",
+        "Ying Wang, Ph.D."
+      ],
+      "about": "The success of the COVID-19 messenger ribonucleic acid (mRNA) vaccines showed the advantages of this pharmaceutical modality including rapid development, high efficacy, high safety, and ease of manufacturing (as compared to cell culture production). However, deployment of the COVID-19 mRNA vaccines has been met with major logistic challenges due to the intrinsic instability of mRNA. mRNAs undergo fast degradation in aqueous solutions and require freezing or lyophilization (freeze-drying) for transportation and storage. The requirement of ultra-cold chain or lyophilization facilities not only limit the speed of deployment and accessibility of mRNA pharmaceuticals, but also increase the costs and wastage during the distribution process. In addition, lipid nano particles (LNPs) as an integrated part of mRNA pharmaceuticals are also susceptible to degradation and aggregation. To address this problem, we are developing thermostable formulations of mRNA and mRNA-LNPs for transportation and storage at refrigerated or ambient temperatures."
+    },
+    {
+      "title": "Concentrated Monoclonal Antibodies (mAbs) Formulations",
+      "avimages": [
+        "/carson_jackson.png",
+        "/jaime_cardenas.png",
+        "/jade_fluharty.png",
+        "/noemi_meza.png",
+        "/ying_wang.png"
+      ],
+      "avnames": [
+        "Carson Jackson",
+        "Jaime Cardenas",
+        "Jade Fluharty",
+        "Noemi Meza",
+        "Ying Wang, Ph.D."
+      ],
+      "about": "Monoclonal antibody (mAb) is the top-selling class of therapeutics with the global market of $163 billion in 2019. mAb therapeutics are often injected subcutaneously at a high dosage requiring concentrated formulations with >100 mg/mL protein. Development of concentrated mAb formulations has unique challenges associated with low colloidal stability, high viscosity, and limitation in concentrationability. In collaboration with Merck, Eli Lily, and Medimmune, we have established and validated a method based on PEG-induced LLPS to evaluate the inter-protein interactions responsible for the problems frequently encountered in the concentrated mAb formulations. Using this method, we are able to perform fast buffer and excipient screening for developing concentrated mAb formulations with sub-mg amounts of proteins."
+    },
+    {
+      "title": "Dissolvable Microneedle Array Patches for Intradermal Delivery of Vaccines",
+      "avimages": [
+        "/carson_jackson.png",
+        "/jaime_cardenas.png",
+        "/ying_wang.png"
+      ],
+      "avnames": ["Carson Jackson", "Jaime Cardenas", "Ying Wang, Ph.D."],
+      "about": "In the wake of the COVID19 pandemic, the preparedness for pandemic zoonotic diseases comes under the public spotlight. Vaccines are the most powerful weapon of mankind in the war with the infectious diseases. Thanks to the relentless research on vaccine development, many modalities (e.g., inactivated or attenuated viruses, subunit proteins, virus-like-particles, and mRNAs) of effective vaccines are at our disposal to fight against the pathogens. However, many factors such as vaccine bottle manufacturing, cold chain transportation and storage space could greatly limit the distribution capacity of the current liquid formulation of vaccine. To fulfill the preparedness for the next pandemic, there is a need for a new vaccine delivery vehicle that is easy to pack, stored and distributed, has thermostability and shelf-life, and potentially introduces antigen-sparing effect. Intradermal (ID) delivery of vaccines using dissolvable microneedle arrays (dMNAs) has several advantages over traditional IM/SC injection: 1) dMNA delivery targets the dermis layer well-equipped with dendritic cells for lymphatic migration, and has demonstrated dose-sparing effects; 2) dMNAs offer bloodless and painless administration suited to vaccination of large populations without healthcare professionals; and 3) solid MNA vaccine formulations have higher thermostability than traditional liquid formulations. In collaboration with our industry partner, University Medical Pharmaceuticals (UMP), we are developing formulations suitable for manufacturing dMNA vaccine patches using scalable and no-wastage injection molding techniques."
+    }
+  ],
+  "Protein Engineering": [
+    {
+      "title": "Structure-Based Design of Pan-Influenza Vaccines",
+      "avimages": [
+        "/jaime_cardenas.png",
+        "/berk_yalcinkaya.png",
+        "/ying_wang.png"
+      ],
+      "avnames": ["Jaime Cardenas", "Berk Yalcinkaya", "Ying Wang, Ph.D."],
+      "about": "Seasonal flu caused by influenza A viruses resulted in up to 710,000 hospitalizations and 52,000 deaths annually in the US in last decade. In the past 100 years, there have been four severe pandemics caused by influenza A viruses with the total deaths estimated to be 22-59 million worldwide. Due to high mutation rate and frequent reassortment of influenza viruses, successful flu vaccination relies on forecast of the seasonal or pre-pandemic circulating strains and rapid development of the predicted vaccines. Relentless research endeavors have been devoted to designing influenza vaccines with cross-clade protection, e.g., the COBRA influenza vaccines by Dr. Ted Ross at the University of Georgia. In this project, we contribute to the search of pan-influenza vaccine using a strategy based on analyzing hundreds of antigen protein structures for various virus strains."
+    }
+  ]
 }

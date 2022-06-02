@@ -23,7 +23,12 @@ export default function News() {
       <NavBar active="news" />
       <Banner>News</Banner>
 
-      <Container maxW="container.xl" p={15}>
+      <Container
+        maxW="container.xl"
+        p={15}
+        justifyContent="center"
+        textAlign="center"
+      >
         <NewsLine />
       </Container>
 

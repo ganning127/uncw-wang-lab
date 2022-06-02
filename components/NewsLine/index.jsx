@@ -10,6 +10,7 @@ import { TimelineCard } from "../Cards/TimelineCard";
 
 import News from "../../data/news.json";
 import { SmSep } from "../Separators/SmSep";
+import { Box } from "@chakra-ui/react";
 export const NewsLine = () => {
   const customTheme = {
     yearColor: "#263864",
@@ -25,7 +26,7 @@ export const NewsLine = () => {
   NewsLine = [...NewsLine].reverse();
 
   return (
-    <>
+    <Box mx="auto" maxW="800px">
       <Timeline theme={customTheme} dateFormat="short" lang="en">
         {NewsLine.map((item, index) => {
           return (
@@ -48,7 +49,7 @@ export const NewsLine = () => {
           );
         })}
       </Timeline>
-    </>
+    </Box>
 
     // <Container>
     //   <YearContent startDate="2020/07/01" currentYear />

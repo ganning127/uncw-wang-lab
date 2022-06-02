@@ -7,7 +7,16 @@ import { SmSep } from "../../components/Separators/SmSep";
 import { MedSep } from "../../components/Separators/MedSep";
 import { XSSep } from "../../components/Separators/XSSep";
 import { ProjectCard } from "../../components/Cards/ProjectCard";
-import { Container, Button, Text, Box, SimpleGrid } from "@chakra-ui/react";
+import {
+  Container,
+  Button,
+  Text,
+  Img,
+  Box,
+  HStack,
+  Tooltip,
+  Avatar,
+} from "@chakra-ui/react";
 import { Footer } from "../../components/Footer";
 import ProjectData from "../../data/indvproj.json";
 import Categories from "../../data/indvproj.json";
@@ -15,70 +24,67 @@ import { CategoryCard } from "../../components/Cards/CategoryCard";
 import { Banner } from "../../components/Headings/Banner";
 import { SqProjectCard } from "../../components/Cards/SqProjectCard";
 import { useEffect, useState } from "react";
+import Projects from "../../data/projects.json";
 export default function CategoryId() {
+  const [desc, setDesc] = useState("");
+  const [avatars, setAvatars] = useState([]);
+  const [names, setNames] = useState([]);
+
   const router = useRouter();
 
-  //   const [categoryUse, setCategoryUse] = useState("");
+  const { title } = router.query;
+  const projKeys = Object.keys(Projects);
+  const lstOfProj = [];
 
-  //   useEffect(() => {
-  //     if (router.isReady) {
-  //       // Code using query
-  //       setCategoryUse(router.query);
-  //     }
-  //   }, [router.isReady]);
+  useEffect(() => {
+    projKeys.forEach((item) => {
+      let lst = Projects[item];
 
-  let { category } = router.query;
+      lstOfProj.push(...lst);
+    });
 
-  const reversed = [...ProjectData].reverse();
+    var ele = lstOfProj.filter((e) => e.title == title);
 
-  const filtered = reversed.filter(function (el) {
-    return el.category === category;
+    if (typeof window !== "undefined" && ele[0]) {
+      setDesc(ele[0].about);
+      setAvatars(ele[0].avimages);
+      setNames(ele[0].avnames);
+    }
   });
-
-  const dummy = [...Categories];
-  const categoryObj = Categories.filter(function (e) {
-    return e.name === category;
-  });
-
-  let item = categoryObj[0];
 
   return (
     <>
       <Head>
-        <title>{category + " "} - The Wang Lab</title>
+        <title>{title + " "} - The Wang Lab</title>
         <meta name="description" content="Here are our projects!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <NavBar active="projects" />
-      <Banner>{category}</Banner>
+      <Banner>{title}</Banner>
 
-      <Container maxW="container.xl" p={15}>
-        {/* <Box bg="white" px={4} py={8} rounded="md" mb={4} shadow="md">
-          {" "}
-          <Text fontSize="md" textAlign="center">
-            {item.desc}
-          </Text>
-        </Box> */}
-
-          <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-            {filtered.map((project, index) => {
+      <Container maxW="container.sm" p={15} textAlign="center">
+        <Text fontWeight="normal" color="gray.800" fontSize="3xl">
+          Team Authors:
+        </Text>
+        <HStack justifyContent="center" my={3} spacing={6}>
+          {avatars &&
+            avatars.map((avatar, i) => {
               return (
-                <SqProjectCard
-                  key={index}
-                  title={project.title}
-                  // href={project.href}
-                  img={project.image}
-                  // link={project.link}
-                  avatars={project.avimages}
-                  names={project.avnames}
-                  desc={project.about}
-                />
+                <Tooltip label={names[i]} key={i} placement="auto-end">
+                  <Avatar
+                    name={avatar ? isFileImage(avatar) : ""}
+                    src={avatar}
+                    size="md"
+                    icon={<Img src="/temp_team_avatar.png" rounded="full" />}
+                  />
+                </Tooltip>
               );
             })}
-          </SimpleGrid>
-          <SmSep />
-
+        </HStack>
+        <Text fontWeight="normal" color="gray.800" fontSize="lg">
+          {desc}
+        </Text>
       </Container>
 
       <Footer />
@@ -126,4 +132,12 @@ function titleCase(str) {
 
   // Step 4. Return the output
   return str.join(" "); // ["I'm", "A", "Little", "Tea", "Pot"].join(' ') => "I'm A Little Tea Pot"
+}
+
+function isFileImage(file) {
+  try {
+    return file && file["type"].split("/")[0] === "image";
+  } catch (e) {
+    return false;
+  }
 }

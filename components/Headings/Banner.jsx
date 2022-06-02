@@ -10,7 +10,11 @@ export const Banner = ({ textDesc, children }) => {
       backgroundRepeat="repeat"
     >
       <Box textAlign="center">
-        <Heading color="white" fontWeight={700} size="3xl">
+        <Heading
+          color="white"
+          fontWeight={700}
+          fontSize={{ base: "xl", lg: "6xl" }}
+        >
           {children}
         </Heading>
       </Box>

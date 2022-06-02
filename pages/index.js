@@ -10,20 +10,54 @@ import { XSSep } from "../components/Separators/XSSep";
 import { ProjectCard } from "../components/Cards/ProjectCard";
 import { Container, Button, Box, SimpleGrid } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
-import ProjectData from "../data/homeproj.json";
+import ProjectNames from "../data/homeproj.json";
+import Projects from "../data/projects.json";
 import News from "../data/news.json";
 import { TimelineCard } from "../components/Cards/TimelineCard";
 import { InstaPosts } from "../components/InstaPosts";
 import { CategoryCard } from "../components/Cards/CategoryCard";
 import HomeCategories from "../data/homeproj.json";
-
+import { useEffect, useState } from "react";
 export default function Home() {
+  // set the news displayed for the "featured news" section on the homepage
   const numToDisplay = 3;
+  let NewsLine = News.sort(
+    (a, b) => Date.parse(new Date(a.date)) - Date.parse(new Date(b.date))
+  );
+  NewsLine = [...NewsLine].reverse();
+  let displayedNews = NewsLine.slice(0, numToDisplay);
 
-  let displayedProjects = [...ProjectData].reverse();
+  // deal with setting up projects
+  const [dProjs, setDProjs] = useState([]);
+  const projKeys = Object.keys(Projects);
+  const lstOfProj = [];
+  const useProjects = [];
+
+  useEffect(() => {
+    projKeys.forEach((item) => {
+      let lst = Projects[item];
+
+      lstOfProj.push(...lst);
+    });
+
+    // lstOfProj contains all the projects that we have
+
+    ProjectNames.forEach((title, index) => {
+      var ele = lstOfProj.filter((e) => e.title == title);
+      useProjects.push(ele[0]);
+    });
+
+    setDProjs(useProjects);
+
+    // if (typeof window !== "undefined" && ele[0]) {
+    //   setDesc(ele[0].about);
+    //   setAvatars(ele[0].avimages);
+    //   setNames(ele[0].avnames);
+    // }
+  });
+
+  let displayedProjects = [...ProjectNames].reverse();
   displayedProjects = displayedProjects.slice(0, numToDisplay);
-
-  let displayedNews = News.slice(0, numToDisplay);
 
   return (
     <>
@@ -60,7 +94,7 @@ export default function Home() {
             );
           })} */}
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-            {HomeCategories.map((category, index) => {
+            {dProjs.map((category, index) => {
               return (
                 <>
                   <CategoryCard

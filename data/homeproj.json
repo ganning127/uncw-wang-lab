@@ -1,17 +1,5 @@
 [
-  {
-    "title": "Prediction of Pathogenic Mutations in Eye Lens Proteins",
-    "avimages": ["/jade_fluharty.png", "/tara_penman.png", "/berk_yalcinkaya.png" ,"", "/ying_wang.png"],
-    "avnames": ["Jade Fluharty", "Tara Penman", "Berk Yalcinkaya", "Jon Futch", "Ying Wang, Ph.D."]
-    },
-    {
-    "title": "Formation and Functions of Ribonucleoprotein (RNP) Granules",
-    "avimages": ["/harrison_wooten.png", "/ying_wang.png"],
-    "avnames": ["Harrison Wooten", "Ying Wang, Ph.D."]
-    },
-    {
-    "title": "mRNA Lipid Nanoparticle (mRNA-LNP) Formulations",
-    "avimages": ["/carson_jackson.png", "/noemi_meza.png", "/kayla_butterworth.png", "/ying_wang.png"],
-    "avnames": ["Carson Jackson", "Noemi Meza", "Kayla Butterworth", "Ying Wang, Ph.D."]
-    }
+  "Prediction of Pathogenic Mutations in Eye Lens Proteins",
+  "Formation and Functions of Ribonucleoprotein (RNP) Granules",
+  "mRNA Lipid Nanoparticle (mRNA-LNP) Formulations"
 ]
