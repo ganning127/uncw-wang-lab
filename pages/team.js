@@ -56,16 +56,19 @@ export default function Team() {
       </Container>
 
       <Box textAlign="center">
-            <Button
-              colorScheme="blue"
-              mt={8}
-              as="a"
-              href="/alumni"
-              shadow="md"
-            >
-              Alumni
-            </Button>
-          </Box>
+        <Button
+          colorScheme="blue"
+          mt={8}
+          as="a"
+          href="/alumni"
+          shadow="md"
+          px={24}
+          py={8}
+          fontSize="2xl"
+        >
+          Alumni
+        </Button>
+      </Box>
 
       <SmSep />
       <Footer />

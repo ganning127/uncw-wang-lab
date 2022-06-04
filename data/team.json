@@ -23,7 +23,7 @@
       "name": "Carson Jackson",
       "tite": "Undergraduate Researchers",
       "email": "cj8679@uncw.edu",
-      "resume": "linkedin.com/in/carsonbjackson",
+      "resume": "https://www.linkedin.com/in/carsonbjackson/",
       "about": "Synthesis and stability study of mRNA-Lipid Nanoparticles (LNPs); Micro-needle patch mRNA-Lipid Nanoparticle (LNP) delivery",
       "image": "/carson_jackson.png"
     },
@@ -77,7 +77,6 @@
       "name": "Neha Joseph",
       "tite": "External Researchers",
       "about": "Optimization of T7 RNA polymerase",
-      "resume": "https://www.linkedin.com/in/neha-joseph-1695b0190/",
       "image": "/neha_joseph.jpeg"
     },
     {
