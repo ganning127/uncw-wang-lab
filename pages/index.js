@@ -149,6 +149,23 @@ export default function Home() {
         <SmSep line={true} />
         <HeadingWithDesc mb={8}>Media</HeadingWithDesc>
         <InstaPosts />
+
+        <SmSep line={true} />
+        {/* <HeadingWithDesc>Funding</HeadingWithDesc> */}
+        <Box textAlign="center">
+          <Button
+            colorScheme="blue"
+            mt={4}
+            as="a"
+            href="/funding"
+            shadow="md"
+            px={16}
+            py={8}
+            fontSize="2xl"
+          >
+            Sponsors & Collaborators
+          </Button>
+        </Box>
       </Container>
       <SmSep />
       <Footer />

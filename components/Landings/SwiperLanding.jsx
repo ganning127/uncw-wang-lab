@@ -35,7 +35,7 @@ export const SwiperLanding = ({}) => {
       >
         <SwiperSlide>
           <Center
-            bgImage="linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/landing1.png') "
+            bgImage="linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/IMG_9493.jpg') "
             bgRepeat="no-repeat"
             bgPos="center"
             bgSize="cover"
@@ -78,9 +78,9 @@ export const SwiperLanding = ({}) => {
 
         <SwiperSlide>
           <Center
-            bgImage="linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/landing2.jpeg') "
+            bgImage="linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/IMG_8931.jpg') "
             bgRepeat="no-repeat"
-            bgPos="center"
+            bgPos="top"
             bgSize="cover"
             h="700px"
             w="100vw"
