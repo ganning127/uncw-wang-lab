@@ -4,7 +4,7 @@
       "name": "Ying Wang, Ph.D.",
       "tite": "Principal Investigator",
       "email": "wangyy@uncw.edu",
-      "resume": "/TODO",
+      "resume": "https://www.linkedin.com/in/ying-wang-uncw/",
       "image": "/ying_wang.png"
     }
   ],
@@ -13,7 +13,7 @@
       "name": "Harrison Wooten",
       "tite": "Graduate Researchers",
       "email": "hrw9355@uncw.edu",
-      "resume": "/TODO",
+      "resume": "https://www.linkedin.com/in/harrison-w00ten/",
       "about": "In-vitro study of Ribonucleoprotein (RNP) granule formation and functions",
       "image": "/harrison_wooten.png"
     }
@@ -23,7 +23,7 @@
       "name": "Carson Jackson",
       "tite": "Undergraduate Researchers",
       "email": "cj8679@uncw.edu",
-      "resume": "/TODO",
+      "resume": "linkedin.com/in/carsonbjackson",
       "about": "Synthesis and stability study of mRNA-Lipid Nanoparticles (LNPs); Micro-needle patch mRNA-Lipid Nanoparticle (LNP) delivery",
       "image": "/carson_jackson.png"
     },
@@ -31,7 +31,7 @@
       "name": "Jade Fluharty",
       "tite": "Undergraduate Researchers",
       "email": "jmf9093@uncw.edu",
-      "resume": "/TODO",
+      "resume": "https://www.linkedin.com/in/jadefluharty/",
       "about": "High-throughput in-vitro screening for pathogenic mutations of human eye-lens proteins",
       "image": "/jade_fluharty.png"
     },
@@ -39,7 +39,7 @@
       "name": "Jaime Cardenas",
       "tite": "Undergraduate Researchers",
       "email": "hjc2538@uncw.edu",
-      "resume": "/TODO",
+      "resume": "https://www.linkedin.com/in/jaime-cardenas-42bb141b4/",
       "about": "Structure-based design of universal influenza vaccines; Micro-needle patch vaccine delivery",
       "image": "/jaime_cardenas.png"
     },
@@ -77,6 +77,7 @@
       "name": "Neha Joseph",
       "tite": "External Researchers",
       "about": "Optimization of T7 RNA polymerase",
+      "resume": "https://www.linkedin.com/in/neha-joseph-1695b0190/",
       "image": "/neha_joseph.jpeg"
     },
     {

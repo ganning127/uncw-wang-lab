@@ -18,10 +18,9 @@ import {
   Avatar,
 } from "@chakra-ui/react";
 import { Footer } from "../../components/Footer";
-import ProjectData from "../../data/indvproj.json";
-import Categories from "../../data/indvproj.json";
-import { CategoryCard } from "../../components/Cards/CategoryCard";
-import { Banner } from "../../components/Headings/Banner";
+
+// import { Banner } from "../../components/Headings/Banner";
+import { BannerProj } from "../../components/Headings/BannerProj";
 import { SqProjectCard } from "../../components/Cards/SqProjectCard";
 import { useEffect, useState } from "react";
 import Projects from "../../data/projects.json";
@@ -61,7 +60,7 @@ export default function CategoryId() {
       </Head>
 
       <NavBar active="projects" />
-      <Banner>{title}</Banner>
+      <BannerProj>{title}</BannerProj>
 
       <Container maxW="container.sm" p={15} textAlign="center">
         <Text fontWeight="normal" color="gray.800" fontSize="3xl">

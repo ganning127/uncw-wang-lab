@@ -48,12 +48,6 @@ export default function Home() {
     });
 
     setDProjs(useProjects);
-
-    // if (typeof window !== "undefined" && ele[0]) {
-    //   setDesc(ele[0].about);
-    //   setAvatars(ele[0].avimages);
-    //   setNames(ele[0].avnames);
-    // }
   });
 
   let displayedProjects = [...ProjectNames].reverse();
@@ -67,7 +61,27 @@ export default function Home() {
           name="description"
           content="Meet our PI, graduate researchers, undergraduate researchers, and high school researchers"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
       <NavBar active="the wang lab" />
 
@@ -76,23 +90,6 @@ export default function Home() {
       <Container maxW="container.xl" p={15}>
         <Box>
           <HeadingWithDesc my={8}>Featured Projects</HeadingWithDesc>
-          {/* {displayedProjects.map((project, index) => {
-            return (
-              <>
-                <ProjectCard
-                  key={index}
-                  title={project.title}
-                  desc={project.desc}
-                  href={project.href}
-                  img={project.img}
-                  link={project.link}
-                  avatars={project.avatars}
-                  names={project.names}
-                />
-                <XSSep line={false} />
-              </>
-            );
-          })} */}
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
             {dProjs.map((category, index) => {
               return (

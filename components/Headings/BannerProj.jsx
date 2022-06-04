@@ -1,6 +1,6 @@
 import { Box, Text, Center, Heading } from "@chakra-ui/react";
 
-export const Banner = ({ textDesc, children }) => {
+export const BannerProj = ({ textDesc, children }) => {
   return (
     <Center
       bg="#263864"
@@ -13,7 +13,7 @@ export const Banner = ({ textDesc, children }) => {
         <Heading
           color="white"
           fontWeight={700}
-          fontSize={{ base: "5xl", lg: "6xl" }}
+          fontSize={{ base: "xl", lg: "6xl" }}
         >
           {children}
         </Heading>

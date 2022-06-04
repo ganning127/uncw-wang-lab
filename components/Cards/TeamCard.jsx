@@ -46,7 +46,7 @@ export const TeamCard = ({ name, title, email, resume, about, image }) => {
                 |
               </Text>
 
-              <Link href={resume} _hover={{}}>
+              <Link href={resume} _hover={{}} isExternal>
                 <Text
                   fontWeight="normal"
                   color="blue.300"
@@ -54,7 +54,7 @@ export const TeamCard = ({ name, title, email, resume, about, image }) => {
                   fontSize="lg"
                   as="span"
                 >
-                  Resume/CV
+                  LinkedIn
                 </Text>
               </Link>
             </>
