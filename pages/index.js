@@ -1,13 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import { NextSeo } from "next-seo";
 import { NavBar } from "../components/NavBar";
 import { SwiperLanding } from "../components/Landings/SwiperLanding";
 import { HeadingWithDesc } from "../components/Headings/HeadingWithDesc";
 import { SmSep } from "../components/Separators/SmSep";
-import { MedSep } from "../components/Separators/MedSep";
 import { XSSep } from "../components/Separators/XSSep";
-import { ProjectCard } from "../components/Cards/ProjectCard";
 import { Container, Button, Box, SimpleGrid } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
 import ProjectNames from "../data/homeproj.json";
@@ -16,8 +13,19 @@ import News from "../data/news.json";
 import { TimelineCard } from "../components/Cards/TimelineCard";
 import { InstaPosts } from "../components/InstaPosts";
 import { CategoryCard } from "../components/Cards/CategoryCard";
-import HomeCategories from "../data/homeproj.json";
 import { useEffect, useState } from "react";
+
+const url = "https://thewanglab.org";
+const title = "The Wang lab";
+const description =
+  "[Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
+const image = {
+  url: "https://i.imgur.com/UZs0lkV.jpg",
+  width: 800,
+  height: 600,
+  alt: "Dr. Wang showing a student around in the Wang Lab.",
+};
+
 export default function Home() {
   // set the news displayed for the "featured news" section on the homepage
   const numToDisplay = 3;
@@ -55,12 +63,18 @@ export default function Home() {
 
   return (
     <>
+      <NextSeo
+        title={title}
+        description={description}
+        canonical={url}
+        openGraph={{
+          url,
+          title,
+          description,
+          images: [image],
+        }}
+      />
       <Head>
-        <title>The Wang Lab</title>
-        <meta
-          name="description"
-          content="Meet our PI, graduate researchers, undergraduate researchers, and high school researchers"
-        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

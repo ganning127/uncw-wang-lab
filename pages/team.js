@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import { NextSeo } from "next-seo";
 import { SimpleGrid, Container, Box, Button } from "@chakra-ui/react";
 import { HeadingWithDesc } from "../components/Headings/HeadingWithDesc";
 import { TeamCard } from "../components/Cards/TeamCard";
@@ -9,18 +8,33 @@ import { Banner } from "../components/Headings/Banner";
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
 import TeamData from "../data/team.json";
+
+const url = "https://thewanglab.org/team";
+const title = "Team - The Wang lab";
+const description =
+  "Team: [Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
+const image = {
+  url: "https://i.imgur.com/UZs0lkV.jpg",
+  width: 800,
+  height: 600,
+  alt: "Dr. Wang showing a student around in the Wang Lab.",
+};
+
 export default function Team() {
   const keys = Object.keys(TeamData);
   return (
     <>
-      <Head>
-        <title>Team - The Wang Lab</title>
-        <meta
-          name="description"
-          content="Meet our PI, graduate researchers, undergraduate researchers, and high school researchers"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <NextSeo
+        title={title}
+        description={description}
+        canonical={url}
+        openGraph={{
+          url,
+          title,
+          description,
+          images: [image],
+        }}
+      />
       <NavBar active="team" />
       <Banner>Team</Banner>
 

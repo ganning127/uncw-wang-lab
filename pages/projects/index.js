@@ -1,27 +1,40 @@
-import Head from "next/head";
-import Image from "next/image";
+import { NextSeo } from "next-seo";
 import { NavBar } from "../../components/NavBar";
-import { SwiperLanding } from "../../components/Landings/SwiperLanding";
 import { HeadingWithDesc } from "../../components/Headings/HeadingWithDesc";
 import { SmSep } from "../../components/Separators/SmSep";
-import { MedSep } from "../../components/Separators/MedSep";
-import { XSSep } from "../../components/Separators/XSSep";
-import { ProjectCard } from "../../components/Cards/ProjectCard";
 import { Container, Button, Box, SimpleGrid } from "@chakra-ui/react";
 import { Footer } from "../../components/Footer";
 import Categories from "../../data/projects.json";
 import { CategoryCard } from "../../components/Cards/CategoryCard";
 import { Banner } from "../../components/Headings/Banner";
 import { SqProjectCard } from "../../components/Cards/SqProjectCard";
+
+const url = "https://thewanglab.org/projects";
+const title = "Projects - The Wang lab";
+const description =
+  "Projects: [Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
+const image = {
+  url: "https://i.imgur.com/UZs0lkV.jpg",
+  width: 800,
+  height: 600,
+  alt: "Dr. Wang showing a student around in the Wang Lab.",
+};
+
 export default function Projects() {
   const HomeKeys = Object.keys(Categories);
   return (
     <>
-      <Head>
-        <title>Projects - The Wang Lab</title>
-        <meta name="description" content="Here are our projects!" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <NextSeo
+        title={title}
+        description={description}
+        canonical={url}
+        openGraph={{
+          url,
+          title,
+          description,
+          images: [image],
+        }}
+      />
 
       <NavBar active="projects" />
       <Banner>Projects</Banner>

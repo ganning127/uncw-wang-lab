@@ -1,26 +1,40 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import { NextSeo } from "next-seo";
 import { SimpleGrid, Container, Box } from "@chakra-ui/react";
 import { PubsCard } from "../components/Cards/PubsCard";
 import PubsData from "../data/publications.json";
-
-
 import { SmSep } from "../components/Separators/SmSep";
 import { Banner } from "../components/Headings/Banner";
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
 import { HeadingWithDesc } from "../components/Headings/HeadingWithDesc";
 
+const url = "https://thewanglab.org/publications";
+const title = "Publications - The Wang lab";
+const description =
+  "Publications: [Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
+const image = {
+  url: "https://i.imgur.com/UZs0lkV.jpg",
+  width: 800,
+  height: 600,
+  alt: "Dr. Wang showing a student around in the Wang Lab.",
+};
+
 export default function Publications() {
   const keys = Object.keys(PubsData);
   return (
     <>
-      <Head>
-        <title>Publications - The Wang Lab</title>
-        <meta name="description" content="Here are our Publications!" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <NextSeo
+        title={title}
+        description={description}
+        canonical={url}
+        openGraph={{
+          url,
+          title,
+          description,
+          images: [image],
+        }}
+      />
 
       <NavBar active="publications" />
       <Banner>Publications</Banner>
