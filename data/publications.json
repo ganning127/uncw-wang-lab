@@ -86,21 +86,21 @@
     },
       {
       "names":"J.B. Rowe, R.P. Flynn, H.R. Wooten, H.A. Noufer, R.A. Cancel, J. Zhang, J.A. Subramony, S. Pechenov, Y. Wang",
-      "avnames": ["Harrison Wooten", "Ying Wang, Ph.D."],
+      "avnames": ["Jacob Rowe", "Rhiannon Flynn", "Harrison Wooten","Hailey Noufer", "Rachel Cancel", "Ying Wang, Ph.D."],
       "title":"Submicron Aggregation of Chemically Denatured Monoclonal Antibody",
       "publication": "Molecular Pharmaceutics",
       "resources":"15, 4710-4721 (2018)",
       "publink":"https://pubmed.ncbi.nlm.nih.gov/30142275/",
-      "avatars":["/harrison_wooten.png", "/ying_wang.png"]
+      "avatars":["/jacob_rowe.jpg","/rhiannon_flynn.png","/harrison_wooten.png","","/rachel_cancel.png", "/ying_wang.png"]
       },
       {
       "names":"J.B. Rowe, R.A. Cancel, T.D. Evangelous, R.P. Flynn, S. Pechenov, J.A. Subramony, J. Zhang, Y. Wang",
-      "avnames": ["Ying Wang, Ph.D."],
+      "avnames": ["Jacob Rowe", "Rachel Cancel", "Tyler Evangelous", "Rhiannon Flynn", "Ying Wang, Ph.D."],
       "title":"Meta-stability Gap in the Phase Diagram of Monoclonal IgG Antibody",
       "publication": "Biophysical Journal",
       "resources":"113, 1750-1756 (2017)",
       "publink":"https://pubmed.ncbi.nlm.nih.gov/29045869/",
-      "avatars":["/ying_wang.png"]
+      "avatars":["/jacob_rowe.jpg", "/rachel_cancel.png", "/tyler_evangelous.jpg", "/rhiannon_flynn.png", "/ying_wang.png"]
       },
 
     {
