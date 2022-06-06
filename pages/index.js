@@ -173,7 +173,7 @@ export default function Home() {
             as="a"
             href="/funding"
             shadow="md"
-            px={16}
+            px={12}
             py={8}
             fontSize="2xl"
           >
