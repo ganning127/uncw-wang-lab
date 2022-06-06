@@ -30,13 +30,13 @@ export const Footer = () => {
           <Text>
             Veterans Hall 3045, 1040 Walton Drive, Wilmington, NC 28403
           </Text>
-          <Text mt={4}>{" "} 
+          <Text mt={4}>Email: {" "} 
             <Link href="mailto:thewanglab.org@gmail.com" _hover={{ color: "blue.400" }}>
             thewanglab.org@gmail.com
             </Link>
           </Text>
           <Text>Phone: (910) 962-7721</Text>
-          <Text></Text>
+          <Text>{" "}</Text>
           <Text>Fax: (910) 962-3013</Text>
 
           <HStack
