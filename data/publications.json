@@ -73,7 +73,7 @@
       "publication": "Pharmaceutical Research",
       "resources":"PMID: 34647231 (2021)",
       "publink":"https://pubmed.ncbi.nlm.nih.gov/34647231/",
-      "avatars":["", "/ying_wang.png"]
+      "avatars":["/temp_team_avatar.png", "/ying_wang.png"]
       },
       {
         "names":"Y. Wang, R. F. Latypov",
@@ -91,7 +91,7 @@
       "publication": "Molecular Pharmaceutics",
       "resources":"15, 4710-4721 (2018)",
       "publink":"https://pubmed.ncbi.nlm.nih.gov/30142275/",
-      "avatars":["/jacob_rowe.jpg","/rhiannon_flynn.png","/harrison_wooten.png","","/rachel_cancel.png", "/ying_wang.png"]
+      "avatars":["/jacob_rowe.jpg","/rhiannon_flynn.png","/harrison_wooten.png","/temp_team_avatar.png","/rachel_cancel.png", "/ying_wang.png"]
       },
       {
       "names":"J.B. Rowe, R.A. Cancel, T.D. Evangelous, R.P. Flynn, S. Pechenov, J.A. Subramony, J. Zhang, Y. Wang",
