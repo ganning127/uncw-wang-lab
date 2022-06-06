@@ -30,7 +30,11 @@ export const Footer = () => {
           <Text>
             Veterans Hall 3045, 1040 Walton Drive, Wilmington, NC 28403
           </Text>
-          <Text mt={4}>Email: thewanglab.org@gmail.com</Text>
+          <Text mt={4}>Email: 
+            <Link href="mailto:thewanglab.org@gmail.com" _hover={{ color: "blue.400" }}>
+            thewanglab.org@gmail.com
+            </Link>
+          </Text>
           <Text>Phone: (910) 962-7721</Text>
           <Text>Fax: (910) 962-3013</Text>
 
@@ -73,6 +77,12 @@ export const Footer = () => {
         Developed by{" "}
         <Link href="mailto:ganningxu@gmail.com" _hover={{ color: "blue.400" }}>
           Ganning Xu
+        </Link>
+      </Text>
+      <Text>
+        & 
+        <Link href="mailto:casstevens75@gmail.com" _hover={{ color: "blue.400" }}>
+            Landon Casstevens
         </Link>
       </Text>
     </Box>
