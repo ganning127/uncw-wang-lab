@@ -69,7 +69,11 @@ export const Footer = () => {
       </SimpleGrid>
       <Divider my={4} borderColor="gray.400" />
       <Text textAlign="center" pb={4}>
-        Copyright &copy; {new Date().getFullYear()} • The Wang Lab
+        Copyright &copy; {new Date().getFullYear()} • The Wang Lab • Website
+        Developed by{" "}
+        <Link href="mailto:ganningxu@gmail.com" _hover={{ color: "blue.400" }}>
+          Ganning Xu
+        </Link>
       </Text>
     </Box>
   );
