@@ -62,6 +62,12 @@
   ],
   "External Researchers": [
     {
+      "name": "Neha Joseph",
+      "tite": "External Researchers",
+      "about": "Optimization of T7 RNA polymerase",
+      "image": "/neha_joseph.jpeg"
+    },
+    {
       "name": "Noah Nunez",
       "tite": "External Researchers",
       "about": "Protective role of human α-crystallines against age-related and hereditary cataracts",
@@ -72,12 +78,6 @@
       "tite": "External Researchers",
       "about": "Prediction of pathogenic mutations of human eye lens proteins by machine learning",
       "image": "/tara_penman.png"
-    },
-    {
-      "name": "Neha Joseph",
-      "tite": "External Researchers",
-      "about": "Optimization of T7 RNA polymerase",
-      "image": "/neha_joseph.jpeg"
     },
     {
       "name": "Jon Futch",
