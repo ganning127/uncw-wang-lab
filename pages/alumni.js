@@ -11,7 +11,7 @@ import AlumniData from "../data/alumni.json";
 const url = "https://thewanglab.org/alumni";
 const title = "Alumni - The Wang lab";
 const description =
-  "Alumni: [Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
+  "Alumni: Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
 const image = {
   url: "https://i.imgur.com/UZs0lkV.jpg",
   width: 800,

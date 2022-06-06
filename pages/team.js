@@ -12,7 +12,7 @@ import TeamData from "../data/team.json";
 const url = "https://thewanglab.org/team";
 const title = "Team - The Wang lab";
 const description =
-  "Team: [Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
+  "Team: Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
 const image = {
   url: "https://i.imgur.com/UZs0lkV.jpg",
   width: 800,
@@ -76,7 +76,7 @@ export default function Team() {
           as="a"
           href="/alumni"
           shadow="md"
-          px={24}
+          px={18}
           py={8}
           fontSize="2xl"
         >

@@ -30,7 +30,7 @@ export const Footer = () => {
           <Text>
             Veterans Hall 3045, 1040 Walton Drive, Wilmington, NC 28403
           </Text>
-          <Text mt={4}>Email: wangyy@uncw.edu</Text>
+          <Text mt={4}>Email: thewanglab.org@gmail.com</Text>
           <Text>Phone: (910) 962-7721</Text>
           <Text>Fax: (910) 962-3013</Text>
 

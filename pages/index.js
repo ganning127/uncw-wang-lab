@@ -18,7 +18,7 @@ import { useEffect, useState } from "react";
 const url = "https://thewanglab.org";
 const title = "The Wang lab";
 const description =
-  "[Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
+  "Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
 const image = {
   url: "https://i.imgur.com/UZs0lkV.jpg",
   width: 800,

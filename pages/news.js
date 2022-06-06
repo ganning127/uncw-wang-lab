@@ -9,7 +9,7 @@ import { NewsLine } from "../components/NewsLine";
 const url = "https://thewanglab.org/news";
 const title = "News - The Wang lab";
 const description =
-  "News: [Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
+  "News: Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
 const image = {
   url: "https://i.imgur.com/UZs0lkV.jpg",
   width: 800,

@@ -12,7 +12,7 @@ import { SqProjectCard } from "../../components/Cards/SqProjectCard";
 const url = "https://thewanglab.org/projects";
 const title = "Projects - The Wang lab";
 const description =
-  "Projects: [Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
+  "Projects: Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
 const image = {
   url: "https://i.imgur.com/UZs0lkV.jpg",
   width: 800,
