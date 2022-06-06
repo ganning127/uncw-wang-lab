@@ -1,15 +1,8 @@
-import Head from "next/head";
+import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 import { NavBar } from "../../components/NavBar";
-import { SwiperLanding } from "../../components/Landings/SwiperLanding";
-import { HeadingWithDesc } from "../../components/Headings/HeadingWithDesc";
-import { SmSep } from "../../components/Separators/SmSep";
-import { MedSep } from "../../components/Separators/MedSep";
-import { XSSep } from "../../components/Separators/XSSep";
-import { ProjectCard } from "../../components/Cards/ProjectCard";
 import {
   Container,
-  Button,
   Text,
   Img,
   Box,
@@ -18,12 +11,10 @@ import {
   Avatar,
 } from "@chakra-ui/react";
 import { Footer } from "../../components/Footer";
-
-// import { Banner } from "../../components/Headings/Banner";
 import { BannerProj } from "../../components/Headings/BannerProj";
-import { SqProjectCard } from "../../components/Cards/SqProjectCard";
 import { useEffect, useState } from "react";
 import Projects from "../../data/projects.json";
+
 export default function CategoryId() {
   const [desc, setDesc] = useState("");
   const [avatars, setAvatars] = useState([]);
@@ -51,13 +42,29 @@ export default function CategoryId() {
     }
   });
 
+  const url = `https://thewanglab.org/projects/${title}`;
+  const pageTitle = `${title} - The Wang lab`;
+  const description = desc;
+  const image = {
+    url: "https://i.imgur.com/UZs0lkV.jpg",
+    width: 800,
+    height: 600,
+    alt: "Dr. Wang showing a student around in the Wang Lab.",
+  };
+
   return (
     <>
-      <Head>
-        <title>{title + " "} - The Wang Lab</title>
-        <meta name="description" content="Here are our projects!" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <NextSeo
+        title={pageTitle}
+        description={description}
+        canonical={url}
+        openGraph={{
+          url,
+          title,
+          description,
+          images: [image],
+        }}
+      />
 
       <NavBar active="projects" />
       <BannerProj>{title}</BannerProj>

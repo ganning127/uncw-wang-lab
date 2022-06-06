@@ -4,6 +4,8 @@ import "@fontsource/ibm-plex-sans";
 import { useColorMode } from "@chakra-ui/react";
 import { useEffect } from "react";
 import { Global, css } from "@emotion/react";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 
 const GlobalStyle = ({ children }) => {
   return (
@@ -53,6 +55,7 @@ function MyApp({ Component, pageProps }) {
     <ChakraProvider theme={theme}>
       <GlobalStyle>
         <ForceLightMode>
+          <DefaultSeo {...SEO} />
           <Component {...pageProps} />
         </ForceLightMode>
       </GlobalStyle>

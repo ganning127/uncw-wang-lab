@@ -1,25 +1,37 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import { NextSeo } from "next-seo";
 import { SimpleGrid, Container, Img, Link } from "@chakra-ui/react";
-
 import { SmSep } from "../components/Separators/SmSep";
 import { Banner } from "../components/Headings/Banner";
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
 import Logos from "../data/funding.json";
 
+const url = "https://thewanglab.org/funding";
+const title = "Funding - The Wang lab";
+const description =
+  "Funding: [Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
+const image = {
+  url: "https://i.imgur.com/UZs0lkV.jpg",
+  width: 800,
+  height: 600,
+  alt: "Dr. Wang showing a student around in the Wang Lab.",
+};
+
 export default function Funding() {
   return (
     <>
-      <Head>
-        <title>Funding - The Wang Lab</title>
-        <meta
-          name="description"
-          content="We're so grateful for our sponsors who make our work possible!"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <NextSeo
+        title={title}
+        description={description}
+        canonical={url}
+        openGraph={{
+          url,
+          title,
+          description,
+          images: [image],
+        }}
+      />
+
       <NavBar active="funding" />
       <Banner>Funding</Banner>
 
