@@ -90,8 +90,7 @@ export const SwiperLanding = ({}) => {
                 Funding Sources
               </Heading>
               <Text color="white" my="4">
-                With partners from various institutions, across North Carolina,
-                The Wang Lab is growing faster than ever.
+                With Sponsors & Collaborators from across the U.S, The Wang Lab is growing faster than ever.
               </Text>
 
               <Button
