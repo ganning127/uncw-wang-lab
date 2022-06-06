@@ -30,7 +30,7 @@ export const Footer = () => {
           <Text>
             Veterans Hall 3045, 1040 Walton Drive, Wilmington, NC 28403
           </Text>
-          <Text mt={4}>Email: 
+          <Text mt={4}>{" "} 
             <Link href="mailto:thewanglab.org@gmail.com" _hover={{ color: "blue.400" }}>
             thewanglab.org@gmail.com
             </Link>
@@ -78,9 +78,7 @@ export const Footer = () => {
         <Link href="mailto:ganningxu@gmail.com" _hover={{ color: "blue.400" }}>
           Ganning Xu
         </Link>
-      </Text>
-      <Text>
-        & 
+        & {" "}
         <Link href="mailto:casstevens75@gmail.com" _hover={{ color: "blue.400" }}>
             Landon Casstevens
         </Link>
