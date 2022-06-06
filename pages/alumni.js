@@ -8,7 +8,7 @@ import { Footer } from "../components/Footer";
 import { NavBar } from "../components/NavBar";
 import AlumniData from "../data/alumni.json";
 
-const url = "https://thewanglab.org";
+const url = "https://thewanglab.org/alumni";
 const title = "Alumni - The Wang lab";
 const description =
   "Alumni: [Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";

@@ -6,7 +6,7 @@ import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
 import Logos from "../data/funding.json";
 
-const url = "https://thewanglab.org";
+const url = "https://thewanglab.org/funding";
 const title = "Funding - The Wang lab";
 const description =
   "Funding: [Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";

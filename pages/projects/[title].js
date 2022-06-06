@@ -11,10 +11,7 @@ import {
   Avatar,
 } from "@chakra-ui/react";
 import { Footer } from "../../components/Footer";
-
-// import { Banner } from "../../components/Headings/Banner";
 import { BannerProj } from "../../components/Headings/BannerProj";
-import { SqProjectCard } from "../../components/Cards/SqProjectCard";
 import { useEffect, useState } from "react";
 import Projects from "../../data/projects.json";
 
@@ -58,7 +55,7 @@ export default function CategoryId() {
   return (
     <>
       <NextSeo
-        title={title}
+        title={pageTitle}
         description={description}
         canonical={url}
         openGraph={{

@@ -6,7 +6,7 @@ import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
 import { NewsLine } from "../components/NewsLine";
 
-const url = "https://thewanglab.org";
+const url = "https://thewanglab.org/news";
 const title = "News - The Wang lab";
 const description =
   "News: [Wang, Ying Ph.D] Biochemistry Lab @ the University of North Carolina Wilmington researching Macromolecular Condensation, Pharmaceutical Formulation, and Protein Engineering.";
