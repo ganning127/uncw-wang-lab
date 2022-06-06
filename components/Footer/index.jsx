@@ -36,6 +36,7 @@ export const Footer = () => {
             </Link>
           </Text>
           <Text>Phone: (910) 962-7721</Text>
+          <Text></Text>
           <Text>Fax: (910) 962-3013</Text>
 
           <HStack
