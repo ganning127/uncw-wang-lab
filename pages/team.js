@@ -76,7 +76,7 @@ export default function Team() {
           as="a"
           href="/alumni"
           shadow="md"
-          px={18}
+          px={24}
           py={8}
           fontSize="2xl"
         >
