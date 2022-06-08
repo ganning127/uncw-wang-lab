@@ -1,68 +1,68 @@
 [
-    {
+  {
     "name": "Hailey Noufer",
     "year": "2017",
     "about": "",
     "image": ""
-    },
-    {
+  },
+  {
     "name": "Rachel Cancel",
     "year": "2017",
     "about": "University of Utah, School of Medicine",
     "image": "/rachel_cancel.png"
-    },
-    {
+  },
+  {
     "name": "Rhiannon Flynn",
     "year": "2018",
     "about": "Ph.D. candidate Boston University",
     "image": "/rhiannon_flynn.png"
-    },
-    {
+  },
+  {
     "name": "Tyler Evangelous",
     "year": "2018",
     "about": "Research Associate Duke University",
     "image": "/tyler_evangelous.jpg"
-    },
-    {
+  },
+  {
     "name": "Jacob Rowe",
     "year": "2018",
     "about": "University of Miami Medical School",
     "image": "/jacob_rowe.jpg"
-    },
-    {
+  },
+  {
     "name": "Matti Scannell",
     "year": "2021",
     "about": "Ph.D. candidate University of Vermont",
     "image": ""
-    },
-    {
+  },
+  {
     "name": "Mindy Rodriguez",
     "year": "2021",
     "about": "Scientist IVRT, Tergus Pharma",
     "image": ""
-    },
-    {
+  },
+  {
     "name": "Kylie Morin",
     "year": "2022",
     "about": "Ph.D. Candidate at the University of Kentucky",
     "image": "/kylie_morin.png"
-    },
-    {
+  },
+  {
     "name": "Berk Yalcinkaya",
     "year": "2022",
     "about": "Undergraduate Student at Stanford University",
     "image": "/berk_yalcinkaya.png"
-    },
-    {
+  },
+  {
     "name": "Nathan Strasser",
     "year": "2022",
     "about": "Ph.D. Candidate at The University of Texas at San Antonio",
     "image": "/nathan_strasser.png"
-    },
-    {
+  },
+  {
     "name": "Tori Smallwood",
     "year": "2022",
     "about": "Undergraduate Student at the University of North Carolina at Chapel Hill",
     "image": ""
-    }
-  ]
+  }
+]
