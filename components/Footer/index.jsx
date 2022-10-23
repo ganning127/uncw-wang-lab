@@ -81,7 +81,7 @@ export const Footer = () => {
         </Link>
         {" "} & {" "}
         <Link href="mailto:casstevens75@gmail.com" _hover={{ color: "blue.400" }}>
-            Landon Casstevens
+            Landon Lee Casstevens
         </Link>
       </Text>
     </Box>
